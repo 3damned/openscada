@@ -1,0 +1,332 @@
+* text=auto !eol
+/ABOUT-NLS -text svn_keywords=Author+Date+Id+Revision
+/AUTHORS -text svn_keywords=Author+Date+Id+Revision
+/COPYING -text svn_keywords=Author+Date+Id+Revision
+/ChangeLog -text svn_keywords=Author+Date+Id+Revision
+/INSTALL -text svn_keywords=Author+Date+Id+Revision
+/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+/NEWS -text svn_keywords=Author+Date+Id+Revision
+/README -text svn_keywords=Author+Date+Id+Revision
+/TODO -text svn_keywords=Author+Date+Id+Revision
+/aclocal.m4 -text svn_keywords=Author+Date+Id+Revision
+/config.guess -text svn_keywords=Author+Date+Id+Revision
+/config.h.in -text svn_keywords=Author+Date+Id+Revision
+/config.sub -text svn_keywords=Author+Date+Id+Revision
+/configure -text svn_keywords=Author+Date+Id+Revision
+/configure.in -text svn_keywords=Author+Date+Id+Revision
+/depcomp -text svn_keywords=Author+Date+Id+Revision
+doc/Controllers.dia -text
+doc/OSCD_UML_ClassDep.dia -text
+doc/OScadaClServ.dia -text
+doc/OScadaClServSepar.dia -text
+doc/OScadaDHServer.dia -text
+doc/OScadaDSServer.dia -text
+doc/OScadaDistribConn.dia -text
+doc/OScadaMServer.dia -text
+doc/OScadaMisc.dia -text
+doc/OScadaWWWClient.dia -text
+doc/OpenScada.xmi -text svn_keywords=Author+Date+Id+Revision
+doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
+doc/OpenScadaUMLdescr.sxw -text
+doc/OpenScadaUMLprecend.dia -text
+doc/OpenScada_23_12_02.xmi -text svn_keywords=Author+Date+Id+Revision
+doc/OpenScada_modes.dia -text
+doc/OpenScada_struct.dia -text
+doc/SCADA.dia -text
+doc/TZ_SCADA_LINUX-0807.sxw -text
+doc/controll_tree.dia -text
+doc/mod_test_rest.sxw -text
+doc/programm_area_OpenSCADA.sxw -text
+doc/release_0.3.0.sxw -text
+doc/release_0.3.1.sxw -text
+doc/roadmap.sxw -text
+doc/task_history.sxw -text
+doc/to_do.sxw -text
+/install-sh -text svn_keywords=Author+Date+Id+Revision
+/ltmain.sh -text svn_keywords=Author+Date+Id+Revision
+/missing -text svn_keywords=Author+Date+Id+Revision
+/mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
+/openscada.spec -text svn_keywords=Author+Date+Id+Revision
+/oscada.init -text svn_keywords=Author+Date+Id+Revision
+/oscada.xml -text svn_keywords=Author+Date+Id+Revision
+src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/autohd.h -text
+src/main.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/base/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/base/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/base/base.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/base/base.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/base/doc/generic.sxw -text
+src/moduls/arhiv/base/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/base/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/base/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/base/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/dbf.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/direct_dbf.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/direct_dbf.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/doc/generic.sxw -text
+src/moduls/bd/direct_dbf/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/my_sql/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/my_sql/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/my_sql/doc/generic.sxw -text
+src/moduls/bd/my_sql/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/my_sql/my_sql.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/my_sql/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/my_sql/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/my_sql/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/my_sql/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/sqlite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/sqlite/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/sqlite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/sqlite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/sqlite/doc/generic.sxw -text
+src/moduls/bd/sqlite/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/sqlite/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/sqlite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/sqlite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/http/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/http/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/http/doc/generic.sxw -text
+src/moduls/protocol/http/http.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/http/http.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/http/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/http/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/http/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/http/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/self/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/self/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/self/self.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/self/self.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/freefunc.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/freefunclibs.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/freefunclibs.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/freelib.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_free/po/Makefile.am -text
+src/moduls/special/func_free/po/Makefile.in -text
+src/moduls/special/func_free/po/ru.po -text
+src/moduls/special/func_free/po/uk.po -text
+src/moduls/special/func_static/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_static/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_static/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_static/po/Makefile.am -text
+src/moduls/special/func_static/po/Makefile.in -text
+src/moduls/special/func_static/po/ru.po -text
+src/moduls/special/func_static/po/uk.po -text
+src/moduls/special/func_static/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_static/statfunc.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/func_static/stdmath.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/doc/generic.sxw -text
+src/moduls/special/test_kernel/doc/generic.tex -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/test_kernel.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/test_kernel/test_kernel.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/diamond/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/diamond/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/diamond/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/diamond/diamond.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/diamond/dscud.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/diamond/libdscud5.a -text
+src/moduls/tcontr/diamond/po/Makefile.am -text
+src/moduls/tcontr/diamond/po/Makefile.in -text
+src/moduls/tcontr/diamond/po/ru.po -text
+src/moduls/tcontr/diamond/po/uk.po -text
+src/moduls/tcontr/sys/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/sys/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/sys/doc/generic.sxw -text
+src/moduls/tcontr/sys/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/sys/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/sys/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/sys/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/sys/sys.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/sys/sys.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/block.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/block.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/doc/project.sxw -text
+src/moduls/tcontr/virtual/doc/struct.dia -text
+src/moduls/tcontr/virtual/doc/virtual.xmi -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/doc/Virtual1.xmi -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/doc/project.sxw -text
+src/moduls/tcontr/virtual1/doc/struct.dia -text
+src/moduls/tcontr/virtual1/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/virtual1.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/virtual1/virtual1.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/mail/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/mail/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/mail/mail.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/mail/mail.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/socket/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/socket/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/socket/doc/generic.sxw -text
+src/moduls/transport/socket/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/socket/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/socket/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/socket/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/socket/socket.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/socket/socket.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qt_gui/doc/TZ_OSCADA_DISPLAY-17092004.sxw -text
+src/moduls/ui/qtcfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/dlguser.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/dlguser.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/doc/generic.sxw -text
+src/moduls/ui/qtcfg/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/qtcfg.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/qtcfg.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/tuimod.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/tuimod.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/back.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/button_cancel.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/button_ok.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/contexthelp.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/exit.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/forward.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/help.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/identity.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/ok.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/reload.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/start.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/stop.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/up.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/qtcfg/xpm/window_new.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_cfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_cfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_cfg/doc/generic.sxw -text
+src/moduls/ui/web_cfg/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_cfg/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_cfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_cfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_cfg/web_cfg.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_cfg/web_cfg.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_dbg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_dbg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_dbg/web_dbg.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/web_dbg/web_dbg.h -text svn_keywords=Author+Date+Id+Revision
+src/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/tarchives.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tarchives.h -text svn_keywords=Author+Date+Id+Revision
+src/tbds.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tbds.h -text svn_keywords=Author+Date+Id+Revision
+src/tcntrnode.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tcntrnode.h -text svn_keywords=Author+Date+Id+Revision
+src/tconfig.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tconfig.h -text svn_keywords=Author+Date+Id+Revision
+src/tcontroller.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tcontroller.h -text svn_keywords=Author+Date+Id+Revision
+src/tcontrollers.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tcontrollers.h -text svn_keywords=Author+Date+Id+Revision
+src/telem.cpp -text svn_keywords=Author+Date+Id+Revision
+src/telem.h -text svn_keywords=Author+Date+Id+Revision
+src/terror.cpp -text svn_keywords=Author+Date+Id+Revision
+src/terror.h -text svn_keywords=Author+Date+Id+Revision
+src/tfunctions.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tfunctions.h -text svn_keywords=Author+Date+Id+Revision
+src/tgrpmodule.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tgrpmodule.h -text svn_keywords=Author+Date+Id+Revision
+src/tkernel.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tkernel.h -text svn_keywords=Author+Date+Id+Revision
+src/tmessage.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tmessage.h -text svn_keywords=Author+Date+Id+Revision
+src/tmodschedul.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tmodschedul.h -text svn_keywords=Author+Date+Id+Revision
+src/tmodule.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tmodule.h -text svn_keywords=Author+Date+Id+Revision
+src/tparam.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tparam.h -text svn_keywords=Author+Date+Id+Revision
+src/tparamcontr.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tparamcontr.h -text svn_keywords=Author+Date+Id+Revision
+src/tparams.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tparams.h -text svn_keywords=Author+Date+Id+Revision
+src/tprotocols.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tprotocols.h -text svn_keywords=Author+Date+Id+Revision
+src/tsequrity.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tsequrity.h -text svn_keywords=Author+Date+Id+Revision
+src/tspecials.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tspecials.h -text svn_keywords=Author+Date+Id+Revision
+src/tsys.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tsys.h -text svn_keywords=Author+Date+Id+Revision
+src/ttiparam.cpp -text svn_keywords=Author+Date+Id+Revision
+src/ttiparam.h -text svn_keywords=Author+Date+Id+Revision
+src/ttipcontroller.cpp -text svn_keywords=Author+Date+Id+Revision
+src/ttipcontroller.h -text svn_keywords=Author+Date+Id+Revision
+src/ttransports.cpp -text svn_keywords=Author+Date+Id+Revision
+src/ttransports.h -text svn_keywords=Author+Date+Id+Revision
+src/tuis.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tuis.h -text svn_keywords=Author+Date+Id+Revision
+src/tvalue.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tvalue.h -text svn_keywords=Author+Date+Id+Revision
+src/xml.cpp -text svn_keywords=Author+Date+Id+Revision
+src/xml.h -text svn_keywords=Author+Date+Id+Revision
+test/DATA/arh_mess.dbf -text
+test/DATA/arh_val.dbf -text
+test/DATA/controllers.dbf -text
+test/DATA/seq_grp.dbf -text
+test/DATA/seq_usr.dbf -text
+test/DATA/system.dbf -text
+test/DATA/system_prm.dbf -text
+test/DATA/transp_in.dbf -text
+test/DATA/transp_out.dbf -text
+test/DATA/virt_c.dbf -text
+test/DATA/virt_test1_an.dbf -text
+test/DATA/virt_test1_bl.dbf -text
+test/DATA/virt_test1_dig.dbf -text
+test/DATA/virt_test2_an.dbf -text
+test/DATA/virt_test2_bl.dbf -text
+test/DATA/virt_test2_dig.dbf -text
+test/DATA/virtual_v1_test3_ANALOG.dbf -text
+test/DATA/virtual_v1_test3_BLOCK.dbf -text
+test/DATA/virtual_v1_test3_DIGIT.dbf -text
+test/OScadaTest -text svn_keywords=Author+Date+Id+Revision
+test/oscada_test.xml -text svn_keywords=Author+Date+Id+Revision
