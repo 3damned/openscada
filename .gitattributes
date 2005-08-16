@@ -255,6 +255,8 @@ src/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/resalloc.cpp -text
+src/resalloc.h -text
 src/tarchives.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tarchives.h -text svn_keywords=Author+Date+Id+Revision
 src/tbds.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -275,8 +277,6 @@ src/tfunctions.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tfunctions.h -text svn_keywords=Author+Date+Id+Revision
 src/tgrpmodule.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tgrpmodule.h -text svn_keywords=Author+Date+Id+Revision
-src/tkernel.cpp -text svn_keywords=Author+Date+Id+Revision
-src/tkernel.h -text svn_keywords=Author+Date+Id+Revision
 src/tmessage.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tmessage.h -text svn_keywords=Author+Date+Id+Revision
 src/tmodschedul.cpp -text svn_keywords=Author+Date+Id+Revision
