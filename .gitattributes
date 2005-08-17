@@ -80,24 +80,24 @@ src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/my_sql/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/my_sql/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/my_sql/doc/generic.sxw -text
-src/moduls/bd/my_sql/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/my_sql/my_sql.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/my_sql/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/my_sql/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/my_sql/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/my_sql/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/sqlite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/sqlite/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/sqlite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/sqlite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/sqlite/doc/generic.sxw -text
-src/moduls/bd/sqlite/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/sqlite/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/sqlite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/sqlite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/doc/generic.sxw -text
+src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/doc/generic.sxw -text
+src/moduls/bd/SQLite/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/http/Makefile.am -text svn_keywords=Author+Date+Id+Revision
