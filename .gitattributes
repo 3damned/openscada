@@ -67,19 +67,19 @@ src/moduls/arhiv/base/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/base/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/base/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/base/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/doc/generic.sxw -text
+src/moduls/bd/DBF/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/dbf.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/doc/generic.sxw -text
-src/moduls/bd/direct_dbf/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/my_sql/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/my_sql/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/my_sql/doc/generic.sxw -text
