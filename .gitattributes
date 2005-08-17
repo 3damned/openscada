@@ -73,8 +73,8 @@ src/moduls/bd/direct_dbf/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/direct_dbf/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/direct_dbf/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/direct_dbf/dbf.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/direct_dbf.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/direct_dbf/direct_dbf.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/direct_dbf/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/direct_dbf/doc/generic.sxw -text
 src/moduls/bd/direct_dbf/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/direct_dbf/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
