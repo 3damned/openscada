@@ -193,21 +193,21 @@ src/moduls/tcontr/VirtComplex2/po/ru.po -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/tcontr/VirtComplex2/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/VirtComplex2/virtual1.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/VirtComplex2/virtual1.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Mail/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Mail/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Mail/mail.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Mail/mail.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/mail/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/mail/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/mail/mail.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/mail/mail.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/socket/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/socket/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/socket/doc/generic.sxw -text
-src/moduls/transport/socket/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/socket/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/socket/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/socket/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/socket/socket.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/socket/socket.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/doc/generic.sxw -text
+src/moduls/transport/Sockets/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/socket.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/socket.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/qt_gui/doc/TZ_OSCADA_DISPLAY-17092004.sxw -text
