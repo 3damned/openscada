@@ -113,41 +113,41 @@ src/moduls/protocol/SelfSystem/Makefile.am -text svn_keywords=Author+Date+Id+Rev
 src/moduls/protocol/SelfSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/freefunc.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/freefunclibs.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/freefunclibs.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/freelib.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/po/Makefile.am -text
+src/moduls/special/FreeFuncLibs/po/Makefile.in -text
+src/moduls/special/FreeFuncLibs/po/ru.po -text
+src/moduls/special/FreeFuncLibs/po/uk.po -text
 src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/freefunc.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/freefunclibs.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/freefunclibs.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/freelib.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_free/po/Makefile.am -text
-src/moduls/special/func_free/po/Makefile.in -text
-src/moduls/special/func_free/po/ru.po -text
-src/moduls/special/func_free/po/uk.po -text
-src/moduls/special/func_static/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_static/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_static/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_static/po/Makefile.am -text
-src/moduls/special/func_static/po/Makefile.in -text
-src/moduls/special/func_static/po/ru.po -text
-src/moduls/special/func_static/po/uk.po -text
-src/moduls/special/func_static/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_static/statfunc.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/func_static/stdmath.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/doc/generic.sxw -text
-src/moduls/special/test_kernel/doc/generic.tex -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/test_kernel.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/test_kernel/test_kernel.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/StaticFuncLibs/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/StaticFuncLibs/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/StaticFuncLibs/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/StaticFuncLibs/po/Makefile.am -text
+src/moduls/special/StaticFuncLibs/po/Makefile.in -text
+src/moduls/special/StaticFuncLibs/po/ru.po -text
+src/moduls/special/StaticFuncLibs/po/uk.po -text
+src/moduls/special/StaticFuncLibs/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/StaticFuncLibs/statfunc.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/StaticFuncLibs/stdmath.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/doc/generic.sxw -text
+src/moduls/special/SystemTests/doc/generic.tex -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/test_kernel.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/test_kernel.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/diamond/Makefile.am -text svn_keywords=Author+Date+Id+Revision
