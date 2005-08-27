@@ -16,25 +16,25 @@
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
-doc/OSCD_UML_ClassDep.dia -text
-doc/OScadaClServ.dia -text
-doc/OScadaClServSepar.dia -text
-doc/OScadaDHServer.dia -text
-doc/OScadaDSServer.dia -text
-doc/OScadaDistribConn.dia -text
-doc/OScadaMServer.dia -text
-doc/OScadaMisc.dia -text
-doc/OScadaWWWClient.dia -text
-doc/OpenScada.xmi -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaUMLdescr.sxw -text
-doc/OpenScada_23_12_02.xmi -text svn_keywords=Author+Date+Id+Revision
-doc/OpenScada_struct.dia -text
-doc/SCADA.dia -text
 doc/TZ_SCADA_LINUX-0807.sxw -text
 doc/diagrams/Controllers.dia -text
+doc/diagrams/OSCD_UML_ClassDep.dia -text
+doc/diagrams/OScadaClServ.dia -text
+doc/diagrams/OScadaClServSepar.dia -text
+doc/diagrams/OScadaDHServer.dia -text
+doc/diagrams/OScadaDSServer.dia -text
+doc/diagrams/OScadaDistribConn.dia -text
+doc/diagrams/OScadaMServer.dia -text
+doc/diagrams/OScadaMisc.dia -text
+doc/diagrams/OScadaWWWClient.dia -text
+doc/diagrams/OpenScada.xmi -text svn_keywords=Author+Date+Id+Revision
 doc/diagrams/OpenScadaUMLprecend.dia -text
+doc/diagrams/OpenScada_23_12_02.xmi -text svn_keywords=Author+Date+Id+Revision
 doc/diagrams/OpenScada_modes.dia -text
+doc/diagrams/OpenScada_struct.dia -text
+doc/diagrams/SCADA.dia -text
 doc/diagrams/controll_tree.dia -text
 doc/mod_test_rest.sxw -text
 doc/programm_area_OpenSCADA.sxw -text
