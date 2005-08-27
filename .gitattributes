@@ -16,7 +16,6 @@
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
-doc/Controllers.dia -text
 doc/OSCD_UML_ClassDep.dia -text
 doc/OScadaClServ.dia -text
 doc/OScadaClServSepar.dia -text
@@ -29,13 +28,14 @@ doc/OScadaWWWClient.dia -text
 doc/OpenScada.xmi -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaUMLdescr.sxw -text
-doc/OpenScadaUMLprecend.dia -text
 doc/OpenScada_23_12_02.xmi -text svn_keywords=Author+Date+Id+Revision
-doc/OpenScada_modes.dia -text
 doc/OpenScada_struct.dia -text
 doc/SCADA.dia -text
 doc/TZ_SCADA_LINUX-0807.sxw -text
-doc/controll_tree.dia -text
+doc/diagrams/Controllers.dia -text
+doc/diagrams/OpenScadaUMLprecend.dia -text
+doc/diagrams/OpenScada_modes.dia -text
+doc/diagrams/controll_tree.dia -text
 doc/mod_test_rest.sxw -text
 doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.3.0.sxw -text
@@ -148,6 +148,30 @@ src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/special/SystemTests/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/test_kernel.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/test_kernel.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/doc/project.sxw -text
+src/moduls/tcontr/BlockCalc/doc/struct.dia -text
+src/moduls/tcontr/BlockCalc/doc/virtual.xmi -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/doc/Virtual1.xmi -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/doc/project.sxw -text
+src/moduls/tcontr/Complex2Calc/doc/struct.dia -text
+src/moduls/tcontr/Complex2Calc/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/virtual1.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/Complex2Calc/virtual1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -169,30 +193,6 @@ src/moduls/tcontr/OperationSystem/po/ru.po -text svn_keywords=Author+Date+Id+Rev
 src/moduls/tcontr/OperationSystem/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/sys.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/sys.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/block.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/block.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/doc/project.sxw -text
-src/moduls/tcontr/VirtBlockBased/doc/struct.dia -text
-src/moduls/tcontr/VirtBlockBased/doc/virtual.xmi -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtBlockBased/virtual.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/doc/Virtual1.xmi -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/doc/project.sxw -text
-src/moduls/tcontr/VirtComplex2/doc/struct.dia -text
-src/moduls/tcontr/VirtComplex2/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/virtual1.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/VirtComplex2/virtual1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/mail.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -275,8 +275,8 @@ src/terror.cpp -text svn_keywords=Author+Date+Id+Revision
 src/terror.h -text svn_keywords=Author+Date+Id+Revision
 src/tfunctions.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tfunctions.h -text svn_keywords=Author+Date+Id+Revision
-src/tmessage.cpp -text svn_keywords=Author+Date+Id+Revision
-src/tmessage.h -text svn_keywords=Author+Date+Id+Revision
+src/tmess.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tmess.h -text svn_keywords=Author+Date+Id+Revision
 src/tmodschedul.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tmodschedul.h -text svn_keywords=Author+Date+Id+Revision
 src/tmodule.cpp -text svn_keywords=Author+Date+Id+Revision
