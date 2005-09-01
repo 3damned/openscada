@@ -15,6 +15,8 @@
 /config.sub -text svn_keywords=Author+Date+Id+Revision
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
+demo/OScadaTest -text svn_keywords=Author+Date+Id+Revision
+demo/oscada_test.xml -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaUMLdescr.sxw -text
@@ -309,24 +311,3 @@ src/tvalue.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tvalue.h -text svn_keywords=Author+Date+Id+Revision
 src/xml.cpp -text svn_keywords=Author+Date+Id+Revision
 src/xml.h -text svn_keywords=Author+Date+Id+Revision
-test/DATA/arh_mess.dbf -text
-test/DATA/arh_val.dbf -text
-test/DATA/controllers.dbf -text
-test/DATA/seq_grp.dbf -text
-test/DATA/seq_usr.dbf -text
-test/DATA/system.dbf -text
-test/DATA/system_prm.dbf -text
-test/DATA/transp_in.dbf -text
-test/DATA/transp_out.dbf -text
-test/DATA/virt_c.dbf -text
-test/DATA/virt_test1_an.dbf -text
-test/DATA/virt_test1_bl.dbf -text
-test/DATA/virt_test1_dig.dbf -text
-test/DATA/virt_test2_an.dbf -text
-test/DATA/virt_test2_bl.dbf -text
-test/DATA/virt_test2_dig.dbf -text
-test/DATA/virtual_v1_test3_ANALOG.dbf -text
-test/DATA/virtual_v1_test3_BLOCK.dbf -text
-test/DATA/virtual_v1_test3_DIGIT.dbf -text
-test/OScadaTest -text svn_keywords=Author+Date+Id+Revision
-test/oscada_test.xml -text svn_keywords=Author+Date+Id+Revision
