@@ -15,8 +15,8 @@
 /config.sub -text svn_keywords=Author+Date+Id+Revision
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
-demo/OScadaTest -text svn_keywords=Author+Date+Id+Revision
-demo/oscada_test.xml -text svn_keywords=Author+Date+Id+Revision
+demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
+demo/oscada_demo.xml -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaUMLdescr.sxw -text
@@ -163,17 +163,6 @@ src/moduls/tcontr/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/doc/Virtual1.xmi -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/doc/project.sxw -text
-src/moduls/tcontr/Complex2Calc/doc/struct.dia -text
-src/moduls/tcontr/Complex2Calc/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/virtual1.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Complex2Calc/virtual1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
