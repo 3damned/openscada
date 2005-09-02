@@ -15,8 +15,10 @@
 /config.sub -text svn_keywords=Author+Date+Id+Revision
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
+demo/DemoSt.db -text
 demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
 demo/oscada_demo.xml -text svn_keywords=Author+Date+Id+Revision
+demo/oscdDIYAFLibs.db -text
 /depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaUMLdescr.sxw -text
