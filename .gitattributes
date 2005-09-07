@@ -40,6 +40,11 @@ doc/diagrams/OpenScada_modes.dia -text
 doc/diagrams/OpenScada_struct.dia -text
 doc/diagrams/SCADA.dia -text
 doc/diagrams/controll_tree.dia -text
+doc/mod_Archive_BaseArh.sxw -text
+doc/mod_BD_DBF.sxw -text
+doc/mod_BD_MySQL.sxw -text
+doc/mod_BD_SQLite.sxw -text
+doc/mod_Protocol_HTTP.sxw -text
 doc/mod_test_rest.sxw -text
 doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.3.0.sxw -text
@@ -145,7 +150,6 @@ src/moduls/special/StaticFuncLibs/stdmath.h -text svn_keywords=Author+Date+Id+Re
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/doc/generic.sxw -text
-src/moduls/special/SystemTests/doc/generic.tex -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
