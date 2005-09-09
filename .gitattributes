@@ -44,8 +44,13 @@ doc/mod_Archive_BaseArh.sxw -text
 doc/mod_BD_DBF.sxw -text
 doc/mod_BD_MySQL.sxw -text
 doc/mod_BD_SQLite.sxw -text
+doc/mod_Contr_BlockCalc.sxw -text
+doc/mod_Contr_BlockCalc_proj.sxw -text
+doc/mod_Contr_OperationSystem.sxw -text
 doc/mod_Protocol_HTTP.sxw -text
-doc/mod_test_rest.sxw -text
+doc/mod_Special_FreeFuncLibs.sxw -text
+doc/mod_Special_StaticFuncLibs.sxw -text
+doc/mod_Special_SystemTests.sxw -text
 doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.3.0.sxw -text
 doc/release_0.3.1.sxw -text
@@ -124,6 +129,7 @@ src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FreeFuncLibs/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FreeFuncLibs/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FreeFuncLibs/doc/generic.sxw -text
 src/moduls/special/FreeFuncLibs/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FreeFuncLibs/freefunc.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FreeFuncLibs/freefunclibs.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -139,6 +145,7 @@ src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/StaticFuncLibs/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/StaticFuncLibs/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/StaticFuncLibs/doc/generic.sxw -text
 src/moduls/special/StaticFuncLibs/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/StaticFuncLibs/po/Makefile.am -text
 src/moduls/special/StaticFuncLibs/po/Makefile.in -text
@@ -160,6 +167,7 @@ src/moduls/tcontr/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/tcontr/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/doc/generic.sxw -text
 src/moduls/tcontr/BlockCalc/doc/project.sxw -text
 src/moduls/tcontr/BlockCalc/doc/struct.dia -text
 src/moduls/tcontr/BlockCalc/doc/virtual.xmi -text svn_keywords=Author+Date+Id+Revision
