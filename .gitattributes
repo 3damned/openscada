@@ -46,11 +46,15 @@ doc/mod_BD_MySQL.sxw -text
 doc/mod_BD_SQLite.sxw -text
 doc/mod_Contr_BlockCalc.sxw -text
 doc/mod_Contr_BlockCalc_proj.sxw -text
+doc/mod_Contr_DiamondBoards.sxw -text
 doc/mod_Contr_OperationSystem.sxw -text
 doc/mod_Protocol_HTTP.sxw -text
 doc/mod_Special_FreeFuncLibs.sxw -text
 doc/mod_Special_StaticFuncLibs.sxw -text
 doc/mod_Special_SystemTests.sxw -text
+doc/mod_Transport_Sockets.sxw -text
+doc/mod_UI_QTCfg.sxw -text
+doc/mod_UI_WebCfg.sxw -text
 doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.3.0.sxw -text
 doc/release_0.3.1.sxw -text
@@ -181,6 +185,7 @@ src/moduls/tcontr/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Re
 src/moduls/tcontr/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/DiamondBoards/doc/generic.sxw -text
 src/moduls/tcontr/DiamondBoards/dscud.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/libdscud5.a -text
 src/moduls/tcontr/DiamondBoards/po/Makefile.am -text
