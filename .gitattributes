@@ -58,8 +58,8 @@ doc/mod_UI_WebCfg.sxw -text
 doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.3.0.sxw -text
 doc/release_0.3.1.sxw -text
+doc/release_0.4.0.sxw -text
 doc/roadmap.sxw -text
-doc/task_history.sxw -text
 doc/to_do.sxw -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
