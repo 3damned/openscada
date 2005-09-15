@@ -241,13 +241,17 @@ src/moduls/ui/QTCfg/xpm/exit.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/forward.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/help.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/identity.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/xpm/logo_icon.xpm -text
 src/moduls/ui/QTCfg/xpm/ok.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/reload.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/start.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/stop.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/up.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/window_new.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTGUI/doc/TZ_OSCADA_DISPLAY-17092004.sxw -text
+src/moduls/ui/QTStarter/Makefile.am -text
+src/moduls/ui/QTStarter/Makefile.in -text
+src/moduls/ui/QTStarter/tuimod.cpp -text
+src/moduls/ui/QTStarter/tuimod.h -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/doc/generic.sxw -text
