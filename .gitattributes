@@ -236,13 +236,15 @@ src/moduls/ui/QTCfg/tuimod.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/back.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/button_cancel.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/button_ok.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/xpm/close.xpm -text
 src/moduls/ui/QTCfg/xpm/contexthelp.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/exit.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/forward.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/help.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/identity.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/logo_icon.xpm -text
 src/moduls/ui/QTCfg/xpm/ok.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/xpm/oscada.xpm -text
+src/moduls/ui/QTCfg/xpm/oscada_cfg.xpm -text
 src/moduls/ui/QTCfg/xpm/reload.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/start.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/stop.xpm -text svn_keywords=Author+Date+Id+Revision
@@ -252,6 +254,8 @@ src/moduls/ui/QTStarter/Makefile.am -text
 src/moduls/ui/QTStarter/Makefile.in -text
 src/moduls/ui/QTStarter/tuimod.cpp -text
 src/moduls/ui/QTStarter/tuimod.h -text
+src/moduls/ui/QTStarter/xpm/exit.xpm -text
+src/moduls/ui/QTStarter/xpm/oscada_qt.xpm -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/doc/generic.sxw -text
