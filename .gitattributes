@@ -183,8 +183,6 @@ src/moduls/tcontr/JavaLikeCalc/Makefile.in -text svn_keywords=Author+Date+Id+Rev
 src/moduls/tcontr/JavaLikeCalc/doc/generic.sxw -text
 src/moduls/tcontr/JavaLikeCalc/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/JavaLikeCalc/freefunc.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/freefunclibs.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/freefunclibs.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/JavaLikeCalc/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/JavaLikeCalc/freelib.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/JavaLikeCalc/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
@@ -192,6 +190,8 @@ src/moduls/tcontr/JavaLikeCalc/po/Makefile.am -text
 src/moduls/tcontr/JavaLikeCalc/po/Makefile.in -text
 src/moduls/tcontr/JavaLikeCalc/po/ru.po -text
 src/moduls/tcontr/JavaLikeCalc/po/uk.po -text
+src/moduls/tcontr/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/JavaLikeCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
