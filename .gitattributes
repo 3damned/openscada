@@ -24,6 +24,7 @@ doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaUMLdescr.sxw -text
 doc/TZ_SCADA_LINUX-0807.sxw -text
 doc/diagrams/Controllers.dia -text
+doc/diagrams/FunctionStruct.dia -text
 doc/diagrams/OSCD_UML_ClassDep.dia -text
 doc/diagrams/OScadaClServ.dia -text
 doc/diagrams/OScadaClServSepar.dia -text
@@ -47,9 +48,9 @@ doc/mod_BD_SQLite.sxw -text
 doc/mod_Contr_BlockCalc.sxw -text
 doc/mod_Contr_BlockCalc_proj.sxw -text
 doc/mod_Contr_DiamondBoards.sxw -text
+doc/mod_Contr_JavaLikeCalc.sxw -text
 doc/mod_Contr_OperationSystem.sxw -text
 doc/mod_Protocol_HTTP.sxw -text
-doc/mod_Special_FreeFuncLibs.sxw -text
 doc/mod_Special_StaticFuncLibs.sxw -text
 doc/mod_Special_SystemTests.sxw -text
 doc/mod_Transport_Sockets.sxw -text
