@@ -25,19 +25,23 @@ doc/TZ_SCADA_LINUX-0807.sxw -text
 doc/diagrams/Controllers.dia -text
 doc/diagrams/FunctionStruct.dia -text
 doc/diagrams/OSCD_UML_ClassDep.dia -text
+doc/diagrams/OSCD_UML_ClassDep_en.dia -text
 doc/diagrams/OScadaClServ.dia -text
 doc/diagrams/OScadaClServSepar.dia -text
 doc/diagrams/OScadaDHServer.dia -text
 doc/diagrams/OScadaDSServer.dia -text
 doc/diagrams/OScadaDistribConn.dia -text
+doc/diagrams/OScadaDistribConn_en.dia -text
 doc/diagrams/OScadaMServer.dia -text
 doc/diagrams/OScadaMisc.dia -text
+doc/diagrams/OScadaMisc_en.dia -text
 doc/diagrams/OScadaWWWClient.dia -text
 doc/diagrams/OpenScada.xmi -text svn_keywords=Author+Date+Id+Revision
 doc/diagrams/OpenScadaUMLprecend.dia -text
 doc/diagrams/OpenScada_23_12_02.xmi -text svn_keywords=Author+Date+Id+Revision
 doc/diagrams/OpenScada_modes.dia -text
 doc/diagrams/OpenScada_struct.dia -text
+doc/diagrams/OpenScada_struct_en.dia -text
 doc/diagrams/SCADA.dia -text
 doc/diagrams/controll_tree.dia -text
 doc/mod_Archive_BaseArh.sxw -text
@@ -196,6 +200,17 @@ src/moduls/tcontr/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/OperationSystem/da.h -text
+src/moduls/tcontr/OperationSystem/da_cpu.cpp -text
+src/moduls/tcontr/OperationSystem/da_cpu.h -text
+src/moduls/tcontr/OperationSystem/da_mem.cpp -text
+src/moduls/tcontr/OperationSystem/da_mem.h -text
+src/moduls/tcontr/OperationSystem/da_sensors.cpp -text
+src/moduls/tcontr/OperationSystem/da_sensors.h -text
+src/moduls/tcontr/OperationSystem/da_smart.cpp -text
+src/moduls/tcontr/OperationSystem/da_smart.h -text
+src/moduls/tcontr/OperationSystem/da_uptime.cpp -text
+src/moduls/tcontr/OperationSystem/da_uptime.h -text
 src/moduls/tcontr/OperationSystem/doc/generic.sxw -text
 src/moduls/tcontr/OperationSystem/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
