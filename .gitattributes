@@ -212,12 +212,12 @@ src/moduls/tcontr/OperationSystem/da_smart.h -text
 src/moduls/tcontr/OperationSystem/da_uptime.cpp -text
 src/moduls/tcontr/OperationSystem/da_uptime.h -text
 src/moduls/tcontr/OperationSystem/doc/generic.sxw -text
+src/moduls/tcontr/OperationSystem/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/OperationSystem/os_contr.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/sys.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/sys.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/mail.cpp -text svn_keywords=Author+Date+Id+Revision
