@@ -203,12 +203,16 @@ src/moduls/tcontr/OperationSystem/Makefile.in -text svn_keywords=Author+Date+Id+
 src/moduls/tcontr/OperationSystem/da.h -text
 src/moduls/tcontr/OperationSystem/da_cpu.cpp -text
 src/moduls/tcontr/OperationSystem/da_cpu.h -text
+src/moduls/tcontr/OperationSystem/da_hddstat.cpp -text
+src/moduls/tcontr/OperationSystem/da_hddstat.h -text
+src/moduls/tcontr/OperationSystem/da_hddtemp.cpp -text
+src/moduls/tcontr/OperationSystem/da_hddtemp.h -text
 src/moduls/tcontr/OperationSystem/da_mem.cpp -text
 src/moduls/tcontr/OperationSystem/da_mem.h -text
+src/moduls/tcontr/OperationSystem/da_netstat.cpp -text
+src/moduls/tcontr/OperationSystem/da_netstat.h -text
 src/moduls/tcontr/OperationSystem/da_sensors.cpp -text
 src/moduls/tcontr/OperationSystem/da_sensors.h -text
-src/moduls/tcontr/OperationSystem/da_smart.cpp -text
-src/moduls/tcontr/OperationSystem/da_smart.h -text
 src/moduls/tcontr/OperationSystem/da_uptime.cpp -text
 src/moduls/tcontr/OperationSystem/da_uptime.h -text
 src/moduls/tcontr/OperationSystem/doc/generic.sxw -text
@@ -267,6 +271,10 @@ src/moduls/ui/QTCfg/xpm/up.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/window_new.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTStarter/Makefile.am -text
 src/moduls/ui/QTStarter/Makefile.in -text
+src/moduls/ui/QTStarter/po/Makefile.am -text
+src/moduls/ui/QTStarter/po/Makefile.in -text
+src/moduls/ui/QTStarter/po/ru.po -text
+src/moduls/ui/QTStarter/po/uk.po -text
 src/moduls/ui/QTStarter/tuimod.cpp -text
 src/moduls/ui/QTStarter/tuimod.h -text
 src/moduls/ui/QTStarter/xpm/exit.xpm -text
