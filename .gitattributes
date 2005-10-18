@@ -213,6 +213,8 @@ src/moduls/tcontr/OperationSystem/da_netstat.cpp -text
 src/moduls/tcontr/OperationSystem/da_netstat.h -text
 src/moduls/tcontr/OperationSystem/da_sensors.cpp -text
 src/moduls/tcontr/OperationSystem/da_sensors.h -text
+src/moduls/tcontr/OperationSystem/da_smart.cpp -text
+src/moduls/tcontr/OperationSystem/da_smart.h -text
 src/moduls/tcontr/OperationSystem/da_uptime.cpp -text
 src/moduls/tcontr/OperationSystem/da_uptime.h -text
 src/moduls/tcontr/OperationSystem/doc/generic.sxw -text
