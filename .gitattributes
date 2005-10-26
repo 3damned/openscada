@@ -44,27 +44,25 @@ doc/diagrams/OpenScada_struct.dia -text
 doc/diagrams/OpenScada_struct_en.dia -text
 doc/diagrams/SCADA.dia -text
 doc/diagrams/controll_tree.dia -text
-doc/mod_Archive_BaseArh.sxw -text
-doc/mod_BD_DBF.sxw -text
-doc/mod_BD_MySQL.sxw -text
-doc/mod_BD_SQLite.sxw -text
-doc/mod_Contr_BlockCalc.sxw -text
-doc/mod_Contr_BlockCalc_proj.sxw -text
-doc/mod_Contr_DiamondBoards.sxw -text
-doc/mod_Contr_JavaLikeCalc.sxw -text
-doc/mod_Contr_OperationSystem.sxw -text
-doc/mod_Protocol_HTTP.sxw -text
-doc/mod_Special_StaticFuncLibs.sxw -text
-doc/mod_Special_SystemTests.sxw -text
-doc/mod_Transport_Sockets.sxw -text
-doc/mod_UI_QTCfg.sxw -text
-doc/mod_UI_WebCfg.sxw -text
+doc/mod_Archive_BaseArh.pdf -text
+doc/mod_BD_DBF.pdf -text
+doc/mod_BD_MySQL.pdf -text
+doc/mod_BD_SQLite.pdf -text
+doc/mod_Contr_BlockCalc.pdf -text
+doc/mod_Contr_BlockCalc_proj.pdf -text
+doc/mod_Contr_DiamondBoards.pdf -text
+doc/mod_Contr_JavaLikeCalc.pdf -text
+doc/mod_Contr_OperationSystem.pdf -text
+doc/mod_Protocol_HTTP.pdf -text
+doc/mod_Special_StaticFuncLibs.pdf -text
+doc/mod_Special_SystemTests.pdf -text
+doc/mod_Transport_Sockets.pdf -text
+doc/mod_UI_QTCfg.pdf -text
+doc/mod_UI_WebCfg.pdf -text
 doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.3.0.sxw -text
 doc/release_0.3.1.sxw -text
 doc/release_0.4.0.sxw -text
-doc/roadmap.sxw -text
-doc/to_do.sxw -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
@@ -82,7 +80,7 @@ src/moduls/arhiv/BaseArh/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/base.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/base.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/doc/generic.sxw -text
+src/moduls/arhiv/BaseArh/doc/modDocument.pdf -text
 src/moduls/arhiv/BaseArh/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -95,7 +93,7 @@ src/moduls/bd/DBF/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/DBF/doc/generic.sxw -text
+src/moduls/bd/DBF/doc/modDocument.pdf -text
 src/moduls/bd/DBF/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -104,7 +102,7 @@ src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/MySQL/doc/generic.sxw -text
+src/moduls/bd/MySQL/doc/modDocument.pdf -text
 src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -115,14 +113,14 @@ src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/SQLite/doc/generic.sxw -text
+src/moduls/bd/SQLite/doc/modDocument.pdf -text
 src/moduls/bd/SQLite/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/protocol/HTTP/doc/generic.sxw -text
+src/moduls/protocol/HTTP/doc/modDocument.pdf -text svneol=unset#unset
 src/moduls/protocol/HTTP/http.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/http.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -139,7 +137,7 @@ src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/StaticFuncLibs/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/StaticFuncLibs/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/StaticFuncLibs/doc/generic.sxw -text
+src/moduls/special/StaticFuncLibs/doc/modDocument.pdf -text
 src/moduls/special/StaticFuncLibs/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/StaticFuncLibs/po/Makefile.am -text
 src/moduls/special/StaticFuncLibs/po/Makefile.in -text
@@ -150,7 +148,7 @@ src/moduls/special/StaticFuncLibs/statfunc.h -text svn_keywords=Author+Date+Id+R
 src/moduls/special/StaticFuncLibs/stdmath.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/SystemTests/doc/generic.sxw -text
+src/moduls/special/SystemTests/doc/modDocument.pdf -text
 src/moduls/special/SystemTests/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -161,10 +159,8 @@ src/moduls/tcontr/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/tcontr/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/doc/generic.sxw -text
-src/moduls/tcontr/BlockCalc/doc/project.sxw -text
-src/moduls/tcontr/BlockCalc/doc/struct.dia -text
-src/moduls/tcontr/BlockCalc/doc/virtual.xmi -text svn_keywords=Author+Date+Id+Revision
+src/moduls/tcontr/BlockCalc/doc/modDocument.pdf -text
+src/moduls/tcontr/BlockCalc/doc/projVirtContr.pdf -text svneol=unset#unset
 src/moduls/tcontr/BlockCalc/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -175,7 +171,7 @@ src/moduls/tcontr/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Re
 src/moduls/tcontr/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/DiamondBoards/doc/generic.sxw -text
+src/moduls/tcontr/DiamondBoards/doc/modDocument.pdf -text
 src/moduls/tcontr/DiamondBoards/dscud.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/DiamondBoards/libdscud5.a -text
 src/moduls/tcontr/DiamondBoards/po/Makefile.am -text
@@ -184,7 +180,7 @@ src/moduls/tcontr/DiamondBoards/po/ru.po -text
 src/moduls/tcontr/DiamondBoards/po/uk.po -text
 src/moduls/tcontr/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/JavaLikeCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/doc/generic.sxw -text
+src/moduls/tcontr/JavaLikeCalc/doc/modDocument.pdf -text
 src/moduls/tcontr/JavaLikeCalc/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/JavaLikeCalc/freefunc.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/JavaLikeCalc/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -217,7 +213,7 @@ src/moduls/tcontr/OperationSystem/da_smart.cpp -text
 src/moduls/tcontr/OperationSystem/da_smart.h -text
 src/moduls/tcontr/OperationSystem/da_uptime.cpp -text
 src/moduls/tcontr/OperationSystem/da_uptime.h -text
-src/moduls/tcontr/OperationSystem/doc/generic.sxw -text
+src/moduls/tcontr/OperationSystem/doc/modDocument.pdf -text
 src/moduls/tcontr/OperationSystem/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/os_contr.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/tcontr/OperationSystem/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -232,7 +228,7 @@ src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/Sockets/doc/generic.sxw -text
+src/moduls/transport/Sockets/doc/modDocument.pdf -text
 src/moduls/transport/Sockets/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -245,7 +241,7 @@ src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/dlguser.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/dlguser.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/doc/generic.sxw -text
+src/moduls/ui/QTCfg/doc/modDocument.pdf -text
 src/moduls/ui/QTCfg/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -273,6 +269,7 @@ src/moduls/ui/QTCfg/xpm/up.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/window_new.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTStarter/Makefile.am -text
 src/moduls/ui/QTStarter/Makefile.in -text
+src/moduls/ui/QTStarter/doc/modDocument.pdf -text
 src/moduls/ui/QTStarter/po/Makefile.am -text
 src/moduls/ui/QTStarter/po/Makefile.in -text
 src/moduls/ui/QTStarter/po/ru.po -text
@@ -283,7 +280,7 @@ src/moduls/ui/QTStarter/xpm/exit.xpm -text
 src/moduls/ui/QTStarter/xpm/oscada_qt.xpm -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/WebCfg/doc/generic.sxw -text
+src/moduls/ui/WebCfg/doc/modDocument.pdf -text
 src/moduls/ui/WebCfg/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
