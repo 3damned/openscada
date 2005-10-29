@@ -60,9 +60,7 @@ doc/mod_Transport_Sockets.pdf -text
 doc/mod_UI_QTCfg.pdf -text
 doc/mod_UI_WebCfg.pdf -text
 doc/programm_area_OpenSCADA.sxw -text
-doc/release_0.3.0.sxw -text
-doc/release_0.3.1.sxw -text
-doc/release_0.4.0.sxw -text
+doc/release_0.4.1.pdf -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
