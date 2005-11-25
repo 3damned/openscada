@@ -58,6 +58,7 @@ doc/mod_Special_StaticFuncLibs.pdf -text
 doc/mod_Special_SystemTests.pdf -text
 doc/mod_Transport_Sockets.pdf -text
 doc/mod_UI_QTCfg.pdf -text
+doc/mod_UI_QTStarter.pdf -text
 doc/mod_UI_WebCfg.pdf -text
 doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.4.1.pdf -text
