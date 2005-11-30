@@ -16,6 +16,19 @@
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
 demo/DemoSt.db -text
+demo/VISION/1.frm -text
+demo/VISION/111 -text
+demo/VISION/2.frm -text
+demo/VISION/23.frm -text
+demo/VISION/cap1.xpm -text
+demo/VISION/nodeCompr.frm -text
+demo/VISION/ots1.xpm -text
+demo/VISION/ots2.xpm -text
+demo/VISION/qt.xpm -text
+demo/VISION/strel1.xpm -text
+demo/VISION/strel2.xpm -text
+demo/VISION/vision.cfg -text
+demo/VISION/wer -text
 demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
 demo/oscada_demo.xml -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
