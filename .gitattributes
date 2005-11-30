@@ -304,6 +304,7 @@ src/moduls/ui/Vision/tvisionrun.cpp -text
 src/moduls/ui/Vision/tvisionrun.h -text
 src/moduls/ui/Vision/xpm/deleteFrame.xpm -text
 src/moduls/ui/Vision/xpm/deleteFrame_xpm.xpm -text
+src/moduls/ui/Vision/xpm/deleteItems_xpm.xpm -text
 src/moduls/ui/Vision/xpm/newFrame_xpm.xpm -text
 src/moduls/ui/Vision/xpm/saveCfg_xpm.xpm -text
 src/moduls/ui/Vision/xpm/saveFrame_xpm.xpm -text
