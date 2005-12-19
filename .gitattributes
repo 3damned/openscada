@@ -75,6 +75,7 @@ doc/mod_UI_QTStarter.pdf -text
 doc/mod_UI_WebCfg.pdf -text
 doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.4.1.pdf -text
+doc/uml/openscada.xmi -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
@@ -374,6 +375,8 @@ src/tparamcontr.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tparamcontr.h -text svn_keywords=Author+Date+Id+Revision
 src/tparams.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tparams.h -text svn_keywords=Author+Date+Id+Revision
+src/tprmtmpl.cpp -text
+src/tprmtmpl.h -text
 src/tprotocols.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tprotocols.h -text svn_keywords=Author+Date+Id+Revision
 src/tsecurity.cpp -text svn_keywords=Author+Date+Id+Revision
