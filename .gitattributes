@@ -131,6 +131,71 @@ src/moduls/bd/SQLite/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/doc/modDocument.pdf -text
+src/moduls/daq/BlockCalc/doc/projVirtContr.pdf -text svneol=unset#unset
+src/moduls/daq/BlockCalc/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/doc/modDocument.pdf -text
+src/moduls/daq/DiamondBoards/dscud.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/libdscud5.a -text
+src/moduls/daq/DiamondBoards/po/Makefile.am -text
+src/moduls/daq/DiamondBoards/po/Makefile.in -text
+src/moduls/daq/DiamondBoards/po/ru.po -text
+src/moduls/daq/DiamondBoards/po/uk.po -text
+src/moduls/daq/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/doc/modDocument.pdf -text
+src/moduls/daq/JavaLikeCalc/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/freefunc.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/freelib.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/po/Makefile.am -text
+src/moduls/daq/JavaLikeCalc/po/Makefile.in -text
+src/moduls/daq/JavaLikeCalc/po/ru.po -text
+src/moduls/daq/JavaLikeCalc/po/uk.po -text
+src/moduls/daq/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/OperationSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/OperationSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/OperationSystem/da.h -text
+src/moduls/daq/OperationSystem/da_cpu.cpp -text
+src/moduls/daq/OperationSystem/da_cpu.h -text
+src/moduls/daq/OperationSystem/da_hddstat.cpp -text
+src/moduls/daq/OperationSystem/da_hddstat.h -text
+src/moduls/daq/OperationSystem/da_hddtemp.cpp -text
+src/moduls/daq/OperationSystem/da_hddtemp.h -text
+src/moduls/daq/OperationSystem/da_mem.cpp -text
+src/moduls/daq/OperationSystem/da_mem.h -text
+src/moduls/daq/OperationSystem/da_netstat.cpp -text
+src/moduls/daq/OperationSystem/da_netstat.h -text
+src/moduls/daq/OperationSystem/da_sensors.cpp -text
+src/moduls/daq/OperationSystem/da_sensors.h -text
+src/moduls/daq/OperationSystem/da_smart.cpp -text
+src/moduls/daq/OperationSystem/da_smart.h -text
+src/moduls/daq/OperationSystem/da_uptime.cpp -text
+src/moduls/daq/OperationSystem/da_uptime.h -text
+src/moduls/daq/OperationSystem/doc/modDocument.pdf -text
+src/moduls/daq/OperationSystem/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/OperationSystem/os_contr.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/OperationSystem/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/OperationSystem/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/OperationSystem/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/OperationSystem/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/doc/modDocument.pdf -text svneol=unset#unset
@@ -176,71 +241,6 @@ src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/special/SystemTests/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/test_kernel.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/test_kernel.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/doc/modDocument.pdf -text
-src/moduls/tcontr/BlockCalc/doc/projVirtContr.pdf -text svneol=unset#unset
-src/moduls/tcontr/BlockCalc/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/DiamondBoards/doc/modDocument.pdf -text
-src/moduls/tcontr/DiamondBoards/dscud.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/DiamondBoards/libdscud5.a -text
-src/moduls/tcontr/DiamondBoards/po/Makefile.am -text
-src/moduls/tcontr/DiamondBoards/po/Makefile.in -text
-src/moduls/tcontr/DiamondBoards/po/ru.po -text
-src/moduls/tcontr/DiamondBoards/po/uk.po -text
-src/moduls/tcontr/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/doc/modDocument.pdf -text
-src/moduls/tcontr/JavaLikeCalc/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/freefunc.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/freelib.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/po/Makefile.am -text
-src/moduls/tcontr/JavaLikeCalc/po/Makefile.in -text
-src/moduls/tcontr/JavaLikeCalc/po/ru.po -text
-src/moduls/tcontr/JavaLikeCalc/po/uk.po -text
-src/moduls/tcontr/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/JavaLikeCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/da.h -text
-src/moduls/tcontr/OperationSystem/da_cpu.cpp -text
-src/moduls/tcontr/OperationSystem/da_cpu.h -text
-src/moduls/tcontr/OperationSystem/da_hddstat.cpp -text
-src/moduls/tcontr/OperationSystem/da_hddstat.h -text
-src/moduls/tcontr/OperationSystem/da_hddtemp.cpp -text
-src/moduls/tcontr/OperationSystem/da_hddtemp.h -text
-src/moduls/tcontr/OperationSystem/da_mem.cpp -text
-src/moduls/tcontr/OperationSystem/da_mem.h -text
-src/moduls/tcontr/OperationSystem/da_netstat.cpp -text
-src/moduls/tcontr/OperationSystem/da_netstat.h -text
-src/moduls/tcontr/OperationSystem/da_sensors.cpp -text
-src/moduls/tcontr/OperationSystem/da_sensors.h -text
-src/moduls/tcontr/OperationSystem/da_smart.cpp -text
-src/moduls/tcontr/OperationSystem/da_smart.h -text
-src/moduls/tcontr/OperationSystem/da_uptime.cpp -text
-src/moduls/tcontr/OperationSystem/da_uptime.h -text
-src/moduls/tcontr/OperationSystem/doc/modDocument.pdf -text
-src/moduls/tcontr/OperationSystem/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/os_contr.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/tcontr/OperationSystem/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Mail/mail.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -363,8 +363,8 @@ src/tconfig.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tconfig.h -text svn_keywords=Author+Date+Id+Revision
 src/tcontroller.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tcontroller.h -text svn_keywords=Author+Date+Id+Revision
-src/tcontrollers.cpp -text svn_keywords=Author+Date+Id+Revision
-src/tcontrollers.h -text svn_keywords=Author+Date+Id+Revision
+src/tdaqs.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tdaqs.h -text svn_keywords=Author+Date+Id+Revision
 src/telem.cpp -text svn_keywords=Author+Date+Id+Revision
 src/telem.h -text svn_keywords=Author+Date+Id+Revision
 src/terror.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -397,8 +397,8 @@ src/tsys.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tsys.h -text svn_keywords=Author+Date+Id+Revision
 src/ttiparam.cpp -text svn_keywords=Author+Date+Id+Revision
 src/ttiparam.h -text svn_keywords=Author+Date+Id+Revision
-src/ttipcontroller.cpp -text svn_keywords=Author+Date+Id+Revision
-src/ttipcontroller.h -text svn_keywords=Author+Date+Id+Revision
+src/ttipdaq.cpp -text svn_keywords=Author+Date+Id+Revision
+src/ttipdaq.h -text svn_keywords=Author+Date+Id+Revision
 src/ttransports.cpp -text svn_keywords=Author+Date+Id+Revision
 src/ttransports.h -text svn_keywords=Author+Date+Id+Revision
 src/tuis.cpp -text svn_keywords=Author+Date+Id+Revision
