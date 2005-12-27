@@ -146,6 +146,15 @@ src/moduls/protocol/SelfSystem/Makefile.am -text svn_keywords=Author+Date+Id+Rev
 src/moduls/protocol/SelfSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FLibMath/Makefile.am -text
+src/moduls/special/FLibMath/Makefile.in -text
+src/moduls/special/FLibMath/po/Makefile.am -text
+src/moduls/special/FLibMath/po/Makefile.in -text
+src/moduls/special/FLibMath/po/ru.po -text
+src/moduls/special/FLibMath/po/uk.po -text
+src/moduls/special/FLibMath/statfunc.cpp -text
+src/moduls/special/FLibMath/statfunc.h -text
+src/moduls/special/FLibMath/stdmath.h -text
 src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/StaticFuncLibs/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -158,7 +167,6 @@ src/moduls/special/StaticFuncLibs/po/ru.po -text
 src/moduls/special/StaticFuncLibs/po/uk.po -text
 src/moduls/special/StaticFuncLibs/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/StaticFuncLibs/statfunc.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/StaticFuncLibs/stdmath.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/doc/modDocument.pdf -text
