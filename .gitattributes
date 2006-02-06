@@ -33,6 +33,7 @@ demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
 demo/oscada_demo.xml -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
+doc/OpenScadaUMLdescr.odt -text
 doc/OpenScadaUMLdescr.sxw -text
 doc/TZ_SCADA_LINUX-0807.sxw -text
 doc/diagrams/Controllers.dia -text
@@ -80,6 +81,7 @@ doc/uml/openscada.xmi -text
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
 /mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
+/openscada.kateproject -text
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 /oscada.init -text svn_keywords=Author+Date+Id+Revision
 /oscada.xml -text svn_keywords=Author+Date+Id+Revision
@@ -230,6 +232,15 @@ src/moduls/special/FLibMath/po/uk.po -text
 src/moduls/special/FLibMath/statfunc.cpp -text
 src/moduls/special/FLibMath/statfunc.h -text
 src/moduls/special/FLibMath/stdmath.h -text
+src/moduls/special/FLibTime/Makefile.am -text
+src/moduls/special/FLibTime/Makefile.in -text
+src/moduls/special/FLibTime/po/Makefile.am -text
+src/moduls/special/FLibTime/po/Makefile.in -text
+src/moduls/special/FLibTime/po/ru.po -text
+src/moduls/special/FLibTime/po/uk.po -text
+src/moduls/special/FLibTime/statfunc.cpp -text
+src/moduls/special/FLibTime/statfunc.h -text
+src/moduls/special/FLibTime/timefnc.h -text
 src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
