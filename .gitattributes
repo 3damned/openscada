@@ -95,10 +95,14 @@ src/moduls/arhiv/BaseArh/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/base.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/base.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/doc/modDocument.pdf -text
+src/moduls/arhiv/BaseArh/mess.cpp -text
+src/moduls/arhiv/BaseArh/mess.h -text
 src/moduls/arhiv/BaseArh/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/BaseArh/val.cpp -text
+src/moduls/arhiv/BaseArh/val.h -text
 src/moduls/arhiv/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -149,8 +153,6 @@ src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revis
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/doc/modDocument.pdf -text
-src/moduls/daq/DiamondBoards/dscud.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/DiamondBoards/libdscud5.a -text
 src/moduls/daq/DiamondBoards/po/Makefile.am -text
 src/moduls/daq/DiamondBoards/po/Makefile.in -text
 src/moduls/daq/DiamondBoards/po/ru.po -text
@@ -365,6 +367,8 @@ src/resalloc.cpp -text
 src/resalloc.h -text
 src/tarchives.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tarchives.h -text svn_keywords=Author+Date+Id+Revision
+src/tarchval.cpp -text
+src/tarchval.h -text
 src/tbds.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tbds.h -text svn_keywords=Author+Date+Id+Revision
 src/tcntrnode.cpp -text svn_keywords=Author+Date+Id+Revision
