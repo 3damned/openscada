@@ -15,6 +15,36 @@
 /config.sub -text svn_keywords=Author+Date+Id+Revision
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
+data/icons/Archive.BaseArh.png -text
+data/icons/Archive.png -text
+data/icons/BD.MySQL.png -text
+data/icons/DAQ.OperationSystem.png -text
+data/icons/DAQ.png -text
+data/icons/DemoStation.png -text
+data/icons/ModSched.png -text
+data/icons/Protocol.png -text
+data/icons/Security.png -text
+data/icons/Transport.Sockets.png -text
+data/icons/Transport.png -text
+data/icons/UI.QTCfg.png -text
+data/icons/UI.VISION.png -text
+data/icons/UI.WebCfg.png -text
+data/icons/UI.png -text
+data/icons/button_cancel.png -text
+data/icons/button_ok.png -text
+data/icons/close.png -text
+data/icons/contexthelp.png -text
+data/icons/exit.png -text
+data/icons/gohome.png -text
+data/icons/help.png -text
+data/icons/identity.png -text
+data/icons/next.png -text
+data/icons/previous.png -text
+data/icons/reload.png -text
+data/icons/start.png -text
+data/icons/stop.png -text
+data/icons/up.png -text
+data/oscada.init -text svn_keywords=Author+Date+Id+Revision
 demo/DemoSt.db -text
 demo/VISION/1.frm -text
 demo/VISION/111 -text
@@ -82,7 +112,6 @@ doc/uml/openscada.xmi -text
 /mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
 /openscada.kateproject -text
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
-/oscada.init -text svn_keywords=Author+Date+Id+Revision
 /oscada.xml -text svn_keywords=Author+Date+Id+Revision
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/Makefile.in -text svn_keywords=Author+Date+Id+Revision
@@ -275,6 +304,8 @@ src/moduls/ui/QTCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/dlguser.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/dlguser.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/doc/modDocument.pdf -text
+src/moduls/ui/QTCfg/imgview.cpp -text
+src/moduls/ui/QTCfg/imgview.h -text
 src/moduls/ui/QTCfg/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -283,23 +314,22 @@ src/moduls/ui/QTCfg/qtcfg.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/qtcfg.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/tuimod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/tuimod.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/back.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/button_cancel.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/button_ok.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/close.xpm -text
 src/moduls/ui/QTCfg/xpm/contexthelp.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/exit.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/forward.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/help.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/identity.xpm -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/xpm/next.xpm -text
 src/moduls/ui/QTCfg/xpm/ok.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/oscada.xpm -text
 src/moduls/ui/QTCfg/xpm/oscada_cfg.xpm -text
+src/moduls/ui/QTCfg/xpm/previous.xpm -text
 src/moduls/ui/QTCfg/xpm/reload.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/start.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/stop.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/up.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/window_new.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTStarter/Makefile.am -text
 src/moduls/ui/QTStarter/Makefile.in -text
 src/moduls/ui/QTStarter/doc/modDocument.pdf -text
