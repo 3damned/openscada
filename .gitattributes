@@ -45,6 +45,7 @@ data/icons/start.png -text
 data/icons/stop.png -text
 data/icons/up.png -text
 data/oscada.init -text svn_keywords=Author+Date+Id+Revision
+data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
 demo/DemoSt.db -text
 demo/VISION/1.frm -text
 demo/VISION/111 -text
@@ -112,7 +113,6 @@ doc/uml/openscada.xmi -text
 /mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
 /openscada.kateproject -text
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
-/oscada.xml -text svn_keywords=Author+Date+Id+Revision
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
