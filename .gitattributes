@@ -30,6 +30,7 @@ data/icons/UI.QTCfg.png -text
 data/icons/UI.VISION.png -text
 data/icons/UI.WebCfg.png -text
 data/icons/UI.png -text
+data/icons/WorkStation.png -text
 data/icons/button_cancel.png -text
 data/icons/button_ok.png -text
 data/icons/close.png -text
@@ -46,7 +47,9 @@ data/icons/stop.png -text
 data/icons/up.png -text
 data/oscada.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
+demo/AGLKSModel.db -text
 demo/DemoSt.db -text
+demo/OscadaLibs.db -text
 demo/VISION/1.frm -text
 demo/VISION/111 -text
 demo/VISION/2.frm -text
@@ -64,31 +67,6 @@ demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
 demo/oscada_demo.xml -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
-doc/OpenScadaUMLdescr.odt -text
-doc/OpenScadaUMLdescr.sxw -text
-doc/TZ_SCADA_LINUX-0807.sxw -text
-doc/diagrams/Controllers.dia -text
-doc/diagrams/FunctionStruct.dia -text
-doc/diagrams/OSCD_UML_ClassDep.dia -text
-doc/diagrams/OSCD_UML_ClassDep_en.dia -text
-doc/diagrams/OScadaClServ.dia -text
-doc/diagrams/OScadaClServSepar.dia -text
-doc/diagrams/OScadaDHServer.dia -text
-doc/diagrams/OScadaDSServer.dia -text
-doc/diagrams/OScadaDistribConn.dia -text
-doc/diagrams/OScadaDistribConn_en.dia -text
-doc/diagrams/OScadaMServer.dia -text
-doc/diagrams/OScadaMisc.dia -text
-doc/diagrams/OScadaMisc_en.dia -text
-doc/diagrams/OScadaWWWClient.dia -text
-doc/diagrams/OpenScada.xmi -text svn_keywords=Author+Date+Id+Revision
-doc/diagrams/OpenScadaUMLprecend.dia -text
-doc/diagrams/OpenScada_23_12_02.xmi -text svn_keywords=Author+Date+Id+Revision
-doc/diagrams/OpenScada_modes.dia -text
-doc/diagrams/OpenScada_struct.dia -text
-doc/diagrams/OpenScada_struct_en.dia -text
-doc/diagrams/SCADA.dia -text
-doc/diagrams/controll_tree.dia -text
 doc/mod_Archive_BaseArh.pdf -text
 doc/mod_BD_DBF.pdf -text
 doc/mod_BD_MySQL.pdf -text
@@ -104,9 +82,7 @@ doc/mod_Transport_Sockets.pdf -text
 doc/mod_UI_QTCfg.pdf -text
 doc/mod_UI_QTStarter.pdf -text
 doc/mod_UI_WebCfg.pdf -text
-doc/programm_area_OpenSCADA.sxw -text
 doc/release_0.4.1.pdf -text
-doc/uml/openscada.xmi -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
@@ -182,6 +158,8 @@ src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revis
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/doc/modDocument.pdf -text
+src/moduls/daq/DiamondBoards/dscud.h -text
+src/moduls/daq/DiamondBoards/libdscud5.a -text
 src/moduls/daq/DiamondBoards/po/Makefile.am -text
 src/moduls/daq/DiamondBoards/po/Makefile.in -text
 src/moduls/daq/DiamondBoards/po/ru.po -text
