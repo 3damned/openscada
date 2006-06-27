@@ -8,6 +8,7 @@
 /Makefile.in -text svn_keywords=Author+Date+Id+Revision
 /NEWS -text svn_keywords=Author+Date+Id+Revision
 /README -text svn_keywords=Author+Date+Id+Revision
+/README_ru -text
 /TODO -text svn_keywords=Author+Date+Id+Revision
 /aclocal.m4 -text svn_keywords=Author+Date+Id+Revision
 /config.guess -text svn_keywords=Author+Date+Id+Revision
@@ -66,23 +67,55 @@ demo/VISION/wer -text
 demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
 demo/oscada_demo.xml -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
+doc/APIOpenSCADA_ru.html -text
+doc/APIOpenSCADA_ru_files/wakka.jpeg -text
+doc/APIOpenSCADA_ru_files/wakka_002.jpeg -text
+doc/APIOpenSCADA_ru_files/wakka_003.jpeg -text
+doc/APIOpenSCADA_ru_files/wakka_004.jpeg -text
+doc/APIOpenSCADA_ru_files/wakka_005.jpeg -text
+doc/APIOpenSCADA_ru_files/wakka_006.jpeg -text
+doc/APIOpenSCADA_ru_files/wakka_007.jpeg -text
+doc/APIOpenSCADA_ru_files/wakka_008.jpeg -text
+doc/APIOpenSCADA_ru_files/wakka_009.jpeg -text
+doc/APIOpenSCADA_ru_files/wakkaprint.css -text
+doc/APIOpenSCADA_ru_files/z.gif -text
+doc/AboutOpenSCADA_ru.html -text
+doc/AboutOpenSCADA_ru_files/wakka.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_002.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_003.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_004.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_005.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_006.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_007.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_008.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_009.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakka_010.jpeg -text
+doc/AboutOpenSCADA_ru_files/wakkaprint.css -text
+doc/AboutOpenSCADA_ru_files/z.gif -text
+doc/FAQ_ru.html -text
+doc/FAQ_ru_files/wakkaprint.css -text
+doc/FAQ_ru_files/z.gif -text
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
-doc/mod_Archive_BaseArh.pdf -text
-doc/mod_BD_DBF.pdf -text
-doc/mod_BD_MySQL.pdf -text
-doc/mod_BD_SQLite.pdf -text
-doc/mod_Contr_BlockCalc.pdf -text
-doc/mod_Contr_BlockCalc_proj.pdf -text
-doc/mod_Contr_DiamondBoards.pdf -text
-doc/mod_Contr_JavaLikeCalc.pdf -text
-doc/mod_Contr_OperationSystem.pdf -text
-doc/mod_Protocol_HTTP.pdf -text
-doc/mod_Special_SystemTests.pdf -text
-doc/mod_Transport_Sockets.pdf -text
-doc/mod_UI_QTCfg.pdf -text
-doc/mod_UI_QTStarter.pdf -text
-doc/mod_UI_WebCfg.pdf -text
-doc/release_0.4.1.pdf -text
+doc/mod_Archive_BaseArh -text
+doc/mod_BD_DBF -text
+doc/mod_BD_MySQL -text
+doc/mod_BD_SQLite -text
+doc/mod_Contr_BlockCalc -text
+doc/mod_Contr_DiamondBoards -text
+doc/mod_Contr_JavaLikeCalc -text
+doc/mod_Contr_OperationSystem -text
+doc/mod_Protocol_HTTP -text
+doc/mod_Special_FLibComplex1 -text
+doc/mod_Special_FLibMath -text
+doc/mod_Special_FLibTime -text
+doc/mod_Special_SystemTests -text
+doc/mod_Transport_Sockets -text
+doc/mod_UI_QTCfg -text
+doc/mod_UI_QTStarter -text
+doc/mod_UI_WebCfg -text
+doc/release_0.5.0_ru.html -text
+doc/release_0.5.0_ru_files/wakkaprint.css -text
+doc/release_0.5.0_ru_files/z.gif -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
@@ -99,7 +132,14 @@ src/moduls/arhiv/BaseArh/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/base.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/BaseArh/base.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/doc/modDocument.pdf -text
+src/moduls/arhiv/BaseArh/doc/about_ru.html -text
+src/moduls/arhiv/BaseArh/doc/about_ru_files/wakka.jpeg -text
+src/moduls/arhiv/BaseArh/doc/about_ru_files/wakka_002.jpeg -text
+src/moduls/arhiv/BaseArh/doc/about_ru_files/wakka_003.jpeg -text
+src/moduls/arhiv/BaseArh/doc/about_ru_files/wakka_004.jpeg -text
+src/moduls/arhiv/BaseArh/doc/about_ru_files/wakka_005.jpeg -text
+src/moduls/arhiv/BaseArh/doc/about_ru_files/wakkaprint.css -text
+src/moduls/arhiv/BaseArh/doc/about_ru_files/z.gif -text
 src/moduls/arhiv/BaseArh/mess.cpp -text
 src/moduls/arhiv/BaseArh/mess.h -text
 src/moduls/arhiv/BaseArh/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -116,7 +156,9 @@ src/moduls/bd/DBF/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/DBF/doc/modDocument.pdf -text
+src/moduls/bd/DBF/doc/about_ru.html -text
+src/moduls/bd/DBF/doc/about_ru_files/wakkaprint.css -text
+src/moduls/bd/DBF/doc/about_ru_files/z.gif -text
 src/moduls/bd/DBF/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -125,7 +167,10 @@ src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/MySQL/doc/modDocument.pdf -text
+src/moduls/bd/MySQL/doc/about_ru.html -text
+src/moduls/bd/MySQL/doc/about_ru_files/wakkaprint.css -text
+src/moduls/bd/MySQL/doc/about_ru_files/web.gif -text
+src/moduls/bd/MySQL/doc/about_ru_files/z.gif -text
 src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -136,7 +181,10 @@ src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/SQLite/doc/modDocument.pdf -text
+src/moduls/bd/SQLite/doc/about_ru.html -text
+src/moduls/bd/SQLite/doc/about_ru_files/wakkaprint.css -text
+src/moduls/bd/SQLite/doc/about_ru_files/web.gif -text
+src/moduls/bd/SQLite/doc/about_ru_files/z.gif -text
 src/moduls/bd/SQLite/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -145,8 +193,17 @@ src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/BlockCalc/doc/modDocument.pdf -text
-src/moduls/daq/BlockCalc/doc/projVirtContr.pdf -text svneol=unset#unset
+src/moduls/daq/BlockCalc/doc/about_ru.html -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakka.jpeg -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakka_002.jpeg -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakka_003.jpeg -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakka_004.jpeg -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakka_005.jpeg -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakka_006.jpeg -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakka_007.jpeg -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakka_008.jpeg -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/wakkaprint.css -text
+src/moduls/daq/BlockCalc/doc/about_ru_files/z.gif -text
 src/moduls/daq/BlockCalc/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -157,7 +214,16 @@ src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revis
 src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/DiamondBoards/doc/modDocument.pdf -text
+src/moduls/daq/DiamondBoards/doc/about_ru.html -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/wakka.jpeg -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/wakka_002.jpeg -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/wakka_003.jpeg -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/wakka_004.jpeg -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/wakka_005.jpeg -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/wakka_006.jpeg -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/wakkaprint.css -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/web.gif -text
+src/moduls/daq/DiamondBoards/doc/about_ru_files/z.gif -text
 src/moduls/daq/DiamondBoards/dscud.h -text
 src/moduls/daq/DiamondBoards/libdscud5.a -text
 src/moduls/daq/DiamondBoards/po/Makefile.am -text
@@ -166,7 +232,13 @@ src/moduls/daq/DiamondBoards/po/ru.po -text
 src/moduls/daq/DiamondBoards/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/JavaLikeCalc/doc/modDocument.pdf -text
+src/moduls/daq/JavaLikeCalc/doc/about_ru.html -text
+src/moduls/daq/JavaLikeCalc/doc/about_ru_files/wakka.jpeg -text
+src/moduls/daq/JavaLikeCalc/doc/about_ru_files/wakka_002.jpeg -text
+src/moduls/daq/JavaLikeCalc/doc/about_ru_files/wakka_003.jpeg -text
+src/moduls/daq/JavaLikeCalc/doc/about_ru_files/wakka_004.jpeg -text
+src/moduls/daq/JavaLikeCalc/doc/about_ru_files/wakkaprint.css -text
+src/moduls/daq/JavaLikeCalc/doc/about_ru_files/z.gif -text
 src/moduls/daq/JavaLikeCalc/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/freefunc.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -199,7 +271,11 @@ src/moduls/daq/OperationSystem/da_smart.cpp -text
 src/moduls/daq/OperationSystem/da_smart.h -text
 src/moduls/daq/OperationSystem/da_uptime.cpp -text
 src/moduls/daq/OperationSystem/da_uptime.h -text
-src/moduls/daq/OperationSystem/doc/modDocument.pdf -text
+src/moduls/daq/OperationSystem/doc/about_ru.html -text
+src/moduls/daq/OperationSystem/doc/about_ru_files/wakka.jpeg -text
+src/moduls/daq/OperationSystem/doc/about_ru_files/wakka_002.jpeg -text
+src/moduls/daq/OperationSystem/doc/about_ru_files/wakkaprint.css -text
+src/moduls/daq/OperationSystem/doc/about_ru_files/z.gif -text
 src/moduls/daq/OperationSystem/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/OperationSystem/os_contr.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/OperationSystem/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -208,7 +284,10 @@ src/moduls/daq/OperationSystem/po/ru.po -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/daq/OperationSystem/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/protocol/HTTP/doc/modDocument.pdf -text svneol=unset#unset
+src/moduls/protocol/HTTP/doc/about_ru.html -text
+src/moduls/protocol/HTTP/doc/about_ru_files/wakka.jpeg -text
+src/moduls/protocol/HTTP/doc/about_ru_files/wakkaprint.css -text
+src/moduls/protocol/HTTP/doc/about_ru_files/z.gif -text
 src/moduls/protocol/HTTP/http.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/http.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -223,7 +302,10 @@ src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/FLibComplex1/doc/modDocument.pdf -text
+src/moduls/special/FLibComplex1/doc/about_ru.html -text
+src/moduls/special/FLibComplex1/doc/about_ru_files/wakka.jpeg -text
+src/moduls/special/FLibComplex1/doc/about_ru_files/wakkaprint.css -text
+src/moduls/special/FLibComplex1/doc/about_ru_files/z.gif -text
 src/moduls/special/FLibComplex1/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/po/Makefile.am -text
 src/moduls/special/FLibComplex1/po/Makefile.in -text
@@ -233,6 +315,9 @@ src/moduls/special/FLibComplex1/statfunc.cpp -text svn_keywords=Author+Date+Id+R
 src/moduls/special/FLibComplex1/statfunc.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibMath/Makefile.am -text
 src/moduls/special/FLibMath/Makefile.in -text
+src/moduls/special/FLibMath/doc/about_ru.html -text
+src/moduls/special/FLibMath/doc/about_ru_files/wakkaprint.css -text
+src/moduls/special/FLibMath/doc/about_ru_files/z.gif -text
 src/moduls/special/FLibMath/po/Makefile.am -text
 src/moduls/special/FLibMath/po/Makefile.in -text
 src/moduls/special/FLibMath/po/ru.po -text
@@ -242,6 +327,9 @@ src/moduls/special/FLibMath/statfunc.h -text
 src/moduls/special/FLibMath/stdmath.h -text
 src/moduls/special/FLibTime/Makefile.am -text
 src/moduls/special/FLibTime/Makefile.in -text
+src/moduls/special/FLibTime/doc/about_ru.html -text
+src/moduls/special/FLibTime/doc/about_ru_files/wakkaprint.css -text
+src/moduls/special/FLibTime/doc/about_ru_files/z.gif -text
 src/moduls/special/FLibTime/po/Makefile.am -text
 src/moduls/special/FLibTime/po/Makefile.in -text
 src/moduls/special/FLibTime/po/ru.po -text
@@ -253,7 +341,9 @@ src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/SystemTests/doc/modDocument.pdf -text
+src/moduls/special/SystemTests/doc/about_ru.html -text
+src/moduls/special/SystemTests/doc/about_ru_files/wakkaprint.css -text
+src/moduls/special/SystemTests/doc/about_ru_files/z.gif -text
 src/moduls/special/SystemTests/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -268,7 +358,9 @@ src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/Sockets/doc/modDocument.pdf -text
+src/moduls/transport/Sockets/doc/about_ru.html -text
+src/moduls/transport/Sockets/doc/about_ru_files/wakkaprint.css -text
+src/moduls/transport/Sockets/doc/about_ru_files/z.gif -text
 src/moduls/transport/Sockets/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -281,7 +373,15 @@ src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/dlguser.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/dlguser.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/doc/modDocument.pdf -text
+src/moduls/ui/QTCfg/doc/about_ru.html -text
+src/moduls/ui/QTCfg/doc/about_ru_files/wakka.jpeg -text
+src/moduls/ui/QTCfg/doc/about_ru_files/wakka_002.jpeg -text
+src/moduls/ui/QTCfg/doc/about_ru_files/wakka_003.jpeg -text
+src/moduls/ui/QTCfg/doc/about_ru_files/wakka_004.jpeg -text
+src/moduls/ui/QTCfg/doc/about_ru_files/wakka_005.jpeg -text
+src/moduls/ui/QTCfg/doc/about_ru_files/wakka_006.jpeg -text
+src/moduls/ui/QTCfg/doc/about_ru_files/wakkaprint.css -text
+src/moduls/ui/QTCfg/doc/about_ru_files/z.gif -text
 src/moduls/ui/QTCfg/imgview.cpp -text
 src/moduls/ui/QTCfg/imgview.h -text
 src/moduls/ui/QTCfg/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -310,7 +410,10 @@ src/moduls/ui/QTCfg/xpm/stop.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/up.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTStarter/Makefile.am -text
 src/moduls/ui/QTStarter/Makefile.in -text
-src/moduls/ui/QTStarter/doc/modDocument.pdf -text
+src/moduls/ui/QTStarter/doc/about_ru.html -text
+src/moduls/ui/QTStarter/doc/about_ru_files/wakka.jpeg -text
+src/moduls/ui/QTStarter/doc/about_ru_files/wakkaprint.css -text
+src/moduls/ui/QTStarter/doc/about_ru_files/z.gif -text
 src/moduls/ui/QTStarter/po/Makefile.am -text
 src/moduls/ui/QTStarter/po/Makefile.in -text
 src/moduls/ui/QTStarter/po/ru.po -text
@@ -356,7 +459,16 @@ src/moduls/ui/Vision/xpm/tcrectangle.xpm -text
 src/moduls/ui/Vision/xpm/tctext.xpm -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/WebCfg/doc/modDocument.pdf -text
+src/moduls/ui/WebCfg/doc/about_ru.html -text
+src/moduls/ui/WebCfg/doc/about_ru_files/wakka.jpeg -text
+src/moduls/ui/WebCfg/doc/about_ru_files/wakka_002.jpeg -text
+src/moduls/ui/WebCfg/doc/about_ru_files/wakka_003.jpeg -text
+src/moduls/ui/WebCfg/doc/about_ru_files/wakka_004.jpeg -text
+src/moduls/ui/WebCfg/doc/about_ru_files/wakka_005.jpeg -text
+src/moduls/ui/WebCfg/doc/about_ru_files/wakka_006.jpeg -text
+src/moduls/ui/WebCfg/doc/about_ru_files/wakka_007.jpeg -text
+src/moduls/ui/WebCfg/doc/about_ru_files/wakkaprint.css -text
+src/moduls/ui/WebCfg/doc/about_ru_files/z.gif -text
 src/moduls/ui/WebCfg/po/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/po/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
