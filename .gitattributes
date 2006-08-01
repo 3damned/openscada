@@ -18,7 +18,10 @@
 /configure.in -text svn_keywords=Author+Date+Id+Revision
 data/icons/Archive.BaseArh.png -text
 data/icons/Archive.png -text
+data/icons/BD.DBF.png -text
 data/icons/BD.MySQL.png -text
+data/icons/BD.SQLite.png -text
+data/icons/BD.png -text
 data/icons/DAQ.OperationSystem.png -text
 data/icons/DAQ.png -text
 data/icons/DemoStation.png -text
@@ -152,6 +155,12 @@ src/moduls/daq/JavaLikeCalc/po/ru.po -text
 src/moduls/daq/JavaLikeCalc/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/LogicLev/Makefile.am -text
+src/moduls/daq/LogicLev/Makefile.in -text
+src/moduls/daq/LogicLev/logiclev.cpp -text
+src/moduls/daq/LogicLev/logiclev.h -text
+src/moduls/daq/LogicLev/po/ru.po -text
+src/moduls/daq/LogicLev/po/uk.po -text
 src/moduls/daq/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/OperationSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -214,14 +223,7 @@ src/moduls/special/FLibSYS/po/uk.po -text
 src/moduls/special/FLibSYS/statfunc.cpp -text
 src/moduls/special/FLibSYS/statfunc.h -text
 src/moduls/special/FLibSYS/sysfnc.h -text
-src/moduls/special/FLibTime/Makefile.am -text
-src/moduls/special/FLibTime/Makefile.in -text
-src/moduls/special/FLibTime/doc/about_ru.pdf -text
-src/moduls/special/FLibTime/po/ru.po -text
-src/moduls/special/FLibTime/po/uk.po -text
-src/moduls/special/FLibTime/statfunc.cpp -text
-src/moduls/special/FLibTime/statfunc.h -text
-src/moduls/special/FLibTime/timefnc.h -text
+src/moduls/special/FLibSYS/timefnc.h -text
 src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -358,12 +360,8 @@ src/tmodschedul.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tmodschedul.h -text svn_keywords=Author+Date+Id+Revision
 src/tmodule.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tmodule.h -text svn_keywords=Author+Date+Id+Revision
-src/tparam.cpp -text svn_keywords=Author+Date+Id+Revision
-src/tparam.h -text svn_keywords=Author+Date+Id+Revision
 src/tparamcontr.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tparamcontr.h -text svn_keywords=Author+Date+Id+Revision
-src/tparams.cpp -text svn_keywords=Author+Date+Id+Revision
-src/tparams.h -text svn_keywords=Author+Date+Id+Revision
 src/tprmtmpl.cpp -text
 src/tprmtmpl.h -text
 src/tprotocols.cpp -text svn_keywords=Author+Date+Id+Revision
