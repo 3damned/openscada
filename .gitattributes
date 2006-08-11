@@ -187,6 +187,12 @@ src/moduls/daq/OperationSystem/os_contr.cpp -text svn_keywords=Author+Date+Id+Re
 src/moduls/daq/OperationSystem/os_contr.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/OperationSystem/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/OperationSystem/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/SNMP/Makefile.am -text
+src/moduls/daq/SNMP/Makefile.in -text
+src/moduls/daq/SNMP/po/ru.po -text
+src/moduls/daq/SNMP/po/uk.po -text
+src/moduls/daq/SNMP/snmp_client.cpp -text
+src/moduls/daq/SNMP/snmp_client.h -text
 src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/doc/about_ru.pdf -text svneol=unset#unset
