@@ -68,7 +68,6 @@ doc/release_0.5.0_ru.pdf -text
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
 /mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
-/openscada.kateproject -text
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/Makefile.in -text svn_keywords=Author+Date+Id+Revision
@@ -123,6 +122,19 @@ src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/CIF/Makefile.am -text
+src/moduls/daq/CIF/Makefile.in -text
+src/moduls/daq/CIF/cif_api.c -text
+src/moduls/daq/CIF/cif_dev_i.h -text
+src/moduls/daq/CIF/cif_dpm.h -text
+src/moduls/daq/CIF/cif_types.h -text
+src/moduls/daq/CIF/cif_user.h -text
+src/moduls/daq/CIF/mod_cif.cpp -text
+src/moduls/daq/CIF/mod_cif.h -text
+src/moduls/daq/CIF/po/ru.po -text
+src/moduls/daq/CIF/po/uk.po -text
+src/moduls/daq/CIF/rcs_user.h -text
+src/moduls/daq/CIF/rcsdef.h -text
 src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
