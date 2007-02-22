@@ -32,11 +32,22 @@ data/icons/Special.png -text
 data/icons/Transport.Sockets.png -text
 data/icons/Transport.png -text
 data/icons/UI.QTCfg.png -text
-data/icons/UI.VISION.png -text
+data/icons/UI.QTStarter.png -text
+data/icons/UI.VCAEngine.png -text
+data/icons/UI.Vision.png -text
 data/icons/UI.WebCfg.png -text
 data/icons/UI.png -text
-data/icons/VCAEngine.wdgBase.png -text
-data/icons/WorkStation.png -text
+data/icons/VCA.wdg_AssocLine.png -text
+data/icons/VCA.wdg_Base.png -text
+data/icons/VCA.wdg_Doc.png -text
+data/icons/VCA.wdg_ElFigure.png -text
+data/icons/VCA.wdg_FormEl.png -text
+data/icons/VCA.wdg_Function.png -text
+data/icons/VCA.wdg_Media.png -text
+data/icons/VCA.wdg_Protocol.png -text
+data/icons/VCA.wdg_Text.png -text
+data/icons/VCA.wdg_Trend.png -text
+data/icons/VCA.wdg_UserEl.png -text
 data/icons/button_cancel.png -text
 data/icons/button_ok.png -text
 data/icons/close.png -text
@@ -51,6 +62,15 @@ data/icons/reload.png -text
 data/icons/start.png -text
 data/icons/stop.png -text
 data/icons/up.png -text
+data/icons/vision_wdg_add.png -text
+data/icons/vision_wdg_del.png -text
+data/icons/vision_wdg_edit.png -text
+data/icons/vision_wdg_prop.png -text
+data/icons/vision_wlib_add.png -text
+data/icons/vision_wlib_del.png -text
+data/icons/vision_wlib_prop.png -text
+data/icons_src/oscada.xcf -text
+data/icons_src/vision_lwdg.xcf -text
 data/oscada.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
 demo/AGLKSModel.db -text
@@ -273,7 +293,6 @@ src/moduls/ui/QTCfg/xpm/help.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/identity.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/xpm/next.xpm -text
 src/moduls/ui/QTCfg/xpm/ok.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/oscada.xpm -text
 src/moduls/ui/QTCfg/xpm/oscada_cfg.xpm -text
 src/moduls/ui/QTCfg/xpm/previous.xpm -text
 src/moduls/ui/QTCfg/xpm/reload.xpm -text svn_keywords=Author+Date+Id+Revision
@@ -307,9 +326,21 @@ src/moduls/ui/Vision/vis_devel.cpp -text
 src/moduls/ui/Vision/vis_devel.h -text
 src/moduls/ui/Vision/vis_devel_widgs.cpp -text
 src/moduls/ui/Vision/vis_devel_widgs.h -text
+src/moduls/ui/Vision/vis_widgs.cpp -text
+src/moduls/ui/Vision/vis_widgs.h -text
+src/moduls/ui/Vision/xpm/button_cancel.xpm -text
+src/moduls/ui/Vision/xpm/button_ok.xpm -text
 src/moduls/ui/Vision/xpm/close.xpm -text
+src/moduls/ui/Vision/xpm/contexthelp.xpm -text
 src/moduls/ui/Vision/xpm/exit.xpm -text
 src/moduls/ui/Vision/xpm/help.xpm -text
+src/moduls/ui/Vision/xpm/vision.xpm -text
+src/moduls/ui/Vision/xpm/wdg_del.xpm -text
+src/moduls/ui/Vision/xpm/wdg_edit.xpm -text
+src/moduls/ui/Vision/xpm/wdg_prop.xpm -text
+src/moduls/ui/Vision/xpm/wlib_add.xpm -text
+src/moduls/ui/Vision/xpm/wlib_del.xpm -text
+src/moduls/ui/Vision/xpm/wlib_prop.xpm -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/doc/about_ru.pdf -text
