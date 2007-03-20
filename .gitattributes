@@ -37,12 +37,13 @@ data/icons/UI.VCAEngine.png -text
 data/icons/UI.Vision.png -text
 data/icons/UI.WebCfg.png -text
 data/icons/UI.png -text
-data/icons/VCA.wdg_AssocLine.png -text
+data/icons/VCA.lwdg_root.png -text
 data/icons/VCA.wdg_Base.png -text
-data/icons/VCA.wdg_Doc.png -text
+data/icons/VCA.wdg_Document.png -text
 data/icons/VCA.wdg_ElFigure.png -text
 data/icons/VCA.wdg_FormEl.png -text
 data/icons/VCA.wdg_Function.png -text
+data/icons/VCA.wdg_Link.png -text
 data/icons/VCA.wdg_Media.png -text
 data/icons/VCA.wdg_Protocol.png -text
 data/icons/VCA.wdg_Text.png -text
@@ -69,6 +70,7 @@ data/icons/vision_wdg_prop.png -text
 data/icons/vision_wlib_add.png -text
 data/icons/vision_wlib_del.png -text
 data/icons/vision_wlib_prop.png -text
+data/icons_src/misc.xcf -text
 data/icons_src/oscada.xcf -text
 data/icons_src/vision_lwdg.xcf -text
 data/oscada.init -text svn_keywords=Author+Date+Id+Revision
@@ -276,38 +278,40 @@ src/moduls/ui/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/doc/about_ru.pdf -text
+src/moduls/ui/QTCfg/images/button_cancel.png -text
+src/moduls/ui/QTCfg/images/button_ok.png -text
+src/moduls/ui/QTCfg/images/close.png -text
+src/moduls/ui/QTCfg/images/contexthelp.png -text
+src/moduls/ui/QTCfg/images/exit.png -text
+src/moduls/ui/QTCfg/images/help.png -text
+src/moduls/ui/QTCfg/images/identity.png -text
+src/moduls/ui/QTCfg/images/next.png -text
+src/moduls/ui/QTCfg/images/ok.png -text
+src/moduls/ui/QTCfg/images/oscada_cfg.png -text
+src/moduls/ui/QTCfg/images/previous.png -text
+src/moduls/ui/QTCfg/images/reload.png -text
+src/moduls/ui/QTCfg/images/start.png -text
+src/moduls/ui/QTCfg/images/stop.png -text
+src/moduls/ui/QTCfg/images/up.png -text
 src/moduls/ui/QTCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/qtcfg.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/qtcfg.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/qtcfg.qrc -text
 src/moduls/ui/QTCfg/selfwidg.cpp -text
 src/moduls/ui/QTCfg/selfwidg.h -text
 src/moduls/ui/QTCfg/tuimod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/tuimod.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/button_cancel.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/button_ok.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/close.xpm -text
-src/moduls/ui/QTCfg/xpm/contexthelp.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/exit.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/help.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/identity.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/next.xpm -text
-src/moduls/ui/QTCfg/xpm/ok.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/oscada_cfg.xpm -text
-src/moduls/ui/QTCfg/xpm/previous.xpm -text
-src/moduls/ui/QTCfg/xpm/reload.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/start.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/stop.xpm -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/xpm/up.xpm -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTStarter/Makefile.am -text
 src/moduls/ui/QTStarter/Makefile.in -text
 src/moduls/ui/QTStarter/doc/about_ru.pdf -text
+src/moduls/ui/QTStarter/images/exit.png -text
+src/moduls/ui/QTStarter/images/oscada_qt.png -text
 src/moduls/ui/QTStarter/po/ru.po -text
 src/moduls/ui/QTStarter/po/uk.po -text
+src/moduls/ui/QTStarter/qtstarter.qrc -text
 src/moduls/ui/QTStarter/tuimod.cpp -text
 src/moduls/ui/QTStarter/tuimod.h -text
-src/moduls/ui/QTStarter/xpm/exit.xpm -text
-src/moduls/ui/QTStarter/xpm/oscada_qt.xpm -text
 src/moduls/ui/VCAEngine/Makefile.am -text
 src/moduls/ui/VCAEngine/Makefile.in -text
 src/moduls/ui/VCAEngine/libwidg.cpp -text
@@ -320,27 +324,33 @@ src/moduls/ui/VCAEngine/widget.cpp -text
 src/moduls/ui/VCAEngine/widget.h -text
 src/moduls/ui/Vision/Makefile.am -text
 src/moduls/ui/Vision/Makefile.in -text
+src/moduls/ui/Vision/images/button_cancel.png -text
+src/moduls/ui/Vision/images/button_ok.png -text
+src/moduls/ui/Vision/images/close.png -text
+src/moduls/ui/Vision/images/contexthelp.png -text
+src/moduls/ui/Vision/images/db_load.png -text
+src/moduls/ui/Vision/images/db_save.png -text
+src/moduls/ui/Vision/images/exit.png -text
+src/moduls/ui/Vision/images/help.png -text
+src/moduls/ui/Vision/images/vision.png -text
+src/moduls/ui/Vision/images/wdg_add.png -text
+src/moduls/ui/Vision/images/wdg_del.png -text
+src/moduls/ui/Vision/images/wdg_edit.png -text
+src/moduls/ui/Vision/images/wdg_prop.png -text
+src/moduls/ui/Vision/images/wlib_add.png -text
+src/moduls/ui/Vision/images/wlib_del.png -text
+src/moduls/ui/Vision/images/wlib_prop.png -text
 src/moduls/ui/Vision/tvision.cpp -text
 src/moduls/ui/Vision/tvision.h -text
 src/moduls/ui/Vision/vis_devel.cpp -text
 src/moduls/ui/Vision/vis_devel.h -text
 src/moduls/ui/Vision/vis_devel_widgs.cpp -text
 src/moduls/ui/Vision/vis_devel_widgs.h -text
+src/moduls/ui/Vision/vis_shapes.cpp -text
+src/moduls/ui/Vision/vis_shapes.h -text
 src/moduls/ui/Vision/vis_widgs.cpp -text
 src/moduls/ui/Vision/vis_widgs.h -text
-src/moduls/ui/Vision/xpm/button_cancel.xpm -text
-src/moduls/ui/Vision/xpm/button_ok.xpm -text
-src/moduls/ui/Vision/xpm/close.xpm -text
-src/moduls/ui/Vision/xpm/contexthelp.xpm -text
-src/moduls/ui/Vision/xpm/exit.xpm -text
-src/moduls/ui/Vision/xpm/help.xpm -text
-src/moduls/ui/Vision/xpm/vision.xpm -text
-src/moduls/ui/Vision/xpm/wdg_del.xpm -text
-src/moduls/ui/Vision/xpm/wdg_edit.xpm -text
-src/moduls/ui/Vision/xpm/wdg_prop.xpm -text
-src/moduls/ui/Vision/xpm/wlib_add.xpm -text
-src/moduls/ui/Vision/xpm/wlib_del.xpm -text
-src/moduls/ui/Vision/xpm/wlib_prop.xpm -text
+src/moduls/ui/Vision/vision.qrc -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/doc/about_ru.pdf -text
