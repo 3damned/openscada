@@ -324,6 +324,7 @@ src/moduls/ui/VCAEngine/widget.cpp -text
 src/moduls/ui/VCAEngine/widget.h -text
 src/moduls/ui/Vision/Makefile.am -text
 src/moduls/ui/Vision/Makefile.in -text
+src/moduls/ui/Vision/images/attention.png -text
 src/moduls/ui/Vision/images/button_cancel.png -text
 src/moduls/ui/Vision/images/button_ok.png -text
 src/moduls/ui/Vision/images/close.png -text
