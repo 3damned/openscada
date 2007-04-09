@@ -353,6 +353,7 @@ src/moduls/ui/Vision/images/level_down.png -text
 src/moduls/ui/Vision/images/level_lower.png -text
 src/moduls/ui/Vision/images/level_rise.png -text
 src/moduls/ui/Vision/images/level_up.png -text
+src/moduls/ui/Vision/images/ok.png -text
 src/moduls/ui/Vision/images/vision.png -text
 src/moduls/ui/Vision/images/wdg_add.png -text
 src/moduls/ui/Vision/images/wdg_del.png -text
@@ -365,6 +366,8 @@ src/moduls/ui/Vision/tvision.cpp -text
 src/moduls/ui/Vision/tvision.h -text
 src/moduls/ui/Vision/vis_devel.cpp -text
 src/moduls/ui/Vision/vis_devel.h -text
+src/moduls/ui/Vision/vis_devel_dlgs.cpp -text
+src/moduls/ui/Vision/vis_devel_dlgs.h -text
 src/moduls/ui/Vision/vis_devel_widgs.cpp -text
 src/moduls/ui/Vision/vis_devel_widgs.h -text
 src/moduls/ui/Vision/vis_shapes.cpp -text
