@@ -79,6 +79,7 @@ data/icons/vision_level_rise.png -text
 data/icons/vision_level_up.png -text
 data/icons/vision_lib_new.png -text
 data/icons/vision_prj_new.png -text
+data/icons/vision_prj_run.png -text
 data/icons_src/misc.xcf -text
 data/icons_src/oscada.xcf -text
 data/icons_src/vision_lwdg.xcf -text
@@ -329,6 +330,8 @@ src/moduls/ui/VCAEngine/origwidg.cpp -text
 src/moduls/ui/VCAEngine/origwidg.h -text
 src/moduls/ui/VCAEngine/project.cpp -text
 src/moduls/ui/VCAEngine/project.h -text
+src/moduls/ui/VCAEngine/session.cpp -text
+src/moduls/ui/VCAEngine/session.h -text
 src/moduls/ui/VCAEngine/vcaengine.cpp -text
 src/moduls/ui/VCAEngine/vcaengine.h -text
 src/moduls/ui/VCAEngine/widget.cpp -text
@@ -361,6 +364,7 @@ src/moduls/ui/Vision/images/level_up.png -text
 src/moduls/ui/Vision/images/lib_new.png -text
 src/moduls/ui/Vision/images/ok.png -text
 src/moduls/ui/Vision/images/prj_new.png -text
+src/moduls/ui/Vision/images/prj_run.png -text
 src/moduls/ui/Vision/images/reload.png -text
 src/moduls/ui/Vision/images/vision.png -text
 src/moduls/ui/Vision/tvision.cpp -text
@@ -371,6 +375,8 @@ src/moduls/ui/Vision/vis_devel_dlgs.cpp -text
 src/moduls/ui/Vision/vis_devel_dlgs.h -text
 src/moduls/ui/Vision/vis_devel_widgs.cpp -text
 src/moduls/ui/Vision/vis_devel_widgs.h -text
+src/moduls/ui/Vision/vis_run.cpp -text
+src/moduls/ui/Vision/vis_run.h -text
 src/moduls/ui/Vision/vis_shapes.cpp -text
 src/moduls/ui/Vision/vis_shapes.h -text
 src/moduls/ui/Vision/vis_widgs.cpp -text
