@@ -39,6 +39,8 @@ data/icons/UI.WebCfg.png -text
 data/icons/UI.png -text
 data/icons/VCA.lwdg_root.png -text
 data/icons/VCA.wdg_Base.png -text
+data/icons/VCA.wdg_Box.png -text
+data/icons/VCA.wdg_Diagram.png -text
 data/icons/VCA.wdg_Document.png -text
 data/icons/VCA.wdg_ElFigure.png -text
 data/icons/VCA.wdg_FormEl.png -text
@@ -47,8 +49,6 @@ data/icons/VCA.wdg_Link.png -text
 data/icons/VCA.wdg_Media.png -text
 data/icons/VCA.wdg_Protocol.png -text
 data/icons/VCA.wdg_Text.png -text
-data/icons/VCA.wdg_Trend.png -text
-data/icons/VCA.wdg_UserEl.png -text
 data/icons/button_cancel.png -text
 data/icons/button_ok.png -text
 data/icons/close.png -text
