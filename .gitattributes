@@ -385,6 +385,8 @@ src/moduls/ui/Vision/vis_run.cpp -text
 src/moduls/ui/Vision/vis_run.h -text
 src/moduls/ui/Vision/vis_run_widgs.cpp -text
 src/moduls/ui/Vision/vis_run_widgs.h -text
+src/moduls/ui/Vision/vis_shape_elfig.cpp -text
+src/moduls/ui/Vision/vis_shape_elfig.h -text
 src/moduls/ui/Vision/vis_shapes.cpp -text
 src/moduls/ui/Vision/vis_shapes.h -text
 src/moduls/ui/Vision/vis_widgs.cpp -text
