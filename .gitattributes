@@ -199,6 +199,12 @@ src/moduls/daq/LogicLev/po/ru.po -text
 src/moduls/daq/LogicLev/po/uk.po -text
 src/moduls/daq/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/ModBus/Makefile.am -text
+src/moduls/daq/ModBus/Makefile.in -text
+src/moduls/daq/ModBus/modbus_client.cpp -text
+src/moduls/daq/ModBus/modbus_client.h -text
+src/moduls/daq/ModBus/po/ru.po -text
+src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/OperationSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/OperationSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/OperationSystem/da.h -text
