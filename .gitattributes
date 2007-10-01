@@ -132,6 +132,12 @@ src/moduls/bd/DBF/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/doc/about_ru.pdf -text
 src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/FireBird/Makefile.am -text
+src/moduls/bd/FireBird/Makefile.in -text
+src/moduls/bd/FireBird/firebird.cpp -text
+src/moduls/bd/FireBird/firebird.h -text
+src/moduls/bd/FireBird/po/ru.po -text
+src/moduls/bd/FireBird/po/uk.po -text
 src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
