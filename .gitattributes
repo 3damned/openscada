@@ -72,6 +72,7 @@ data/icons/vision_allign_vcenter.png -text
 data/icons/vision_elfig_arc.png -text
 data/icons/vision_elfig_besie.png -text
 data/icons/vision_elfig_line.png -text
+data/icons/vision_elfig_lock.png -text
 data/icons/vision_it_add.png -text
 data/icons/vision_it_del.png -text
 data/icons/vision_it_edit.png -text
@@ -211,36 +212,36 @@ src/moduls/daq/ModBus/modbus_client.cpp -text
 src/moduls/daq/ModBus/modbus_client.h -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
-src/moduls/daq/OperationSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/OperationSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/OperationSystem/da.h -text
-src/moduls/daq/OperationSystem/da_cpu.cpp -text
-src/moduls/daq/OperationSystem/da_cpu.h -text
-src/moduls/daq/OperationSystem/da_hddstat.cpp -text
-src/moduls/daq/OperationSystem/da_hddstat.h -text
-src/moduls/daq/OperationSystem/da_hddtemp.cpp -text
-src/moduls/daq/OperationSystem/da_hddtemp.h -text
-src/moduls/daq/OperationSystem/da_mem.cpp -text
-src/moduls/daq/OperationSystem/da_mem.h -text
-src/moduls/daq/OperationSystem/da_netstat.cpp -text
-src/moduls/daq/OperationSystem/da_netstat.h -text
-src/moduls/daq/OperationSystem/da_sensors.cpp -text
-src/moduls/daq/OperationSystem/da_sensors.h -text
-src/moduls/daq/OperationSystem/da_smart.cpp -text
-src/moduls/daq/OperationSystem/da_smart.h -text
-src/moduls/daq/OperationSystem/da_uptime.cpp -text
-src/moduls/daq/OperationSystem/da_uptime.h -text
-src/moduls/daq/OperationSystem/doc/about_ru.pdf -text
-src/moduls/daq/OperationSystem/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/OperationSystem/os_contr.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/OperationSystem/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/OperationSystem/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/SNMP/Makefile.am -text
 src/moduls/daq/SNMP/Makefile.in -text
 src/moduls/daq/SNMP/po/ru.po -text
 src/moduls/daq/SNMP/po/uk.po -text
 src/moduls/daq/SNMP/snmp_client.cpp -text
 src/moduls/daq/SNMP/snmp_client.h -text
+src/moduls/daq/System/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/da.h -text
+src/moduls/daq/System/da_cpu.cpp -text
+src/moduls/daq/System/da_cpu.h -text
+src/moduls/daq/System/da_hddstat.cpp -text
+src/moduls/daq/System/da_hddstat.h -text
+src/moduls/daq/System/da_hddtemp.cpp -text
+src/moduls/daq/System/da_hddtemp.h -text
+src/moduls/daq/System/da_mem.cpp -text
+src/moduls/daq/System/da_mem.h -text
+src/moduls/daq/System/da_netstat.cpp -text
+src/moduls/daq/System/da_netstat.h -text
+src/moduls/daq/System/da_sensors.cpp -text
+src/moduls/daq/System/da_sensors.h -text
+src/moduls/daq/System/da_smart.cpp -text
+src/moduls/daq/System/da_smart.h -text
+src/moduls/daq/System/da_uptime.cpp -text
+src/moduls/daq/System/da_uptime.h -text
+src/moduls/daq/System/doc/about_ru.pdf -text
+src/moduls/daq/System/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/os_contr.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/Transporter/Makefile.am -text
 src/moduls/daq/Transporter/Makefile.in -text
 src/moduls/daq/Transporter/po/ru.po -text
@@ -375,6 +376,7 @@ src/moduls/ui/Vision/images/db_save.png -text
 src/moduls/ui/Vision/images/elfig_arc.png -text
 src/moduls/ui/Vision/images/elfig_besie.png -text
 src/moduls/ui/Vision/images/elfig_line.png -text
+src/moduls/ui/Vision/images/elfig_lock.png -text
 src/moduls/ui/Vision/images/exit.png -text
 src/moduls/ui/Vision/images/help.png -text
 src/moduls/ui/Vision/images/it_add.png -text
