@@ -111,17 +111,17 @@ src/autohd.h -text
 src/main.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/base.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/base.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/doc/about_ru.pdf -text
-src/moduls/arhiv/BaseArh/mess.cpp -text
-src/moduls/arhiv/BaseArh/mess.h -text
-src/moduls/arhiv/BaseArh/po/ru.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/BaseArh/val.cpp -text
-src/moduls/arhiv/BaseArh/val.h -text
+src/moduls/arhiv/FSArch/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/base.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/base.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/doc/about_ru.pdf -text
+src/moduls/arhiv/FSArch/mess.cpp -text
+src/moduls/arhiv/FSArch/mess.h -text
+src/moduls/arhiv/FSArch/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/val.cpp -text
+src/moduls/arhiv/FSArch/val.h -text
 src/moduls/arhiv/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/Makefile.am -text svn_keywords=Author+Date+Id+Revision
