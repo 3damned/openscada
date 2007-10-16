@@ -111,6 +111,16 @@ src/autohd.h -text
 src/main.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/DBArch/Makefile.am -text
+src/moduls/arhiv/DBArch/Makefile.in -text
+src/moduls/arhiv/DBArch/arch.cpp -text
+src/moduls/arhiv/DBArch/arch.h -text
+src/moduls/arhiv/DBArch/mess.cpp -text
+src/moduls/arhiv/DBArch/mess.h -text
+src/moduls/arhiv/DBArch/po/ru.po -text
+src/moduls/arhiv/DBArch/po/uk.po -text
+src/moduls/arhiv/DBArch/val.cpp -text
+src/moduls/arhiv/DBArch/val.h -text
 src/moduls/arhiv/FSArch/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/base.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -467,7 +477,6 @@ src/tsubsys.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tsubsys.h -text svn_keywords=Author+Date+Id+Revision
 src/tsys.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tsys.h -text svn_keywords=Author+Date+Id+Revision
-src/ttiparam.cpp -text svn_keywords=Author+Date+Id+Revision
 src/ttiparam.h -text svn_keywords=Author+Date+Id+Revision
 src/ttipdaq.cpp -text svn_keywords=Author+Date+Id+Revision
 src/ttipdaq.h -text svn_keywords=Author+Date+Id+Revision
