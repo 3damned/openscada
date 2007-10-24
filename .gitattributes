@@ -115,6 +115,7 @@ src/moduls/arhiv/DBArch/Makefile.am -text
 src/moduls/arhiv/DBArch/Makefile.in -text
 src/moduls/arhiv/DBArch/arch.cpp -text
 src/moduls/arhiv/DBArch/arch.h -text
+src/moduls/arhiv/DBArch/doc/about_ru.pdf -text
 src/moduls/arhiv/DBArch/mess.cpp -text
 src/moduls/arhiv/DBArch/mess.h -text
 src/moduls/arhiv/DBArch/po/ru.po -text
@@ -145,6 +146,7 @@ src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/FireBird/Makefile.am -text
 src/moduls/bd/FireBird/Makefile.in -text
+src/moduls/bd/FireBird/doc/about_ru.pdf -text
 src/moduls/bd/FireBird/firebird.cpp -text
 src/moduls/bd/FireBird/firebird.h -text
 src/moduls/bd/FireBird/po/ru.po -text
@@ -269,6 +271,7 @@ src/moduls/protocol/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/SelfSystem/doc/about_ru.pdf -text
 src/moduls/protocol/SelfSystem/po/ru.po -text
 src/moduls/protocol/SelfSystem/po/uk.po -text
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -291,6 +294,7 @@ src/moduls/special/FLibMath/statfunc.h -text
 src/moduls/special/FLibMath/stdmath.h -text
 src/moduls/special/FLibSYS/Makefile.am -text
 src/moduls/special/FLibSYS/Makefile.in -text
+src/moduls/special/FLibSYS/doc/about_ru.pdf -text
 src/moduls/special/FLibSYS/po/ru.po -text
 src/moduls/special/FLibSYS/po/uk.po -text
 src/moduls/special/FLibSYS/statfunc.cpp -text
