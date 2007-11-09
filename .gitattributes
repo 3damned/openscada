@@ -99,7 +99,7 @@ doc/APIOpenSCADA_ru.pdf -text
 doc/AboutOpenSCADA_ru.pdf -text
 doc/FAQ_ru.pdf -text
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
-doc/release_0.5.0_ru.pdf -text
+doc/release_0.6.0_ru.pdf -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
@@ -212,6 +212,7 @@ src/moduls/daq/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/daq/JavaLikeCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/LogicLev/Makefile.am -text
 src/moduls/daq/LogicLev/Makefile.in -text
+src/moduls/daq/LogicLev/doc/about_ru.pdf -text
 src/moduls/daq/LogicLev/logiclev.cpp -text
 src/moduls/daq/LogicLev/logiclev.h -text
 src/moduls/daq/LogicLev/po/ru.po -text
