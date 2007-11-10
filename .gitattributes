@@ -16,13 +16,14 @@
 /config.sub -text svn_keywords=Author+Date+Id+Revision
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
-data/icons/Archive.BaseArh.png -text
+data/icons/Archive.FSArch.png -text
 data/icons/Archive.png -text
 data/icons/BD.DBF.png -text
+data/icons/BD.FireBird.png -text
 data/icons/BD.MySQL.png -text
 data/icons/BD.SQLite.png -text
 data/icons/BD.png -text
-data/icons/DAQ.OperationSystem.png -text
+data/icons/DAQ.System.png -text
 data/icons/DAQ.png -text
 data/icons/DemoStation.png -text
 data/icons/ModSched.png -text
@@ -183,6 +184,7 @@ src/moduls/daq/CIF/cif_dev_i.h -text
 src/moduls/daq/CIF/cif_dpm.h -text
 src/moduls/daq/CIF/cif_types.h -text
 src/moduls/daq/CIF/cif_user.h -text
+src/moduls/daq/CIF/doc/about_ru.pdf -text
 src/moduls/daq/CIF/mod_cif.cpp -text
 src/moduls/daq/CIF/mod_cif.h -text
 src/moduls/daq/CIF/po/ru.po -text
@@ -221,12 +223,14 @@ src/moduls/daq/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/ModBus/Makefile.am -text
 src/moduls/daq/ModBus/Makefile.in -text
+src/moduls/daq/ModBus/doc/about_ru.pdf -text
 src/moduls/daq/ModBus/modbus_client.cpp -text
 src/moduls/daq/ModBus/modbus_client.h -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/SNMP/Makefile.am -text
 src/moduls/daq/SNMP/Makefile.in -text
+src/moduls/daq/SNMP/doc/about_ru.pdf -text
 src/moduls/daq/SNMP/po/ru.po -text
 src/moduls/daq/SNMP/po/uk.po -text
 src/moduls/daq/SNMP/snmp_client.cpp -text
@@ -257,6 +261,7 @@ src/moduls/daq/System/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/Transporter/Makefile.am -text
 src/moduls/daq/Transporter/Makefile.in -text
+src/moduls/daq/Transporter/doc/about_ru.pdf -text
 src/moduls/daq/Transporter/po/ru.po -text
 src/moduls/daq/Transporter/po/uk.po -text
 src/moduls/daq/Transporter/transporter.cpp -text
@@ -442,6 +447,10 @@ src/moduls/ui/WebDbg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebDbg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebDbg/web_dbg.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebDbg/web_dbg.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/WebVision/Makefile.am -text
+src/moduls/ui/WebVision/Makefile.in -text
+src/moduls/ui/WebVision/web_vision.cpp -text
+src/moduls/ui/WebVision/web_vision.h -text
 src/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/resalloc.cpp -text
