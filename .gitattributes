@@ -16,6 +16,7 @@
 /config.sub -text svn_keywords=Author+Date+Id+Revision
 /configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
+data/icons/Archive.DBArch.png -text
 data/icons/Archive.FSArch.png -text
 data/icons/Archive.png -text
 data/icons/BD.DBF.png -text
@@ -450,6 +451,8 @@ src/moduls/ui/WebDbg/web_dbg.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebDbg/web_dbg.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebVision/Makefile.am -text
 src/moduls/ui/WebVision/Makefile.in -text
+src/moduls/ui/WebVision/po/ru.po -text
+src/moduls/ui/WebVision/po/uk.po -text
 src/moduls/ui/WebVision/web_vision.cpp -text
 src/moduls/ui/WebVision/web_vision.h -text
 src/po/ru.po -text svn_keywords=Author+Date+Id+Revision
