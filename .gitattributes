@@ -368,6 +368,7 @@ src/moduls/ui/QTStarter/tuimod.cpp -text
 src/moduls/ui/QTStarter/tuimod.h -text
 src/moduls/ui/VCAEngine/Makefile.am -text
 src/moduls/ui/VCAEngine/Makefile.in -text
+src/moduls/ui/VCAEngine/doc/about_ru.pdf -text
 src/moduls/ui/VCAEngine/libwidg.cpp -text
 src/moduls/ui/VCAEngine/libwidg.h -text
 src/moduls/ui/VCAEngine/origwidg.cpp -text
@@ -451,6 +452,7 @@ src/moduls/ui/WebDbg/web_dbg.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebDbg/web_dbg.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebVision/Makefile.am -text
 src/moduls/ui/WebVision/Makefile.in -text
+src/moduls/ui/WebVision/doc/about_ru.pdf -text
 src/moduls/ui/WebVision/po/ru.po -text
 src/moduls/ui/WebVision/po/uk.po -text
 src/moduls/ui/WebVision/web_vision.cpp -text
