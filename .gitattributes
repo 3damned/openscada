@@ -385,6 +385,7 @@ src/moduls/ui/VCAEngine/widget.cpp -text
 src/moduls/ui/VCAEngine/widget.h -text
 src/moduls/ui/Vision/Makefile.am -text
 src/moduls/ui/Vision/Makefile.in -text
+src/moduls/ui/Vision/doc/about_ru.pdf -text
 src/moduls/ui/Vision/images/align_bottom.png -text
 src/moduls/ui/Vision/images/align_hcenter.png -text
 src/moduls/ui/Vision/images/align_left.png -text
