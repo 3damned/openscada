@@ -458,6 +458,8 @@ src/moduls/ui/WebVision/Makefile.in -text
 src/moduls/ui/WebVision/doc/about_ru.pdf -text
 src/moduls/ui/WebVision/po/ru.po -text
 src/moduls/ui/WebVision/po/uk.po -text
+src/moduls/ui/WebVision/vca_sess.cpp -text
+src/moduls/ui/WebVision/vca_sess.h -text
 src/moduls/ui/WebVision/web_vision.cpp -text
 src/moduls/ui/WebVision/web_vision.h -text
 src/po/ru.po -text svn_keywords=Author+Date+Id+Revision
