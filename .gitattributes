@@ -72,6 +72,8 @@ data/icons/vision_align_left.png -text
 data/icons/vision_align_right.png -text
 data/icons/vision_align_top.png -text
 data/icons/vision_align_vcenter.png -text
+data/icons/vision_editcopy.png -text
+data/icons/vision_editpaste.png -text
 data/icons/vision_elfig_arc.png -text
 data/icons/vision_elfig_besie.png -text
 data/icons/vision_elfig_cursor.png -text
@@ -400,6 +402,8 @@ src/moduls/ui/Vision/images/close.png -text
 src/moduls/ui/Vision/images/contexthelp.png -text
 src/moduls/ui/Vision/images/db_load.png -text
 src/moduls/ui/Vision/images/db_save.png -text
+src/moduls/ui/Vision/images/editcopy.png -text
+src/moduls/ui/Vision/images/editpaste.png -text
 src/moduls/ui/Vision/images/elfig_arc.png -text
 src/moduls/ui/Vision/images/elfig_besie.png -text
 src/moduls/ui/Vision/images/elfig_cursor.png -text
