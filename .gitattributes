@@ -103,10 +103,15 @@ demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
 demo/oscada_demo.xml -text svn_keywords=Author+Date+Id+Revision
 /depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/APIOpenSCADA_ru.pdf -text
+doc/AboutOpenSCADA.pdf -text
 doc/AboutOpenSCADA_ru.pdf -text
+doc/FAQ.pdf -text
 doc/FAQ_ru.pdf -text
+doc/FAQ_uk.pdf -text
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
+doc/release_0.6.0.pdf -text
 doc/release_0.6.0_ru.pdf -text
+doc/release_0.6.0_uk.pdf -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
