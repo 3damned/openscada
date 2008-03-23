@@ -10,6 +10,8 @@
 /README -text svn_keywords=Author+Date+Id+Revision
 /README_ru -text
 /TODO -text svn_keywords=Author+Date+Id+Revision
+/TODO_ru -text
+/TODO_uk -text
 /aclocal.m4 -text svn_keywords=Author+Date+Id+Revision
 /config.guess -text svn_keywords=Author+Date+Id+Revision
 /config.h.in -text svn_keywords=Author+Date+Id+Revision
@@ -63,6 +65,7 @@ data/icons/identity.png -text
 data/icons/next.png -text
 data/icons/previous.png -text
 data/icons/reload.png -text
+data/icons/splash.png -text
 data/icons/start.png -text
 data/icons/stop.png -text
 data/icons/up.png -text
@@ -93,6 +96,7 @@ data/icons/vision_prj_new.png -text
 data/icons/vision_prj_run.png -text
 data/icons_src/misc.xcf -text
 data/icons_src/oscada.xcf -text
+data/icons_src/splash.xcf -text
 data/icons_src/vision_lwdg.xcf -text
 data/openscada.desktop -text
 data/openscada.png -text
@@ -377,6 +381,7 @@ src/moduls/ui/QTStarter/Makefile.in -text
 src/moduls/ui/QTStarter/doc/about_ru.pdf -text
 src/moduls/ui/QTStarter/images/exit.png -text
 src/moduls/ui/QTStarter/images/oscada_qt.png -text
+src/moduls/ui/QTStarter/images/splash.png -text
 src/moduls/ui/QTStarter/po/ru.po -text
 src/moduls/ui/QTStarter/po/uk.po -text
 src/moduls/ui/QTStarter/qtstarter.qrc -text
