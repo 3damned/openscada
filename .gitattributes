@@ -257,6 +257,12 @@ src/moduls/daq/SNMP/po/ru.po -text
 src/moduls/daq/SNMP/po/uk.po -text
 src/moduls/daq/SNMP/snmp_client.cpp -text
 src/moduls/daq/SNMP/snmp_client.h -text
+src/moduls/daq/SoundCard/Makefile.am -text
+src/moduls/daq/SoundCard/Makefile.in -text
+src/moduls/daq/SoundCard/po/ru.po -text
+src/moduls/daq/SoundCard/po/uk.po -text
+src/moduls/daq/SoundCard/sound.cpp -text
+src/moduls/daq/SoundCard/sound.h -text
 src/moduls/daq/System/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/da.h -text
