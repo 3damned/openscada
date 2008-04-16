@@ -201,27 +201,6 @@ src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/CIF/Makefile.am -text
-src/moduls/daq/CIF/Makefile.in -text
-src/moduls/daq/CIF/cif_api.c -text
-src/moduls/daq/CIF/cif_dev_i.h -text
-src/moduls/daq/CIF/cif_dpm.h -text
-src/moduls/daq/CIF/cif_types.h -text
-src/moduls/daq/CIF/cif_user.h -text
-src/moduls/daq/CIF/doc/about_ru.pdf -text
-src/moduls/daq/CIF/log2.h -text
-src/moduls/daq/CIF/mod_cif.cpp -text
-src/moduls/daq/CIF/mod_cif.h -text
-src/moduls/daq/CIF/nodave.c -text
-src/moduls/daq/CIF/nodave.h -text
-src/moduls/daq/CIF/openSocket.c -text
-src/moduls/daq/CIF/openSocket.h -text
-src/moduls/daq/CIF/po/ru.po -text
-src/moduls/daq/CIF/po/uk.po -text
-src/moduls/daq/CIF/rcs_user.h -text
-src/moduls/daq/CIF/rcsdef.h -text
-src/moduls/daq/CIF/setport.c -text
-src/moduls/daq/CIF/setport.h -text
 src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -266,6 +245,27 @@ src/moduls/daq/SNMP/po/ru.po -text
 src/moduls/daq/SNMP/po/uk.po -text
 src/moduls/daq/SNMP/snmp_client.cpp -text
 src/moduls/daq/SNMP/snmp_client.h -text
+src/moduls/daq/Siemens/Makefile.am -text
+src/moduls/daq/Siemens/Makefile.in -text
+src/moduls/daq/Siemens/cif_api.c -text
+src/moduls/daq/Siemens/cif_dev_i.h -text
+src/moduls/daq/Siemens/cif_dpm.h -text
+src/moduls/daq/Siemens/cif_types.h -text
+src/moduls/daq/Siemens/cif_user.h -text
+src/moduls/daq/Siemens/doc/about_ru.pdf -text
+src/moduls/daq/Siemens/log2.h -text
+src/moduls/daq/Siemens/mod_cif.cpp -text
+src/moduls/daq/Siemens/mod_cif.h -text
+src/moduls/daq/Siemens/nodave.c -text
+src/moduls/daq/Siemens/nodave.h -text
+src/moduls/daq/Siemens/openSocket.c -text
+src/moduls/daq/Siemens/openSocket.h -text
+src/moduls/daq/Siemens/po/ru.po -text
+src/moduls/daq/Siemens/po/uk.po -text
+src/moduls/daq/Siemens/rcs_user.h -text
+src/moduls/daq/Siemens/rcsdef.h -text
+src/moduls/daq/Siemens/setport.c -text
+src/moduls/daq/Siemens/setport.h -text
 src/moduls/daq/SoundCard/Makefile.am -text
 src/moduls/daq/SoundCard/Makefile.in -text
 src/moduls/daq/SoundCard/po/ru.po -text
