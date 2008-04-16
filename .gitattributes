@@ -62,6 +62,8 @@ data/icons/exit.png -text
 data/icons/gohome.png -text
 data/icons/help.png -text
 data/icons/identity.png -text
+data/icons/it_add.png -text
+data/icons/it_del.png -text
 data/icons/next.png -text
 data/icons/previous.png -text
 data/icons/reload.png -text
@@ -207,12 +209,19 @@ src/moduls/daq/CIF/cif_dpm.h -text
 src/moduls/daq/CIF/cif_types.h -text
 src/moduls/daq/CIF/cif_user.h -text
 src/moduls/daq/CIF/doc/about_ru.pdf -text
+src/moduls/daq/CIF/log2.h -text
 src/moduls/daq/CIF/mod_cif.cpp -text
 src/moduls/daq/CIF/mod_cif.h -text
+src/moduls/daq/CIF/nodave.c -text
+src/moduls/daq/CIF/nodave.h -text
+src/moduls/daq/CIF/openSocket.c -text
+src/moduls/daq/CIF/openSocket.h -text
 src/moduls/daq/CIF/po/ru.po -text
 src/moduls/daq/CIF/po/uk.po -text
 src/moduls/daq/CIF/rcs_user.h -text
 src/moduls/daq/CIF/rcsdef.h -text
+src/moduls/daq/CIF/setport.c -text
+src/moduls/daq/CIF/setport.h -text
 src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -365,6 +374,8 @@ src/moduls/ui/QTCfg/images/contexthelp.png -text
 src/moduls/ui/QTCfg/images/exit.png -text
 src/moduls/ui/QTCfg/images/help.png -text
 src/moduls/ui/QTCfg/images/identity.png -text
+src/moduls/ui/QTCfg/images/it_add.png -text
+src/moduls/ui/QTCfg/images/it_del.png -text
 src/moduls/ui/QTCfg/images/next.png -text
 src/moduls/ui/QTCfg/images/ok.png -text
 src/moduls/ui/QTCfg/images/oscada_cfg.png -text
@@ -426,6 +437,7 @@ src/moduls/ui/Vision/images/close.png -text
 src/moduls/ui/Vision/images/contexthelp.png -text
 src/moduls/ui/Vision/images/db_load.png -text
 src/moduls/ui/Vision/images/db_save.png -text
+src/moduls/ui/Vision/images/edit.png -text
 src/moduls/ui/Vision/images/editcopy.png -text
 src/moduls/ui/Vision/images/editcut.png -text
 src/moduls/ui/Vision/images/editpaste.png -text
