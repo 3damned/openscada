@@ -254,8 +254,6 @@ src/moduls/daq/Siemens/cif_types.h -text
 src/moduls/daq/Siemens/cif_user.h -text
 src/moduls/daq/Siemens/doc/about_ru.pdf -text
 src/moduls/daq/Siemens/log2.h -text
-src/moduls/daq/Siemens/mod_cif.cpp -text
-src/moduls/daq/Siemens/mod_cif.h -text
 src/moduls/daq/Siemens/nodave.c -text
 src/moduls/daq/Siemens/nodave.h -text
 src/moduls/daq/Siemens/openSocket.c -text
@@ -266,6 +264,8 @@ src/moduls/daq/Siemens/rcs_user.h -text
 src/moduls/daq/Siemens/rcsdef.h -text
 src/moduls/daq/Siemens/setport.c -text
 src/moduls/daq/Siemens/setport.h -text
+src/moduls/daq/Siemens/siemens.cpp -text
+src/moduls/daq/Siemens/siemens.h -text
 src/moduls/daq/SoundCard/Makefile.am -text
 src/moduls/daq/SoundCard/Makefile.in -text
 src/moduls/daq/SoundCard/po/ru.po -text
