@@ -58,6 +58,9 @@ data/icons/button_cancel.png -text
 data/icons/button_ok.png -text
 data/icons/close.png -text
 data/icons/contexthelp.png -text
+data/icons/editcopy.png -text
+data/icons/editcut.png -text
+data/icons/editpaste.png -text
 data/icons/exit.png -text
 data/icons/gohome.png -text
 data/icons/help.png -text
@@ -77,9 +80,6 @@ data/icons/vision_align_left.png -text
 data/icons/vision_align_right.png -text
 data/icons/vision_align_top.png -text
 data/icons/vision_align_vcenter.png -text
-data/icons/vision_editcopy.png -text
-data/icons/vision_editcut.png -text
-data/icons/vision_editpaste.png -text
 data/icons/vision_elfig_arc.png -text
 data/icons/vision_elfig_besie.png -text
 data/icons/vision_elfig_cursor.png -text
@@ -371,6 +371,9 @@ src/moduls/ui/QTCfg/images/button_cancel.png -text
 src/moduls/ui/QTCfg/images/button_ok.png -text
 src/moduls/ui/QTCfg/images/close.png -text
 src/moduls/ui/QTCfg/images/contexthelp.png -text
+src/moduls/ui/QTCfg/images/editcopy.png -text
+src/moduls/ui/QTCfg/images/editcut.png -text
+src/moduls/ui/QTCfg/images/editpaste.png -text
 src/moduls/ui/QTCfg/images/exit.png -text
 src/moduls/ui/QTCfg/images/help.png -text
 src/moduls/ui/QTCfg/images/identity.png -text
