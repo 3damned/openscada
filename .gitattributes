@@ -67,9 +67,11 @@ data/icons/help.png -text
 data/icons/identity.png -text
 data/icons/it_add.png -text
 data/icons/it_del.png -text
+data/icons/load.png -text
 data/icons/next.png -text
 data/icons/previous.png -text
 data/icons/reload.png -text
+data/icons/save.png -text
 data/icons/splash.png -text
 data/icons/start.png -text
 data/icons/stop.png -text
@@ -379,11 +381,13 @@ src/moduls/ui/QTCfg/images/help.png -text
 src/moduls/ui/QTCfg/images/identity.png -text
 src/moduls/ui/QTCfg/images/it_add.png -text
 src/moduls/ui/QTCfg/images/it_del.png -text
+src/moduls/ui/QTCfg/images/load.png -text
 src/moduls/ui/QTCfg/images/next.png -text
 src/moduls/ui/QTCfg/images/ok.png -text
 src/moduls/ui/QTCfg/images/oscada_cfg.png -text
 src/moduls/ui/QTCfg/images/previous.png -text
 src/moduls/ui/QTCfg/images/reload.png -text
+src/moduls/ui/QTCfg/images/save.png -text
 src/moduls/ui/QTCfg/images/start.png -text
 src/moduls/ui/QTCfg/images/stop.png -text
 src/moduls/ui/QTCfg/images/up.png -text
@@ -438,8 +442,6 @@ src/moduls/ui/Vision/images/button_cancel.png -text
 src/moduls/ui/Vision/images/button_ok.png -text
 src/moduls/ui/Vision/images/close.png -text
 src/moduls/ui/Vision/images/contexthelp.png -text
-src/moduls/ui/Vision/images/db_load.png -text
-src/moduls/ui/Vision/images/db_save.png -text
 src/moduls/ui/Vision/images/edit.png -text
 src/moduls/ui/Vision/images/editcopy.png -text
 src/moduls/ui/Vision/images/editcut.png -text
@@ -460,10 +462,12 @@ src/moduls/ui/Vision/images/level_lower.png -text
 src/moduls/ui/Vision/images/level_rise.png -text
 src/moduls/ui/Vision/images/level_up.png -text
 src/moduls/ui/Vision/images/lib_new.png -text
+src/moduls/ui/Vision/images/load.png -text
 src/moduls/ui/Vision/images/ok.png -text
 src/moduls/ui/Vision/images/prj_new.png -text
 src/moduls/ui/Vision/images/prj_run.png -text
 src/moduls/ui/Vision/images/reload.png -text
+src/moduls/ui/Vision/images/save.png -text
 src/moduls/ui/Vision/images/vision.png -text
 src/moduls/ui/Vision/po/ru.po -text
 src/moduls/ui/Vision/po/uk.po -text
