@@ -109,6 +109,7 @@ data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
 demo/AGLKSModel.db -text
 demo/DemoSt.db -text
 demo/OscadaLibs.db -text
+demo/VCA.db -text
 demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
 demo/openscada_demo.desktop -text
 demo/openscada_demo.png -text
