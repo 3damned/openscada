@@ -54,6 +54,10 @@ data/icons/VCA.wdg_Link.png -text
 data/icons/VCA.wdg_Media.png -text
 data/icons/VCA.wdg_Protocol.png -text
 data/icons/VCA.wdg_Text.png -text
+data/icons/alarmAlarm.png -text
+data/icons/alarmLev.png -text
+data/icons/alarmLight.png -text
+data/icons/alarmSound.png -text
 data/icons/button_cancel.png -text
 data/icons/button_ok.png -text
 data/icons/close.png -text
@@ -432,6 +436,10 @@ src/moduls/ui/VCAEngine/widget.h -text
 src/moduls/ui/Vision/Makefile.am -text
 src/moduls/ui/Vision/Makefile.in -text
 src/moduls/ui/Vision/doc/about_ru.pdf -text
+src/moduls/ui/Vision/images/alarmAlarm.png -text
+src/moduls/ui/Vision/images/alarmLev.png -text
+src/moduls/ui/Vision/images/alarmLight.png -text
+src/moduls/ui/Vision/images/alarmSound.png -text
 src/moduls/ui/Vision/images/align_bottom.png -text
 src/moduls/ui/Vision/images/align_hcenter.png -text
 src/moduls/ui/Vision/images/align_left.png -text
