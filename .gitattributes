@@ -61,6 +61,7 @@ data/icons/alarmSound.png -text
 data/icons/button_cancel.png -text
 data/icons/button_ok.png -text
 data/icons/close.png -text
+data/icons/combar.png -text
 data/icons/contexthelp.png -text
 data/icons/editcopy.png -text
 data/icons/editcut.png -text
@@ -76,6 +77,7 @@ data/icons/next.png -text
 data/icons/previous.png -text
 data/icons/reload.png -text
 data/icons/save.png -text
+data/icons/spinar.png -text
 data/icons/splash.png -text
 data/icons/start.png -text
 data/icons/stop.png -text
