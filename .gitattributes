@@ -134,6 +134,9 @@ doc/release_0.6.0_uk.pdf -text
 doc/release_0.6.1.pdf -text
 doc/release_0.6.1_ru.pdf -text
 doc/release_0.6.1_uk.pdf -text
+doc/release_0.6.2.pdf -text
+doc/release_0.6.2_ru.pdf -text
+doc/release_0.6.2_uk.pdf -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
@@ -576,3 +579,4 @@ src/tvalue.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tvalue.h -text svn_keywords=Author+Date+Id+Revision
 src/xml.cpp -text svn_keywords=Author+Date+Id+Revision
 src/xml.h -text svn_keywords=Author+Date+Id+Revision
+/ylwrap -text
