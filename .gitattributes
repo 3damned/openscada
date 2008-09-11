@@ -579,4 +579,3 @@ src/tvalue.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tvalue.h -text svn_keywords=Author+Date+Id+Revision
 src/xml.cpp -text svn_keywords=Author+Date+Id+Revision
 src/xml.h -text svn_keywords=Author+Date+Id+Revision
-/ylwrap -text
