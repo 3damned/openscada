@@ -140,6 +140,7 @@ doc/release_0.6.2_uk.pdf -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
+/mkdist -text
 /mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
