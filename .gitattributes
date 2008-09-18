@@ -110,6 +110,7 @@ data/icons_src/splash.xcf -text
 data/icons_src/vision_lwdg.xcf -text
 data/openscada.desktop -text
 data/openscada.png -text
+data/openscada_start -text
 data/oscada.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
 demo/AGLKSModel.db -text
