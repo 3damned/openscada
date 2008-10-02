@@ -113,6 +113,7 @@ data/openscada.png -text
 data/openscada_start -text
 data/oscada.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
+data/oscada_start.xml -text
 demo/AGLKSModel.db -text
 demo/DemoSt.db -text
 demo/OscadaLibs.db -text
