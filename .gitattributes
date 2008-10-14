@@ -370,6 +370,12 @@ src/moduls/special/SystemTests/test_kernel.cpp -text svn_keywords=Author+Date+Id
 src/moduls/special/SystemTests/test_kernel.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/SSL/Makefile.am -text
+src/moduls/transport/SSL/Makefile.in -text
+src/moduls/transport/SSL/modssl.cpp -text
+src/moduls/transport/SSL/modssl.h -text
+src/moduls/transport/SSL/po/ru.po -text
+src/moduls/transport/SSL/po/uk.po -text
 src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/doc/about_ru.pdf -text svneol=unset#unset
