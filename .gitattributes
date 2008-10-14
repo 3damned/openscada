@@ -372,6 +372,7 @@ src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/SSL/Makefile.am -text
 src/moduls/transport/SSL/Makefile.in -text
+src/moduls/transport/SSL/doc/about_ru.pdf -text
 src/moduls/transport/SSL/modssl.cpp -text
 src/moduls/transport/SSL/modssl.h -text
 src/moduls/transport/SSL/po/ru.po -text
