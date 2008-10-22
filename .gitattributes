@@ -33,6 +33,7 @@ data/icons/ModSched.png -text
 data/icons/Protocol.png -text
 data/icons/Security.png -text
 data/icons/Special.png -text
+data/icons/Transport.SSL.png -text
 data/icons/Transport.Sockets.png -text
 data/icons/Transport.png -text
 data/icons/UI.QTCfg.png -text
@@ -216,6 +217,12 @@ src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DCON/DCON_client.cpp -text
+src/moduls/daq/DCON/DCON_client.h -text
+src/moduls/daq/DCON/Makefile.am -text
+src/moduls/daq/DCON/Makefile.in -text
+src/moduls/daq/DCON/po/ru.po -text
+src/moduls/daq/DCON/po/uk.po -text
 src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -436,6 +443,8 @@ src/moduls/ui/VCAEngine/Makefile.in -text
 src/moduls/ui/VCAEngine/doc/about_ru.pdf -text
 src/moduls/ui/VCAEngine/libwidg.cpp -text
 src/moduls/ui/VCAEngine/libwidg.h -text
+src/moduls/ui/VCAEngine/orig_doc.cpp -text
+src/moduls/ui/VCAEngine/orig_doc.h -text
 src/moduls/ui/VCAEngine/origwidg.cpp -text
 src/moduls/ui/VCAEngine/origwidg.h -text
 src/moduls/ui/VCAEngine/po/ru.po -text
