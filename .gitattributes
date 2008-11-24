@@ -120,11 +120,13 @@ data/oscada_start.xml -text
 demo/AGLKSModel.db -text
 demo/DemoSt.db -text
 demo/OscadaLibs.db -text
-demo/VCA.db -text
 demo/openscada_demo -text svn_keywords=Author+Date+Id+Revision
 demo/openscada_demo.desktop -text
 demo/openscada_demo.png -text
 demo/oscada_demo.xml -text svn_keywords=Author+Date+Id+Revision
+demo/vcaAGLKS.db -text
+demo/vcaBase.db -text
+demo/vcaTest.db -text
 /depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/APIOpenSCADA_ru.pdf -text
 doc/AboutOpenSCADA.pdf -text
