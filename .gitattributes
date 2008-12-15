@@ -41,6 +41,7 @@ data/icons/UI.QTStarter.png -text
 data/icons/UI.VCAEngine.png -text
 data/icons/UI.Vision.png -text
 data/icons/UI.WebCfg.png -text
+data/icons/UI.WebCfgD.png -text
 data/icons/UI.WebVision.png -text
 data/icons/UI.png -text
 data/icons/VCA.lwdg_root.png -text
@@ -64,6 +65,7 @@ data/icons/button_ok.png -text
 data/icons/close.png -text
 data/icons/combar.png -text
 data/icons/contexthelp.png -text
+data/icons/disconnect.png -text
 data/icons/editcopy.png -text
 data/icons/editcut.png -text
 data/icons/editpaste.png -text
@@ -74,6 +76,7 @@ data/icons/help.png -text
 data/icons/identity.png -text
 data/icons/it_add.png -text
 data/icons/it_del.png -text
+data/icons/line.png -text
 data/icons/load.png -text
 data/icons/next.png -text
 data/icons/previous.png -text
@@ -84,6 +87,18 @@ data/icons/spinar.png -text
 data/icons/splash.png -text
 data/icons/start.png -text
 data/icons/stop.png -text
+data/icons/treeDown.gif -text
+data/icons/treeLine.gif -text
+data/icons/treeMinus.gif -text
+data/icons/treeMinusDown.gif -text
+data/icons/treeMinusUp.gif -text
+data/icons/treeMinusUpDown.gif -text
+data/icons/treePlus.gif -text
+data/icons/treePlusDown.gif -text
+data/icons/treePlusUp.gif -text
+data/icons/treePlusUpDown.gif -text
+data/icons/treeUp.gif -text
+data/icons/treeUpDown.gif -text
 data/icons/up.png -text
 data/icons/vision_align_bottom.png -text
 data/icons/vision_align_hcenter.png -text
@@ -163,6 +178,7 @@ src/moduls/arhiv/DBArch/arch.h -text
 src/moduls/arhiv/DBArch/doc/about_ru.pdf -text
 src/moduls/arhiv/DBArch/mess.cpp -text
 src/moduls/arhiv/DBArch/mess.h -text
+src/moduls/arhiv/DBArch/po/de.po -text
 src/moduls/arhiv/DBArch/po/ru.po -text
 src/moduls/arhiv/DBArch/po/uk.po -text
 src/moduls/arhiv/DBArch/val.cpp -text
@@ -174,6 +190,7 @@ src/moduls/arhiv/FSArch/base.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/doc/about_ru.pdf -text
 src/moduls/arhiv/FSArch/mess.cpp -text
 src/moduls/arhiv/FSArch/mess.h -text
+src/moduls/arhiv/FSArch/po/de.po -text
 src/moduls/arhiv/FSArch/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/val.cpp -text
@@ -395,6 +412,9 @@ src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/socket.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/socket.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/=Tmpl=/Makefile.am -text
+src/moduls/ui/=Tmpl=/mod_tmpl.cpp -text
+src/moduls/ui/=Tmpl=/mod_tmpl.h -text
 src/moduls/ui/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -534,12 +554,16 @@ src/moduls/ui/WebCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/web_cfg.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/web_cfg.h -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/WebDbg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/WebDbg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/WebDbg/web_dbg.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/WebDbg/web_dbg.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/WebCfgD/Makefile.am -text
+src/moduls/ui/WebCfgD/Makefile.in -text
+src/moduls/ui/WebCfgD/WebCfgDVCA.js -text
+src/moduls/ui/WebCfgD/po/ru.po -text
+src/moduls/ui/WebCfgD/po/uk.po -text
+src/moduls/ui/WebCfgD/web_cfg.cpp -text
+src/moduls/ui/WebCfgD/web_cfg.h -text
 src/moduls/ui/WebVision/Makefile.am -text
 src/moduls/ui/WebVision/Makefile.in -text
+src/moduls/ui/WebVision/WebVisionVCA.js -text
 src/moduls/ui/WebVision/doc/about_ru.pdf -text
 src/moduls/ui/WebVision/po/ru.po -text
 src/moduls/ui/WebVision/po/uk.po -text
