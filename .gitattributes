@@ -561,7 +561,9 @@ src/moduls/ui/WebCfg/web_cfg.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/web_cfg.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfgD/Makefile.am -text
 src/moduls/ui/WebCfgD/Makefile.in -text
+src/moduls/ui/WebCfgD/WebCfgDVCA.html -text
 src/moduls/ui/WebCfgD/WebCfgDVCA.js -text
+src/moduls/ui/WebCfgD/doc/about_ru.pdf -text
 src/moduls/ui/WebCfgD/po/ru.po -text
 src/moduls/ui/WebCfgD/po/uk.po -text
 src/moduls/ui/WebCfgD/web_cfg.cpp -text
