@@ -204,6 +204,7 @@ src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/doc/about_ru.pdf -text
+src/moduls/bd/DBF/po/de.po -text
 src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/FireBird/Makefile.am -text
@@ -211,6 +212,7 @@ src/moduls/bd/FireBird/Makefile.in -text
 src/moduls/bd/FireBird/doc/about_ru.pdf -text
 src/moduls/bd/FireBird/firebird.cpp -text
 src/moduls/bd/FireBird/firebird.h -text
+src/moduls/bd/FireBird/po/de.po -text
 src/moduls/bd/FireBird/po/ru.po -text
 src/moduls/bd/FireBird/po/uk.po -text
 src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -220,6 +222,7 @@ src/moduls/bd/MySQL/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/doc/about_ru.pdf -text
 src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/po/de.po -text
 src/moduls/bd/MySQL/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -227,6 +230,7 @@ src/moduls/bd/SQLite/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/doc/about_ru.pdf -text
+src/moduls/bd/SQLite/po/de.po -text
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -234,6 +238,7 @@ src/moduls/daq/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/doc/about_ru.pdf -text
+src/moduls/daq/BlockCalc/po/de.po -text
 src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
