@@ -247,6 +247,7 @@ src/moduls/daq/DCON/DCON_client.cpp -text
 src/moduls/daq/DCON/DCON_client.h -text
 src/moduls/daq/DCON/Makefile.am -text
 src/moduls/daq/DCON/Makefile.in -text
+src/moduls/daq/DCON/doc/about_ru.pdf -text
 src/moduls/daq/DCON/po/ru.po -text
 src/moduls/daq/DCON/po/uk.po -text
 src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
