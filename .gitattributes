@@ -187,6 +187,7 @@ src/moduls/arhiv/DBArch/Makefile.am -text
 src/moduls/arhiv/DBArch/Makefile.in -text
 src/moduls/arhiv/DBArch/arch.cpp -text
 src/moduls/arhiv/DBArch/arch.h -text
+src/moduls/arhiv/DBArch/doc/about.pdf -text
 src/moduls/arhiv/DBArch/doc/about_ru.pdf -text
 src/moduls/arhiv/DBArch/mess.cpp -text
 src/moduls/arhiv/DBArch/mess.h -text
@@ -199,6 +200,7 @@ src/moduls/arhiv/FSArch/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/base.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/base.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/doc/about.pdf -text
 src/moduls/arhiv/FSArch/doc/about_ru.pdf -text
 src/moduls/arhiv/FSArch/mess.cpp -text
 src/moduls/arhiv/FSArch/mess.h -text
@@ -215,12 +217,14 @@ src/moduls/bd/DBF/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/doc/about.pdf -text
 src/moduls/bd/DBF/doc/about_ru.pdf -text
 src/moduls/bd/DBF/po/de.po -text
 src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/FireBird/Makefile.am -text
 src/moduls/bd/FireBird/Makefile.in -text
+src/moduls/bd/FireBird/doc/about.pdf -text
 src/moduls/bd/FireBird/doc/about_ru.pdf -text
 src/moduls/bd/FireBird/firebird.cpp -text
 src/moduls/bd/FireBird/firebird.h -text
@@ -231,6 +235,7 @@ src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/doc/about.pdf -text
 src/moduls/bd/MySQL/doc/about_ru.pdf -text
 src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
@@ -241,6 +246,7 @@ src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/doc/about.pdf -text
 src/moduls/bd/SQLite/doc/about_ru.pdf -text
 src/moduls/bd/SQLite/po/de.po -text
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -591,6 +597,7 @@ src/moduls/ui/WebVision/vca_sess.cpp -text
 src/moduls/ui/WebVision/vca_sess.h -text
 src/moduls/ui/WebVision/web_vision.cpp -text
 src/moduls/ui/WebVision/web_vision.h -text
+src/po/de.po -text
 src/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/resalloc.cpp -text
