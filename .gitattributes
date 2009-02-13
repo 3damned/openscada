@@ -499,6 +499,7 @@ src/moduls/ui/VCAEngine/project.cpp -text
 src/moduls/ui/VCAEngine/project.h -text
 src/moduls/ui/VCAEngine/session.cpp -text
 src/moduls/ui/VCAEngine/session.h -text
+src/moduls/ui/VCAEngine/vcaFuncs.h -text
 src/moduls/ui/VCAEngine/vcaengine.cpp -text
 src/moduls/ui/VCAEngine/vcaengine.h -text
 src/moduls/ui/VCAEngine/widget.cpp -text
