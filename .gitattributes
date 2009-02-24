@@ -652,6 +652,8 @@ src/tuis.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tuis.h -text svn_keywords=Author+Date+Id+Revision
 src/tvalue.cpp -text svn_keywords=Author+Date+Id+Revision
 src/tvalue.h -text svn_keywords=Author+Date+Id+Revision
+src/tvariant.cpp -text
+src/tvariant.h -text
 src/xml.cpp -text svn_keywords=Author+Date+Id+Revision
 src/xml.h -text svn_keywords=Author+Date+Id+Revision
 src_call/Makefile.am -text
