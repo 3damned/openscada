@@ -112,6 +112,7 @@ data/icons/vision_elfig_cursor.png -text
 data/icons/vision_elfig_line.png -text
 data/icons/vision_elfig_lock.png -text
 data/icons/vision_it_add.png -text
+data/icons/vision_it_clear.png -text
 data/icons/vision_it_del.png -text
 data/icons/vision_it_edit.png -text
 data/icons/vision_it_prop.png -text
@@ -535,6 +536,7 @@ src/moduls/ui/Vision/images/exit.png -text
 src/moduls/ui/Vision/images/export.png -text
 src/moduls/ui/Vision/images/help.png -text
 src/moduls/ui/Vision/images/it_add.png -text
+src/moduls/ui/Vision/images/it_clear.png -text
 src/moduls/ui/Vision/images/it_del.png -text
 src/moduls/ui/Vision/images/it_edit.png -text
 src/moduls/ui/Vision/images/it_prop.png -text
