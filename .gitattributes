@@ -336,6 +336,7 @@ src/moduls/daq/Siemens/siemens.cpp -text
 src/moduls/daq/Siemens/siemens.h -text
 src/moduls/daq/SoundCard/Makefile.am -text
 src/moduls/daq/SoundCard/Makefile.in -text
+src/moduls/daq/SoundCard/doc/about_ru.png.pdf -text
 src/moduls/daq/SoundCard/po/ru.po -text
 src/moduls/daq/SoundCard/po/uk.po -text
 src/moduls/daq/SoundCard/sound.cpp -text
