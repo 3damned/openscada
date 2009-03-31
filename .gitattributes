@@ -424,6 +424,9 @@ src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/special/SystemTests/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/test_kernel.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/test_kernel.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/=Tmpl=/Makefile.am -text
+src/moduls/transport/=Tmpl=/mod_tmpl.cpp -text
+src/moduls/transport/=Tmpl=/mod_tmpl.h -text
 src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/SSL/Makefile.am -text
@@ -433,6 +436,12 @@ src/moduls/transport/SSL/modssl.cpp -text
 src/moduls/transport/SSL/modssl.h -text
 src/moduls/transport/SSL/po/ru.po -text
 src/moduls/transport/SSL/po/uk.po -text
+src/moduls/transport/Serial/Makefile.am -text
+src/moduls/transport/Serial/Makefile.in -text
+src/moduls/transport/Serial/mod_serial.cpp -text
+src/moduls/transport/Serial/mod_serial.h -text
+src/moduls/transport/Serial/po/ru.po -text
+src/moduls/transport/Serial/po/uk.po -text
 src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/doc/about_ru.pdf -text svneol=unset#unset
