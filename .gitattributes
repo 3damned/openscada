@@ -374,6 +374,9 @@ src/moduls/daq/Transporter/po/ru.po -text
 src/moduls/daq/Transporter/po/uk.po -text
 src/moduls/daq/Transporter/transporter.cpp -text
 src/moduls/daq/Transporter/transporter.h -text
+src/moduls/protocol/=Tmpl=/Makefile.am -text
+src/moduls/protocol/=Tmpl=/mod_tmpl.cpp -text
+src/moduls/protocol/=Tmpl=/mod_tmpl.h -text
 src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/doc/about_ru.pdf -text svneol=unset#unset
