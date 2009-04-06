@@ -304,8 +304,11 @@ src/moduls/daq/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/ModBus/Makefile.am -text
 src/moduls/daq/ModBus/Makefile.in -text
 src/moduls/daq/ModBus/doc/about_ru.pdf -text
-src/moduls/daq/ModBus/modbus_client.cpp -text
-src/moduls/daq/ModBus/modbus_client.h -text
+src/moduls/daq/ModBus/modbus_daq.cpp -text
+src/moduls/daq/ModBus/modbus_daq.h -text
+src/moduls/daq/ModBus/modbus_prt.cpp -text
+src/moduls/daq/ModBus/modbus_prt.h -text
+src/moduls/daq/ModBus/moduls.cpp -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/SNMP/Makefile.am -text
