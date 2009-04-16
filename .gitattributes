@@ -264,6 +264,13 @@ src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DAQGate/Makefile.am -text
+src/moduls/daq/DAQGate/Makefile.in -text
+src/moduls/daq/DAQGate/daq_gate.cpp -text
+src/moduls/daq/DAQGate/daq_gate.h -text
+src/moduls/daq/DAQGate/doc/about_ru.pdf -text
+src/moduls/daq/DAQGate/po/ru.po -text
+src/moduls/daq/DAQGate/po/uk.po -text
 src/moduls/daq/DCON/DCON_client.cpp -text
 src/moduls/daq/DCON/DCON_client.h -text
 src/moduls/daq/DCON/Makefile.am -text
@@ -370,13 +377,6 @@ src/moduls/daq/System/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/os_contr.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/Transporter/Makefile.am -text
-src/moduls/daq/Transporter/Makefile.in -text
-src/moduls/daq/Transporter/doc/about_ru.pdf -text
-src/moduls/daq/Transporter/po/ru.po -text
-src/moduls/daq/Transporter/po/uk.po -text
-src/moduls/daq/Transporter/transporter.cpp -text
-src/moduls/daq/Transporter/transporter.h -text
 src/moduls/protocol/=Tmpl=/Makefile.am -text
 src/moduls/protocol/=Tmpl=/mod_tmpl.cpp -text
 src/moduls/protocol/=Tmpl=/mod_tmpl.h -text
