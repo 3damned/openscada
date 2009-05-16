@@ -12,6 +12,7 @@
 /TODO -text svn_keywords=Author+Date+Id+Revision
 /TODO_ru -text
 /TODO_uk -text
+/acinclude.m4 -text
 /aclocal.m4 -text svn_keywords=Author+Date+Id+Revision
 /config.guess -text svn_keywords=Author+Date+Id+Revision
 /config.h.in -text svn_keywords=Author+Date+Id+Revision
