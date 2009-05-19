@@ -488,6 +488,7 @@ src/moduls/ui/QTCfg/images/save.png -text
 src/moduls/ui/QTCfg/images/start.png -text
 src/moduls/ui/QTCfg/images/stop.png -text
 src/moduls/ui/QTCfg/images/up.png -text
+src/moduls/ui/QTCfg/po/de.po -text
 src/moduls/ui/QTCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/qtcfg.cpp -text svn_keywords=Author+Date+Id+Revision
