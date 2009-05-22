@@ -374,6 +374,7 @@ src/moduls/daq/System/da_smart.cpp -text
 src/moduls/daq/System/da_smart.h -text
 src/moduls/daq/System/da_uptime.cpp -text
 src/moduls/daq/System/da_uptime.h -text
+src/moduls/daq/System/doc/about.pdf -text
 src/moduls/daq/System/doc/about_ru.pdf -text
 src/moduls/daq/System/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/os_contr.h -text svn_keywords=Author+Date+Id+Revision
@@ -616,6 +617,7 @@ src/moduls/ui/WebVision/Makefile.am -text
 src/moduls/ui/WebVision/Makefile.in -text
 src/moduls/ui/WebVision/WebVisionVCA.js -text
 src/moduls/ui/WebVision/doc/about_ru.pdf -text
+src/moduls/ui/WebVision/po/de.po -text
 src/moduls/ui/WebVision/po/ru.po -text
 src/moduls/ui/WebVision/po/uk.po -text
 src/moduls/ui/WebVision/vca_sess.cpp -text
