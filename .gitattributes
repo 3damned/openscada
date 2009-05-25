@@ -134,26 +134,16 @@ data/openscada_start -text
 data/oscada.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
 data/oscada_start.xml -text
-demo/en/AGLKSModel.db -text
-demo/en/DemoSt.db -text
-demo/en/OscadaLibs.db -text
-demo/en/openscada_demo_en -text
-demo/en/openscada_demo_en.desktop -text
-demo/en/openscada_demo_en.png -text
-demo/en/oscada_demo_en.xml -text
-demo/en/vcaAGLKS.db -text
-demo/en/vcaBase.db -text
-demo/en/vcaTest.db -text
-demo/ru/AGLKSModel.db -text
-demo/ru/DemoSt.db -text
-demo/ru/OscadaLibs.db -text
-demo/ru/openscada_demo_ru -text
-demo/ru/openscada_demo_ru.desktop -text
-demo/ru/openscada_demo_ru.png -text
-demo/ru/oscada_demo_ru.xml -text
-demo/ru/vcaAGLKS.db -text
-demo/ru/vcaBase.db -text
-demo/ru/vcaTest.db -text
+demo/AGLKSModel.db -text
+demo/DemoSt.db -text
+demo/OscadaLibs.db -text
+demo/openscada_demo -text
+demo/openscada_demo.desktop -text
+demo/openscada_demo.png -text
+demo/oscada_demo.xml -text
+demo/vcaAGLKS.db -text
+demo/vcaBase.db -text
+demo/vcaTest.db -text
 /depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/APIOpenSCADA_ru.pdf -text
 doc/AboutOpenSCADA.pdf -text
@@ -303,6 +293,7 @@ src/moduls/daq/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/daq/JavaLikeCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/LogicLev/Makefile.am -text
 src/moduls/daq/LogicLev/Makefile.in -text
+src/moduls/daq/LogicLev/doc/about.pdf -text
 src/moduls/daq/LogicLev/doc/about_ru.pdf -text
 src/moduls/daq/LogicLev/logiclev.cpp -text
 src/moduls/daq/LogicLev/logiclev.h -text
