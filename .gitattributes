@@ -259,6 +259,7 @@ src/moduls/daq/DAQGate/Makefile.am -text
 src/moduls/daq/DAQGate/Makefile.in -text
 src/moduls/daq/DAQGate/daq_gate.cpp -text
 src/moduls/daq/DAQGate/daq_gate.h -text
+src/moduls/daq/DAQGate/doc/about.pdf -text
 src/moduls/daq/DAQGate/doc/about_ru.pdf -text
 src/moduls/daq/DAQGate/po/ru.po -text
 src/moduls/daq/DAQGate/po/uk.po -text
@@ -266,6 +267,7 @@ src/moduls/daq/DCON/DCON_client.cpp -text
 src/moduls/daq/DCON/DCON_client.h -text
 src/moduls/daq/DCON/Makefile.am -text
 src/moduls/daq/DCON/Makefile.in -text
+src/moduls/daq/DCON/doc/about.pdf -text
 src/moduls/daq/DCON/doc/about_ru.pdf -text
 src/moduls/daq/DCON/po/de.po -text
 src/moduls/daq/DCON/po/ru.po -text
@@ -281,6 +283,7 @@ src/moduls/daq/DiamondBoards/po/ru.po -text
 src/moduls/daq/DiamondBoards/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/doc/about.pdf -text
 src/moduls/daq/JavaLikeCalc/doc/about_ru.pdf -text
 src/moduls/daq/JavaLikeCalc/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/freefunc.h -text svn_keywords=Author+Date+Id+Revision
@@ -303,6 +306,7 @@ src/moduls/daq/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/ModBus/Makefile.am -text
 src/moduls/daq/ModBus/Makefile.in -text
+src/moduls/daq/ModBus/doc/about.pdf -text
 src/moduls/daq/ModBus/doc/about_ru.pdf -text
 src/moduls/daq/ModBus/modbus_daq.cpp -text
 src/moduls/daq/ModBus/modbus_daq.h -text
