@@ -249,6 +249,7 @@ src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/doc/about.pdf -text
 src/moduls/daq/BlockCalc/doc/about_ru.pdf -text
 src/moduls/daq/BlockCalc/po/de.po -text
 src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -276,6 +277,7 @@ src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revis
 src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/doc/about.pdf -text
 src/moduls/daq/DiamondBoards/doc/about_ru.pdf -text
 src/moduls/daq/DiamondBoards/dscud.h -text
 src/moduls/daq/DiamondBoards/libdscud5.a -text
@@ -317,6 +319,7 @@ src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/SNMP/Makefile.am -text
 src/moduls/daq/SNMP/Makefile.in -text
+src/moduls/daq/SNMP/doc/about.pdf -text
 src/moduls/daq/SNMP/doc/about_ru.pdf -text
 src/moduls/daq/SNMP/po/ru.po -text
 src/moduls/daq/SNMP/po/uk.po -text
@@ -329,6 +332,7 @@ src/moduls/daq/Siemens/cif_dev_i.h -text
 src/moduls/daq/Siemens/cif_dpm.h -text
 src/moduls/daq/Siemens/cif_types.h -text
 src/moduls/daq/Siemens/cif_user.h -text
+src/moduls/daq/Siemens/doc/about.pdf -text
 src/moduls/daq/Siemens/doc/about_ru.pdf -text
 src/moduls/daq/Siemens/log2.h -text
 src/moduls/daq/Siemens/nodave.c -text
@@ -345,7 +349,8 @@ src/moduls/daq/Siemens/siemens.cpp -text
 src/moduls/daq/Siemens/siemens.h -text
 src/moduls/daq/SoundCard/Makefile.am -text
 src/moduls/daq/SoundCard/Makefile.in -text
-src/moduls/daq/SoundCard/doc/about_ru.png.pdf -text
+src/moduls/daq/SoundCard/doc/about.pdf -text
+src/moduls/daq/SoundCard/doc/about_ru.pdf -text
 src/moduls/daq/SoundCard/po/ru.po -text
 src/moduls/daq/SoundCard/po/uk.po -text
 src/moduls/daq/SoundCard/sound.cpp -text
