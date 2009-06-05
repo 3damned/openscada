@@ -454,6 +454,7 @@ src/moduls/transport/Serial/po/ru.po -text
 src/moduls/transport/Serial/po/uk.po -text
 src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/Makefile.in -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/doc/about.pdf -text
 src/moduls/transport/Sockets/doc/about_ru.pdf -text svneol=unset#unset
 src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/uk.po -text svn_keywords=Author+Date+Id+Revision
