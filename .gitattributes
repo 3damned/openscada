@@ -262,6 +262,7 @@ src/moduls/daq/DAQGate/daq_gate.cpp -text
 src/moduls/daq/DAQGate/daq_gate.h -text
 src/moduls/daq/DAQGate/doc/about.pdf -text
 src/moduls/daq/DAQGate/doc/about_ru.pdf -text
+src/moduls/daq/DAQGate/po/de.po -text
 src/moduls/daq/DAQGate/po/ru.po -text
 src/moduls/daq/DAQGate/po/uk.po -text
 src/moduls/daq/DCON/DCON_client.cpp -text
@@ -281,6 +282,7 @@ src/moduls/daq/DiamondBoards/doc/about.pdf -text
 src/moduls/daq/DiamondBoards/doc/about_ru.pdf -text
 src/moduls/daq/DiamondBoards/dscud.h -text
 src/moduls/daq/DiamondBoards/libdscud5.a -text
+src/moduls/daq/DiamondBoards/po/de.po -text
 src/moduls/daq/DiamondBoards/po/ru.po -text
 src/moduls/daq/DiamondBoards/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -302,6 +304,7 @@ src/moduls/daq/LogicLev/doc/about.pdf -text
 src/moduls/daq/LogicLev/doc/about_ru.pdf -text
 src/moduls/daq/LogicLev/logiclev.cpp -text
 src/moduls/daq/LogicLev/logiclev.h -text
+src/moduls/daq/LogicLev/po/de.po -text
 src/moduls/daq/LogicLev/po/ru.po -text
 src/moduls/daq/LogicLev/po/uk.po -text
 src/moduls/daq/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -315,6 +318,7 @@ src/moduls/daq/ModBus/modbus_daq.h -text
 src/moduls/daq/ModBus/modbus_prt.cpp -text
 src/moduls/daq/ModBus/modbus_prt.h -text
 src/moduls/daq/ModBus/moduls.cpp -text
+src/moduls/daq/ModBus/po/de.po -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/SNMP/Makefile.am -text
