@@ -325,6 +325,7 @@ src/moduls/daq/SNMP/Makefile.am -text
 src/moduls/daq/SNMP/Makefile.in -text
 src/moduls/daq/SNMP/doc/about.pdf -text
 src/moduls/daq/SNMP/doc/about_ru.pdf -text
+src/moduls/daq/SNMP/po/de.po -text
 src/moduls/daq/SNMP/po/ru.po -text
 src/moduls/daq/SNMP/po/uk.po -text
 src/moduls/daq/SNMP/snmp_client.cpp -text
@@ -343,6 +344,7 @@ src/moduls/daq/Siemens/nodave.c -text
 src/moduls/daq/Siemens/nodave.h -text
 src/moduls/daq/Siemens/openSocket.c -text
 src/moduls/daq/Siemens/openSocket.h -text
+src/moduls/daq/Siemens/po/de.po -text
 src/moduls/daq/Siemens/po/ru.po -text
 src/moduls/daq/Siemens/po/uk.po -text
 src/moduls/daq/Siemens/rcs_user.h -text
@@ -355,6 +357,7 @@ src/moduls/daq/SoundCard/Makefile.am -text
 src/moduls/daq/SoundCard/Makefile.in -text
 src/moduls/daq/SoundCard/doc/about.pdf -text
 src/moduls/daq/SoundCard/doc/about_ru.pdf -text
+src/moduls/daq/SoundCard/po/de.po -text
 src/moduls/daq/SoundCard/po/ru.po -text
 src/moduls/daq/SoundCard/po/uk.po -text
 src/moduls/daq/SoundCard/sound.cpp -text
