@@ -294,6 +294,7 @@ src/moduls/daq/JavaLikeCalc/freefunc.h -text svn_keywords=Author+Date+Id+Revisio
 src/moduls/daq/JavaLikeCalc/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/freelib.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/po/de.po -text
 src/moduls/daq/JavaLikeCalc/po/ru.po -text
 src/moduls/daq/JavaLikeCalc/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -385,6 +386,7 @@ src/moduls/daq/System/doc/about.pdf -text
 src/moduls/daq/System/doc/about_ru.pdf -text
 src/moduls/daq/System/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/os_contr.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/po/de.po -text
 src/moduls/daq/System/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/=Tmpl=/Makefile.am -text
