@@ -398,6 +398,7 @@ src/moduls/protocol/HTTP/doc/about.pdf -text
 src/moduls/protocol/HTTP/doc/about_ru.pdf -text svneol=unset#unset
 src/moduls/protocol/HTTP/http.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/http.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/HTTP/po/de.po -text
 src/moduls/protocol/HTTP/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -406,6 +407,7 @@ src/moduls/protocol/SelfSystem/Makefile.am -text svn_keywords=Author+Date+Id+Rev
 src/moduls/protocol/SelfSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/doc/about.pdf -text
 src/moduls/protocol/SelfSystem/doc/about_ru.pdf -text
+src/moduls/protocol/SelfSystem/po/de.po -text
 src/moduls/protocol/SelfSystem/po/ru.po -text
 src/moduls/protocol/SelfSystem/po/uk.po -text
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -414,6 +416,7 @@ src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Re
 src/moduls/special/FLibComplex1/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/doc/about_ru.pdf -text
 src/moduls/special/FLibComplex1/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FLibComplex1/po/de.po -text
 src/moduls/special/FLibComplex1/po/ru.po -text
 src/moduls/special/FLibComplex1/po/uk.po -text
 src/moduls/special/FLibComplex1/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -421,6 +424,7 @@ src/moduls/special/FLibComplex1/statfunc.h -text svn_keywords=Author+Date+Id+Rev
 src/moduls/special/FLibMath/Makefile.am -text
 src/moduls/special/FLibMath/Makefile.in -text
 src/moduls/special/FLibMath/doc/about_ru.pdf -text
+src/moduls/special/FLibMath/po/de.po -text
 src/moduls/special/FLibMath/po/ru.po -text
 src/moduls/special/FLibMath/po/uk.po -text
 src/moduls/special/FLibMath/statfunc.cpp -text
