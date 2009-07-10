@@ -445,6 +445,7 @@ src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/doc/about_ru.pdf -text
+src/moduls/special/SystemTests/po/de.po -text
 src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/test_kernel.cpp -text svn_keywords=Author+Date+Id+Revision
