@@ -528,6 +528,7 @@ src/moduls/ui/QTStarter/doc/about_ru.pdf -text
 src/moduls/ui/QTStarter/images/exit.png -text
 src/moduls/ui/QTStarter/images/oscada_qt.png -text
 src/moduls/ui/QTStarter/images/splash.png -text
+src/moduls/ui/QTStarter/po/de.po -text
 src/moduls/ui/QTStarter/po/ru.po -text
 src/moduls/ui/QTStarter/po/uk.po -text
 src/moduls/ui/QTStarter/qtstarter.qrc -text
@@ -540,6 +541,7 @@ src/moduls/ui/VCAEngine/libwidg.cpp -text
 src/moduls/ui/VCAEngine/libwidg.h -text
 src/moduls/ui/VCAEngine/origwidg.cpp -text
 src/moduls/ui/VCAEngine/origwidg.h -text
+src/moduls/ui/VCAEngine/po/de.po -text
 src/moduls/ui/VCAEngine/po/ru.po -text
 src/moduls/ui/VCAEngine/po/uk.po -text
 src/moduls/ui/VCAEngine/project.cpp -text
