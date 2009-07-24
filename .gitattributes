@@ -440,6 +440,10 @@ src/moduls/special/FLibSYS/statfunc.cpp -text
 src/moduls/special/FLibSYS/statfunc.h -text
 src/moduls/special/FLibSYS/sysfnc.h -text
 src/moduls/special/FLibSYS/timefnc.h -text
+src/moduls/special/FLibSYS/varchfnc.cpp -text
+src/moduls/special/FLibSYS/varchfnc.h -text
+src/moduls/special/FLibSYS/xmlfnc.cpp -text
+src/moduls/special/FLibSYS/xmlfnc.h -text
 src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
