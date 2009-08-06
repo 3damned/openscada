@@ -5,7 +5,6 @@
 /ChangeLog -text svn_keywords=Author+Date+Id+Revision
 /INSTALL -text svn_keywords=Author+Date+Id+Revision
 /Makefile.am -text svn_keywords=Author+Date+Id+Revision
-/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 /NEWS -text svn_keywords=Author+Date+Id+Revision
 /README -text svn_keywords=Author+Date+Id+Revision
 /README_ru -text
@@ -14,10 +13,6 @@
 /TODO_uk -text
 /acinclude.m4 -text
 /aclocal.m4 -text svn_keywords=Author+Date+Id+Revision
-/config.guess -text svn_keywords=Author+Date+Id+Revision
-/config.h.in -text svn_keywords=Author+Date+Id+Revision
-/config.sub -text svn_keywords=Author+Date+Id+Revision
-/configure -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
 data/icons/Archive.DBArch.png -text
 data/icons/Archive.FSArch.png -text
@@ -167,18 +162,14 @@ doc/release_0.6.3.pdf -text
 doc/release_0.6.3_ru.pdf -text
 doc/release_0.6.3_uk.pdf -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
-/ltmain.sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
 /mkdist -text
 /mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
 src/moduls/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/DBArch/Makefile.am -text
-src/moduls/arhiv/DBArch/Makefile.in -text
 src/moduls/arhiv/DBArch/arch.cpp -text
 src/moduls/arhiv/DBArch/arch.h -text
 src/moduls/arhiv/DBArch/doc/about.pdf -text
@@ -191,7 +182,6 @@ src/moduls/arhiv/DBArch/po/uk.po -text
 src/moduls/arhiv/DBArch/val.cpp -text
 src/moduls/arhiv/DBArch/val.h -text
 src/moduls/arhiv/FSArch/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/FSArch/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/base.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/base.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/doc/about.pdf -text
@@ -204,9 +194,7 @@ src/moduls/arhiv/FSArch/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/val.cpp -text
 src/moduls/arhiv/FSArch/val.h -text
 src/moduls/arhiv/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/arhiv/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/DBF/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -217,7 +205,6 @@ src/moduls/bd/DBF/po/de.po -text
 src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/FireBird/Makefile.am -text
-src/moduls/bd/FireBird/Makefile.in -text
 src/moduls/bd/FireBird/doc/about.pdf -text
 src/moduls/bd/FireBird/doc/about_ru.pdf -text
 src/moduls/bd/FireBird/firebird.cpp -text
@@ -226,9 +213,7 @@ src/moduls/bd/FireBird/po/de.po -text
 src/moduls/bd/FireBird/po/ru.po -text
 src/moduls/bd/FireBird/po/uk.po -text
 src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/MySQL/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/doc/about.pdf -text
 src/moduls/bd/MySQL/doc/about_ru.pdf -text
 src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -237,7 +222,6 @@ src/moduls/bd/MySQL/po/de.po -text
 src/moduls/bd/MySQL/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/bd/SQLite/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/doc/about.pdf -text
@@ -246,7 +230,6 @@ src/moduls/bd/SQLite/po/de.po -text
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/BlockCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/doc/about.pdf -text
@@ -257,7 +240,6 @@ src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DAQGate/Makefile.am -text
-src/moduls/daq/DAQGate/Makefile.in -text
 src/moduls/daq/DAQGate/daq_gate.cpp -text
 src/moduls/daq/DAQGate/daq_gate.h -text
 src/moduls/daq/DAQGate/doc/about.pdf -text
@@ -268,14 +250,12 @@ src/moduls/daq/DAQGate/po/uk.po -text
 src/moduls/daq/DCON/DCON_client.cpp -text
 src/moduls/daq/DCON/DCON_client.h -text
 src/moduls/daq/DCON/Makefile.am -text
-src/moduls/daq/DCON/Makefile.in -text
 src/moduls/daq/DCON/doc/about.pdf -text
 src/moduls/daq/DCON/doc/about_ru.pdf -text
 src/moduls/daq/DCON/po/de.po -text
 src/moduls/daq/DCON/po/ru.po -text
 src/moduls/daq/DCON/po/uk.po -text
 src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/DiamondBoards/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/doc/about.pdf -text
@@ -286,7 +266,6 @@ src/moduls/daq/DiamondBoards/po/de.po -text
 src/moduls/daq/DiamondBoards/po/ru.po -text
 src/moduls/daq/DiamondBoards/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/JavaLikeCalc/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/doc/about.pdf -text
 src/moduls/daq/JavaLikeCalc/doc/about_ru.pdf -text
 src/moduls/daq/JavaLikeCalc/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -300,7 +279,6 @@ src/moduls/daq/JavaLikeCalc/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/LogicLev/Makefile.am -text
-src/moduls/daq/LogicLev/Makefile.in -text
 src/moduls/daq/LogicLev/doc/about.pdf -text
 src/moduls/daq/LogicLev/doc/about_ru.pdf -text
 src/moduls/daq/LogicLev/logiclev.cpp -text
@@ -309,9 +287,7 @@ src/moduls/daq/LogicLev/po/de.po -text
 src/moduls/daq/LogicLev/po/ru.po -text
 src/moduls/daq/LogicLev/po/uk.po -text
 src/moduls/daq/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/ModBus/Makefile.am -text
-src/moduls/daq/ModBus/Makefile.in -text
 src/moduls/daq/ModBus/doc/about.pdf -text
 src/moduls/daq/ModBus/doc/about_ru.pdf -text
 src/moduls/daq/ModBus/modbus_daq.cpp -text
@@ -323,7 +299,6 @@ src/moduls/daq/ModBus/po/de.po -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/SNMP/Makefile.am -text
-src/moduls/daq/SNMP/Makefile.in -text
 src/moduls/daq/SNMP/doc/about.pdf -text
 src/moduls/daq/SNMP/doc/about_ru.pdf -text
 src/moduls/daq/SNMP/po/de.po -text
@@ -332,7 +307,6 @@ src/moduls/daq/SNMP/po/uk.po -text
 src/moduls/daq/SNMP/snmp_client.cpp -text
 src/moduls/daq/SNMP/snmp_client.h -text
 src/moduls/daq/Siemens/Makefile.am -text
-src/moduls/daq/Siemens/Makefile.in -text
 src/moduls/daq/Siemens/cif_api.c -text
 src/moduls/daq/Siemens/cif_dev_i.h -text
 src/moduls/daq/Siemens/cif_dpm.h -text
@@ -355,7 +329,6 @@ src/moduls/daq/Siemens/setport.h -text
 src/moduls/daq/Siemens/siemens.cpp -text
 src/moduls/daq/Siemens/siemens.h -text
 src/moduls/daq/SoundCard/Makefile.am -text
-src/moduls/daq/SoundCard/Makefile.in -text
 src/moduls/daq/SoundCard/doc/about.pdf -text
 src/moduls/daq/SoundCard/doc/about_ru.pdf -text
 src/moduls/daq/SoundCard/po/de.po -text
@@ -364,7 +337,6 @@ src/moduls/daq/SoundCard/po/uk.po -text
 src/moduls/daq/SoundCard/sound.cpp -text
 src/moduls/daq/SoundCard/sound.h -text
 src/moduls/daq/System/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/daq/System/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/da.h -text
 src/moduls/daq/System/da_cpu.cpp -text
 src/moduls/daq/System/da_cpu.h -text
@@ -393,7 +365,6 @@ src/moduls/protocol/=Tmpl=/Makefile.am -text
 src/moduls/protocol/=Tmpl=/mod_tmpl.cpp -text
 src/moduls/protocol/=Tmpl=/mod_tmpl.h -text
 src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/protocol/HTTP/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/doc/about.pdf -text
 src/moduls/protocol/HTTP/doc/about_ru.pdf -text svneol=unset#unset
 src/moduls/protocol/HTTP/http.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -402,9 +373,7 @@ src/moduls/protocol/HTTP/po/de.po -text
 src/moduls/protocol/HTTP/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/protocol/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/protocol/SelfSystem/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/doc/about.pdf -text
 src/moduls/protocol/SelfSystem/doc/about_ru.pdf -text
 src/moduls/protocol/SelfSystem/po/de.po -text
@@ -413,7 +382,6 @@ src/moduls/protocol/SelfSystem/po/uk.po -text
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/FLibComplex1/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/doc/about_ru.pdf -text
 src/moduls/special/FLibComplex1/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/po/de.po -text
@@ -422,7 +390,6 @@ src/moduls/special/FLibComplex1/po/uk.po -text
 src/moduls/special/FLibComplex1/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/statfunc.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibMath/Makefile.am -text
-src/moduls/special/FLibMath/Makefile.in -text
 src/moduls/special/FLibMath/doc/about_ru.pdf -text
 src/moduls/special/FLibMath/po/de.po -text
 src/moduls/special/FLibMath/po/ru.po -text
@@ -431,7 +398,6 @@ src/moduls/special/FLibMath/statfunc.cpp -text
 src/moduls/special/FLibMath/statfunc.h -text
 src/moduls/special/FLibMath/stdmath.h -text
 src/moduls/special/FLibSYS/Makefile.am -text
-src/moduls/special/FLibSYS/Makefile.in -text
 src/moduls/special/FLibSYS/doc/about_ru.pdf -text
 src/moduls/special/FLibSYS/po/de.po -text
 src/moduls/special/FLibSYS/po/ru.po -text
@@ -445,9 +411,7 @@ src/moduls/special/FLibSYS/varchfnc.h -text
 src/moduls/special/FLibSYS/xmlfnc.cpp -text
 src/moduls/special/FLibSYS/xmlfnc.h -text
 src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/SystemTests/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/doc/about_ru.pdf -text
 src/moduls/special/SystemTests/po/de.po -text
 src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -458,9 +422,7 @@ src/moduls/transport/=Tmpl=/Makefile.am -text
 src/moduls/transport/=Tmpl=/mod_tmpl.cpp -text
 src/moduls/transport/=Tmpl=/mod_tmpl.h -text
 src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/SSL/Makefile.am -text
-src/moduls/transport/SSL/Makefile.in -text
 src/moduls/transport/SSL/doc/about.pdf -text
 src/moduls/transport/SSL/doc/about_ru.pdf -text
 src/moduls/transport/SSL/modssl.cpp -text
@@ -468,7 +430,6 @@ src/moduls/transport/SSL/modssl.h -text
 src/moduls/transport/SSL/po/ru.po -text
 src/moduls/transport/SSL/po/uk.po -text
 src/moduls/transport/Serial/Makefile.am -text
-src/moduls/transport/Serial/Makefile.in -text
 src/moduls/transport/Serial/doc/about.pdf -text
 src/moduls/transport/Serial/doc/about_ru.pdf -text
 src/moduls/transport/Serial/mod_serial.cpp -text
@@ -477,7 +438,6 @@ src/moduls/transport/Serial/po/de.po -text
 src/moduls/transport/Serial/po/ru.po -text
 src/moduls/transport/Serial/po/uk.po -text
 src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/transport/Sockets/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/doc/about.pdf -text
 src/moduls/transport/Sockets/doc/about_ru.pdf -text svneol=unset#unset
 src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -488,9 +448,7 @@ src/moduls/ui/=Tmpl=/Makefile.am -text
 src/moduls/ui/=Tmpl=/mod_tmpl.cpp -text
 src/moduls/ui/=Tmpl=/mod_tmpl.h -text
 src/moduls/ui/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/QTCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/doc/about.pdf -text
 src/moduls/ui/QTCfg/doc/about_ru.pdf -text
 src/moduls/ui/QTCfg/images/button_cancel.png -text
@@ -526,7 +484,6 @@ src/moduls/ui/QTCfg/selfwidg.h -text
 src/moduls/ui/QTCfg/tuimod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/tuimod.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTStarter/Makefile.am -text
-src/moduls/ui/QTStarter/Makefile.in -text
 src/moduls/ui/QTStarter/doc/about.pdf -text
 src/moduls/ui/QTStarter/doc/about_ru.pdf -text
 src/moduls/ui/QTStarter/images/exit.png -text
@@ -539,7 +496,6 @@ src/moduls/ui/QTStarter/qtstarter.qrc -text
 src/moduls/ui/QTStarter/tuimod.cpp -text
 src/moduls/ui/QTStarter/tuimod.h -text
 src/moduls/ui/VCAEngine/Makefile.am -text
-src/moduls/ui/VCAEngine/Makefile.in -text
 src/moduls/ui/VCAEngine/doc/about_ru.pdf -text
 src/moduls/ui/VCAEngine/libwidg.cpp -text
 src/moduls/ui/VCAEngine/libwidg.h -text
@@ -558,7 +514,6 @@ src/moduls/ui/VCAEngine/vcaengine.h -text
 src/moduls/ui/VCAEngine/widget.cpp -text
 src/moduls/ui/VCAEngine/widget.h -text
 src/moduls/ui/Vision/Makefile.am -text
-src/moduls/ui/Vision/Makefile.in -text
 src/moduls/ui/Vision/doc/about_ru.pdf -text
 src/moduls/ui/Vision/images/alarmAlarm.png -text
 src/moduls/ui/Vision/images/alarmLev.png -text
@@ -628,14 +583,13 @@ src/moduls/ui/Vision/vis_widgs.cpp -text
 src/moduls/ui/Vision/vis_widgs.h -text
 src/moduls/ui/Vision/vision.qrc -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
-src/moduls/ui/WebCfg/Makefile.in -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/doc/about_ru.pdf -text
+src/moduls/ui/WebCfg/po/de.po -text
 src/moduls/ui/WebCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/web_cfg.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/web_cfg.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfgD/Makefile.am -text
-src/moduls/ui/WebCfgD/Makefile.in -text
 src/moduls/ui/WebCfgD/WebCfgDVCA.html -text
 src/moduls/ui/WebCfgD/WebCfgDVCA.js -text
 src/moduls/ui/WebCfgD/doc/about.pdf -text
@@ -645,7 +599,6 @@ src/moduls/ui/WebCfgD/po/uk.po -text
 src/moduls/ui/WebCfgD/web_cfg.cpp -text
 src/moduls/ui/WebCfgD/web_cfg.h -text
 src/moduls/ui/WebVision/Makefile.am -text
-src/moduls/ui/WebVision/Makefile.in -text
 src/moduls/ui/WebVision/WebVisionVCA.js -text
 src/moduls/ui/WebVision/doc/about_ru.pdf -text
 src/moduls/ui/WebVision/po/de.po -text
@@ -714,6 +667,5 @@ src/tvariant.h -text
 src/xml.cpp -text svn_keywords=Author+Date+Id+Revision
 src/xml.h -text svn_keywords=Author+Date+Id+Revision
 src_call/Makefile.am -text
-src_call/Makefile.in -text
 src_call/main.cpp -text
 /ylwrap -text
