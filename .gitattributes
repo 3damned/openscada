@@ -422,6 +422,7 @@ src/moduls/special/FLibComplex1/po/uk.po -text
 src/moduls/special/FLibComplex1/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/statfunc.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibMath/Makefile.am -text
+src/moduls/special/FLibMath/doc/about.pdf -text
 src/moduls/special/FLibMath/doc/about_ru.pdf -text
 src/moduls/special/FLibMath/po/de.po -text
 src/moduls/special/FLibMath/po/ru.po -text
