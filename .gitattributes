@@ -268,6 +268,8 @@ src/moduls/daq/DiamondBoards/po/uk.po -text
 src/moduls/daq/ICP_DAS/ICP_module.cpp -text
 src/moduls/daq/ICP_DAS/ICP_module.h -text
 src/moduls/daq/ICP_DAS/Makefile.am -text
+src/moduls/daq/ICP_DAS/doc/about.pdf -text
+src/moduls/daq/ICP_DAS/doc/about_ru.pdf -text
 src/moduls/daq/ICP_DAS/include/8080.h -text
 src/moduls/daq/ICP_DAS/include/8084W.h -text
 src/moduls/daq/ICP_DAS/include/codes.h -text
@@ -414,6 +416,7 @@ src/moduls/protocol/SelfSystem/po/uk.po -text
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FLibComplex1/doc/about.pdf -text
 src/moduls/special/FLibComplex1/doc/about_ru.pdf -text
 src/moduls/special/FLibComplex1/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/po/de.po -text
@@ -431,6 +434,7 @@ src/moduls/special/FLibMath/statfunc.cpp -text
 src/moduls/special/FLibMath/statfunc.h -text
 src/moduls/special/FLibMath/stdmath.h -text
 src/moduls/special/FLibSYS/Makefile.am -text
+src/moduls/special/FLibSYS/doc/about.pdf -text
 src/moduls/special/FLibSYS/doc/about_ru.pdf -text
 src/moduls/special/FLibSYS/po/de.po -text
 src/moduls/special/FLibSYS/po/ru.po -text
