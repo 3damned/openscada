@@ -464,6 +464,7 @@ src/moduls/transport/SSL/doc/about.pdf -text
 src/moduls/transport/SSL/doc/about_ru.pdf -text
 src/moduls/transport/SSL/modssl.cpp -text
 src/moduls/transport/SSL/modssl.h -text
+src/moduls/transport/SSL/po/de.po -text
 src/moduls/transport/SSL/po/ru.po -text
 src/moduls/transport/SSL/po/uk.po -text
 src/moduls/transport/Serial/Makefile.am -text
@@ -477,6 +478,7 @@ src/moduls/transport/Serial/po/uk.po -text
 src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/doc/about.pdf -text
 src/moduls/transport/Sockets/doc/about_ru.pdf -text svneol=unset#unset
+src/moduls/transport/Sockets/po/de.po -text
 src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/socket.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -533,6 +535,7 @@ src/moduls/ui/QTStarter/qtstarter.qrc -text
 src/moduls/ui/QTStarter/tuimod.cpp -text
 src/moduls/ui/QTStarter/tuimod.h -text
 src/moduls/ui/VCAEngine/Makefile.am -text
+src/moduls/ui/VCAEngine/doc/about.pdf -text
 src/moduls/ui/VCAEngine/doc/about_ru.pdf -text
 src/moduls/ui/VCAEngine/libwidg.cpp -text
 src/moduls/ui/VCAEngine/libwidg.h -text
@@ -551,6 +554,7 @@ src/moduls/ui/VCAEngine/vcaengine.h -text
 src/moduls/ui/VCAEngine/widget.cpp -text
 src/moduls/ui/VCAEngine/widget.h -text
 src/moduls/ui/Vision/Makefile.am -text
+src/moduls/ui/Vision/doc/about.pdf -text
 src/moduls/ui/Vision/doc/about_ru.pdf -text
 src/moduls/ui/Vision/images/alarmAlarm.png -text
 src/moduls/ui/Vision/images/alarmLev.png -text
@@ -620,6 +624,7 @@ src/moduls/ui/Vision/vis_widgs.cpp -text
 src/moduls/ui/Vision/vis_widgs.h -text
 src/moduls/ui/Vision/vision.qrc -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/WebCfg/doc/about.pdf -text
 src/moduls/ui/WebCfg/doc/about_ru.pdf -text
 src/moduls/ui/WebCfg/po/de.po -text
 src/moduls/ui/WebCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
@@ -631,12 +636,14 @@ src/moduls/ui/WebCfgD/WebCfgDVCA.html -text
 src/moduls/ui/WebCfgD/WebCfgDVCA.js -text
 src/moduls/ui/WebCfgD/doc/about.pdf -text
 src/moduls/ui/WebCfgD/doc/about_ru.pdf -text
+src/moduls/ui/WebCfgD/po/de.po -text
 src/moduls/ui/WebCfgD/po/ru.po -text
 src/moduls/ui/WebCfgD/po/uk.po -text
 src/moduls/ui/WebCfgD/web_cfg.cpp -text
 src/moduls/ui/WebCfgD/web_cfg.h -text
 src/moduls/ui/WebVision/Makefile.am -text
 src/moduls/ui/WebVision/WebVisionVCA.js -text
+src/moduls/ui/WebVision/doc/about.pdf -text
 src/moduls/ui/WebVision/doc/about_ru.pdf -text
 src/moduls/ui/WebVision/po/de.po -text
 src/moduls/ui/WebVision/po/ru.po -text
