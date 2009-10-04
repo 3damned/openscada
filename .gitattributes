@@ -166,6 +166,7 @@ doc/release_0.6.3_uk.pdf -text
 /mkdist -text
 /mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
+/openscada_mod.spec -text
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
 src/moduls/Makefile.am -text svn_keywords=Author+Date+Id+Revision
