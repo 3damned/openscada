@@ -149,18 +149,9 @@ doc/FAQ_ru.pdf -text
 doc/FAQ_uk.pdf -text
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
 doc/openscada_ru.pdf -text
-doc/release_0.6.0.pdf -text
-doc/release_0.6.0_ru.pdf -text
-doc/release_0.6.0_uk.pdf -text
-doc/release_0.6.1.pdf -text
-doc/release_0.6.1_ru.pdf -text
-doc/release_0.6.1_uk.pdf -text
-doc/release_0.6.2.pdf -text
-doc/release_0.6.2_ru.pdf -text
-doc/release_0.6.2_uk.pdf -text
-doc/release_0.6.3.pdf -text
-doc/release_0.6.3_ru.pdf -text
-doc/release_0.6.3_uk.pdf -text
+doc/release_0.6.4.pdf -text
+doc/release_0.6.4_ru.pdf -text
+doc/release_0.6.4_uk.pdf -text
 /install-sh -text svn_keywords=Author+Date+Id+Revision
 /missing -text svn_keywords=Author+Date+Id+Revision
 /mkdist -text
