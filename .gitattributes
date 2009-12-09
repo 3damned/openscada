@@ -221,6 +221,9 @@ src/moduls/bd/SQLite/doc/about_ru.pdf -text
 src/moduls/bd/SQLite/po/de.po -text
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/=Tmpl=/Makefile.am -text
+src/moduls/daq/=Tmpl=/mod_tmpl.cpp -text
+src/moduls/daq/=Tmpl=/mod_tmpl.h -text
 src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
@@ -324,6 +327,13 @@ src/moduls/daq/ModBus/moduls.cpp -text
 src/moduls/daq/ModBus/po/de.po -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
+src/moduls/daq/OPC_UA/Makefile.am -text
+src/moduls/daq/OPC_UA/Makefile.in -text
+src/moduls/daq/OPC_UA/mod_daq.cpp -text
+src/moduls/daq/OPC_UA/mod_daq.h -text
+src/moduls/daq/OPC_UA/mod_prt.cpp -text
+src/moduls/daq/OPC_UA/mod_prt.h -text
+src/moduls/daq/OPC_UA/moduls.cpp -text
 src/moduls/daq/SNMP/Makefile.am -text
 src/moduls/daq/SNMP/doc/about.pdf -text
 src/moduls/daq/SNMP/doc/about_ru.pdf -text
