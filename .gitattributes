@@ -129,6 +129,23 @@ data/openscada_start -text
 data/oscada.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
 data/oscada_start.xml -text
+debian/changelog -text
+debian/compat -text
+debian/control -text
+debian/copyright -text
+debian/openscada-demo.install -text
+debian/openscada-demo.menu -text
+debian/openscada-demo.postinst -text
+debian/openscada-demo.postrm -text
+debian/openscada-dev.install -text
+debian/openscada-doc.install -text
+debian/openscada.dirs -text
+debian/openscada.docs -text
+debian/openscada.install -text
+debian/openscada.menu -text
+debian/openscada.postinst -text
+debian/openscada.postrm -text
+debian/rules -text
 demo/AGLKSModel.db -text
 demo/DemoSt.db -text
 demo/OscadaLibs.db -text
