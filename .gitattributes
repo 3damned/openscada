@@ -8,6 +8,7 @@
 /NEWS -text svn_keywords=Author+Date+Id+Revision
 /README -text svn_keywords=Author+Date+Id+Revision
 /README_ru -text
+/README_uk -text
 /TODO -text svn_keywords=Author+Date+Id+Revision
 /TODO_ru -text
 /TODO_uk -text
@@ -157,6 +158,7 @@ demo/vcaAGLKS.db -text
 demo/vcaBase.db -text
 demo/vcaTest.db -text
 /depcomp -text svn_keywords=Author+Date+Id+Revision
+doc/APIOpenSCADA.pdf -text
 doc/APIOpenSCADA_ru.pdf -text
 doc/AboutOpenSCADA.pdf -text
 doc/AboutOpenSCADA_ru.pdf -text
