@@ -246,6 +246,11 @@ src/moduls/daq/=Tmpl=/Makefile.am -text
 src/moduls/daq/=Tmpl=/mod_tmpl.cpp -text
 src/moduls/daq/=Tmpl=/mod_tmpl.h -text
 src/moduls/daq/AMRDevs/Makefile.am -text
+src/moduls/daq/AMRDevs/da.h -text
+src/moduls/daq/AMRDevs/da_Ergomera.cpp -text
+src/moduls/daq/AMRDevs/da_Ergomera.h -text
+src/moduls/daq/AMRDevs/da_FlowTEC.cpp -text
+src/moduls/daq/AMRDevs/da_FlowTEC.h -text
 src/moduls/daq/AMRDevs/mod_amr.cpp -text
 src/moduls/daq/AMRDevs/mod_amr.h -text
 src/moduls/daq/AMRDevs/po/ru.po -text
