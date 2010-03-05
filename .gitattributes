@@ -447,6 +447,11 @@ src/moduls/protocol/SelfSystem/po/ru.po -text
 src/moduls/protocol/SelfSystem/po/uk.po -text
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/UserProtocol/Makefile.am -text
+src/moduls/protocol/UserProtocol/po/ru.po -text
+src/moduls/protocol/UserProtocol/po/uk.po -text
+src/moduls/protocol/UserProtocol/user_prt.cpp -text
+src/moduls/protocol/UserProtocol/user_prt.h -text
 src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/doc/about.pdf -text
 src/moduls/special/FLibComplex1/doc/about_ru.pdf -text
@@ -673,6 +678,11 @@ src/moduls/ui/WebCfgD/po/ru.po -text
 src/moduls/ui/WebCfgD/po/uk.po -text
 src/moduls/ui/WebCfgD/web_cfg.cpp -text
 src/moduls/ui/WebCfgD/web_cfg.h -text
+src/moduls/ui/WebUser/Makefile.am -text
+src/moduls/ui/WebUser/po/ru.po -text
+src/moduls/ui/WebUser/po/uk.po -text
+src/moduls/ui/WebUser/web_user.cpp -text
+src/moduls/ui/WebUser/web_user.h -text
 src/moduls/ui/WebVision/Makefile.am -text
 src/moduls/ui/WebVision/WebVisionVCA.js -text
 src/moduls/ui/WebVision/doc/about.pdf -text
