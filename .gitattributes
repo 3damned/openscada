@@ -680,6 +680,7 @@ src/moduls/ui/WebCfgD/po/uk.po -text
 src/moduls/ui/WebCfgD/web_cfg.cpp -text
 src/moduls/ui/WebCfgD/web_cfg.h -text
 src/moduls/ui/WebUser/Makefile.am -text
+src/moduls/ui/WebUser/doc/about_ru.pdf -text
 src/moduls/ui/WebUser/po/ru.po -text
 src/moduls/ui/WebUser/po/uk.po -text
 src/moduls/ui/WebUser/web_user.cpp -text
