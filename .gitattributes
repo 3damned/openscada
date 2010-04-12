@@ -450,6 +450,7 @@ src/moduls/protocol/SelfSystem/po/uk.po -text
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/UserProtocol/Makefile.am -text
+src/moduls/protocol/UserProtocol/doc/about.pdf -text
 src/moduls/protocol/UserProtocol/doc/about_ru.pdf -text
 src/moduls/protocol/UserProtocol/po/ru.po -text
 src/moduls/protocol/UserProtocol/po/uk.po -text
@@ -682,6 +683,7 @@ src/moduls/ui/WebCfgD/po/uk.po -text
 src/moduls/ui/WebCfgD/web_cfg.cpp -text
 src/moduls/ui/WebCfgD/web_cfg.h -text
 src/moduls/ui/WebUser/Makefile.am -text
+src/moduls/ui/WebUser/doc/about.pdf -text
 src/moduls/ui/WebUser/doc/about_ru.pdf -text
 src/moduls/ui/WebUser/po/ru.po -text
 src/moduls/ui/WebUser/po/uk.po -text
