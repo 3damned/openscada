@@ -366,6 +366,8 @@ src/moduls/daq/OPC_UA/mod_daq.h -text
 src/moduls/daq/OPC_UA/mod_prt.cpp -text
 src/moduls/daq/OPC_UA/mod_prt.h -text
 src/moduls/daq/OPC_UA/moduls.cpp -text
+src/moduls/daq/OPC_UA/po/ru.po -text
+src/moduls/daq/OPC_UA/po/uk.po -text
 src/moduls/daq/SNMP/Makefile.am -text
 src/moduls/daq/SNMP/doc/about.pdf -text
 src/moduls/daq/SNMP/doc/about_ru.pdf -text
