@@ -170,6 +170,7 @@ doc/FAQ.pdf -text
 doc/FAQ_ru.pdf -text
 doc/FAQ_uk.pdf -text
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
+doc/QuickStart_ru.pdf -text
 doc/openscada.pdf -text
 doc/openscada_ru.pdf -text
 doc/release_0.6.4.pdf -text
