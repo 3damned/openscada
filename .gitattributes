@@ -170,6 +170,7 @@ doc/FAQ.pdf -text
 doc/FAQ_ru.pdf -text
 doc/FAQ_uk.pdf -text
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
+doc/QuickStart.pdf -text
 doc/QuickStart_ru.pdf -text
 doc/openscada.pdf -text
 doc/openscada_ru.pdf -text
@@ -362,6 +363,7 @@ src/moduls/daq/ModBus/po/de.po -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/OPC_UA/Makefile.am -text
+src/moduls/daq/OPC_UA/doc/about.pdf -text
 src/moduls/daq/OPC_UA/doc/about_ru.pdf -text
 src/moduls/daq/OPC_UA/mod_daq.cpp -text
 src/moduls/daq/OPC_UA/mod_daq.h -text
