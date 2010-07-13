@@ -497,11 +497,22 @@ src/moduls/special/FLibSYS/xmlfnc.h -text
 src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/doc/about_ru.pdf -text
+src/moduls/special/SystemTests/mod_tests.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/mod_tests.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/de.po -text
 src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/SystemTests/test_kernel.cpp -text svn_keywords=Author+Date+Id+Revision
-src/moduls/special/SystemTests/test_kernel.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/test_Base64Code.h -text
+src/moduls/special/SystemTests/test_DB.h -text
+src/moduls/special/SystemTests/test_SOAttach.h -text
+src/moduls/special/SystemTests/test_SysContrLang.h -text
+src/moduls/special/SystemTests/test_TrOut.h -text
+src/moduls/special/SystemTests/test_ValBuf.h -text
+src/moduls/special/SystemTests/test_archive.h -text
+src/moduls/special/SystemTests/test_mess.h -text
+src/moduls/special/SystemTests/test_prm.h -text
+src/moduls/special/SystemTests/test_val.h -text
+src/moduls/special/SystemTests/test_xml.h -text
 src/moduls/transport/=Tmpl=/Makefile.am -text
 src/moduls/transport/=Tmpl=/mod_tmpl.cpp -text
 src/moduls/transport/=Tmpl=/mod_tmpl.h -text
