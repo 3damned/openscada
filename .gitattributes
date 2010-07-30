@@ -556,6 +556,7 @@ src/moduls/ui/QTCfg/doc/about_ru.pdf -text
 src/moduls/ui/QTCfg/images/button_cancel.png -text
 src/moduls/ui/QTCfg/images/button_ok.png -text
 src/moduls/ui/QTCfg/images/close.png -text
+src/moduls/ui/QTCfg/images/combar.png -text
 src/moduls/ui/QTCfg/images/contexthelp.png -text
 src/moduls/ui/QTCfg/images/editcopy.png -text
 src/moduls/ui/QTCfg/images/editcut.png -text
