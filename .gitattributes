@@ -238,6 +238,12 @@ src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/de.po -text
 src/moduls/bd/MySQL/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/PostgreSQL/Makefile.am -text
+src/moduls/bd/PostgreSQL/po/de.po -text
+src/moduls/bd/PostgreSQL/po/ru.po -text
+src/moduls/bd/PostgreSQL/po/uk.po -text
+src/moduls/bd/PostgreSQL/postgre.cpp -text
+src/moduls/bd/PostgreSQL/postgre.h -text
 src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
