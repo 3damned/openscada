@@ -13,7 +13,6 @@
 /TODO_ru -text
 /TODO_uk -text
 /acinclude.m4 -text
-/aclocal.m4 -text svn_keywords=Author+Date+Id+Revision
 /configure.in -text svn_keywords=Author+Date+Id+Revision
 data/icons/Archive.DBArch.png -text
 data/icons/Archive.FSArch.png -text
