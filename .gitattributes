@@ -20,6 +20,7 @@ data/icons/Archive.png -text
 data/icons/BD.DBF.png -text
 data/icons/BD.FireBird.png -text
 data/icons/BD.MySQL.png -text
+data/icons/BD.PostgreSQL.png -text
 data/icons/BD.SQLite.png -text
 data/icons/BD.png -text
 data/icons/DAQ.System.png -text
