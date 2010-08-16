@@ -68,6 +68,7 @@ data/icons/editcut.png -text
 data/icons/editpaste.png -text
 data/icons/exit.png -text
 data/icons/export.png -text
+data/icons/find.png -text
 data/icons/gohome.png -text
 data/icons/help.png -text
 data/icons/identity.png -text
@@ -564,6 +565,7 @@ src/moduls/ui/QTCfg/images/editcopy.png -text
 src/moduls/ui/QTCfg/images/editcut.png -text
 src/moduls/ui/QTCfg/images/editpaste.png -text
 src/moduls/ui/QTCfg/images/exit.png -text
+src/moduls/ui/QTCfg/images/find.png -text
 src/moduls/ui/QTCfg/images/help.png -text
 src/moduls/ui/QTCfg/images/identity.png -text
 src/moduls/ui/QTCfg/images/it_add.png -text
@@ -648,6 +650,7 @@ src/moduls/ui/Vision/images/elfig_line.png -text
 src/moduls/ui/Vision/images/elfig_lock.png -text
 src/moduls/ui/Vision/images/exit.png -text
 src/moduls/ui/Vision/images/export.png -text
+src/moduls/ui/Vision/images/find.png -text
 src/moduls/ui/Vision/images/help.png -text
 src/moduls/ui/Vision/images/it_add.png -text
 src/moduls/ui/Vision/images/it_clear.png -text
