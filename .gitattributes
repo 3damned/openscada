@@ -160,7 +160,6 @@ demo/oscada_demo_local.xml -text
 demo/vcaAGLKS.db -text
 demo/vcaBase.db -text
 demo/vcaTest.db -text
-/depcomp -text svn_keywords=Author+Date+Id+Revision
 doc/APIOpenSCADA.pdf -text
 doc/APIOpenSCADA_ru.pdf -text
 doc/AboutOpenSCADA.pdf -text
@@ -178,10 +177,7 @@ doc/openscada_ru.pdf -text
 doc/release_0.6.4.pdf -text
 doc/release_0.6.4_ru.pdf -text
 doc/release_0.6.4_uk.pdf -text
-/install-sh -text svn_keywords=Author+Date+Id+Revision
-/missing -text svn_keywords=Author+Date+Id+Revision
 /mkdist -text
-/mkinstalldirs -text svn_keywords=Author+Date+Id+Revision
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 /openscada_mod.spec -text
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -788,4 +784,3 @@ src/xml.cpp -text svn_keywords=Author+Date+Id+Revision
 src/xml.h -text svn_keywords=Author+Date+Id+Revision
 src_call/Makefile.am -text
 src_call/main.cpp -text
-/ylwrap -text
