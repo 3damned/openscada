@@ -208,6 +208,9 @@ src/moduls/arhiv/FSArch/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/val.cpp -text
 src/moduls/arhiv/FSArch/val.h -text
 src/moduls/arhiv/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/=Tmpl=/Makefile.am -text
+src/moduls/bd/=Tmpl=/mod_tmpl.cpp -text
+src/moduls/bd/=Tmpl=/mod_tmpl.h -text
 src/moduls/bd/DBF/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
