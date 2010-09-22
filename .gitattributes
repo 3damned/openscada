@@ -26,6 +26,7 @@ data/icons/BD.png -text
 data/icons/DAQ.System.png -text
 data/icons/DAQ.png -text
 data/icons/DemoStation.png -text
+data/icons/DemoStation_splash.png -text
 data/icons/ModSched.png -text
 data/icons/Protocol.png -text
 data/icons/Security.png -text
@@ -82,7 +83,6 @@ data/icons/print.png -text
 data/icons/reload.png -text
 data/icons/save.png -text
 data/icons/spinar.png -text
-data/icons/splash.png -text
 data/icons/start.png -text
 data/icons/stop.png -text
 data/icons/treeDown.gif -text
