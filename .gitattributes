@@ -239,6 +239,8 @@ src/moduls/bd/MySQL/po/de.po -text
 src/moduls/bd/MySQL/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/PostgreSQL/Makefile.am -text
+src/moduls/bd/PostgreSQL/doc/about.pdf -text
+src/moduls/bd/PostgreSQL/doc/about_ru.pdf -text
 src/moduls/bd/PostgreSQL/po/de.po -text
 src/moduls/bd/PostgreSQL/po/ru.po -text
 src/moduls/bd/PostgreSQL/po/uk.po -text
