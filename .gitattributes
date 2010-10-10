@@ -506,6 +506,7 @@ src/moduls/special/FLibSYS/xmlfnc.cpp -text
 src/moduls/special/FLibSYS/xmlfnc.h -text
 src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/doc/about.pdf -text
 src/moduls/special/SystemTests/doc/about_ru.pdf -text
 src/moduls/special/SystemTests/mod_tests.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/mod_tests.h -text svn_keywords=Author+Date+Id+Revision
