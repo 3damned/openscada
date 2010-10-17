@@ -183,6 +183,13 @@ doc/release_0.6.4_uk.pdf -text
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
 src/moduls/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/=Tmpl=/Makefile.am -text
+src/moduls/arhiv/=Tmpl=/mess.cpp -text
+src/moduls/arhiv/=Tmpl=/mess.h -text
+src/moduls/arhiv/=Tmpl=/mod_tmpl.cpp -text
+src/moduls/arhiv/=Tmpl=/mod_tmpl.h -text
+src/moduls/arhiv/=Tmpl=/val.cpp -text
+src/moduls/arhiv/=Tmpl=/val.h -text
 src/moduls/arhiv/DBArch/Makefile.am -text
 src/moduls/arhiv/DBArch/arch.cpp -text
 src/moduls/arhiv/DBArch/arch.h -text
@@ -472,6 +479,9 @@ src/moduls/protocol/UserProtocol/po/ru.po -text
 src/moduls/protocol/UserProtocol/po/uk.po -text
 src/moduls/protocol/UserProtocol/user_prt.cpp -text
 src/moduls/protocol/UserProtocol/user_prt.h -text
+src/moduls/special/=Tmpl=/Makefile.am -text
+src/moduls/special/=Tmpl=/mod_tmpl.cpp -text
+src/moduls/special/=Tmpl=/mod_tmpl.h -text
 src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/doc/about.pdf -text
 src/moduls/special/FLibComplex1/doc/about_ru.pdf -text
