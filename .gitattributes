@@ -174,9 +174,10 @@ doc/QuickStart.pdf -text
 doc/QuickStart_ru.pdf -text
 doc/openscada.pdf -text
 doc/openscada_ru.pdf -text
-doc/release_0.6.4.pdf -text
-doc/release_0.6.4_ru.pdf -text
-doc/release_0.6.4_uk.pdf -text
+doc/release_0.7.0.pdf -text
+doc/release_0.7.0_ru.pdf -text
+doc/release_0.7.0_tests_ru.pdf -text
+doc/release_0.7.0_uk.pdf -text
 /mkdist -text
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 /openscada_mod.spec -text
