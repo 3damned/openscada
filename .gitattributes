@@ -276,6 +276,9 @@ src/moduls/daq/AMRDevs/mod_amr.h -text
 src/moduls/daq/AMRDevs/po/de.po -text
 src/moduls/daq/AMRDevs/po/ru.po -text
 src/moduls/daq/AMRDevs/po/uk.po -text
+src/moduls/daq/BFN/Makefile.am -text
+src/moduls/daq/BFN/mod_BFN.cpp -text
+src/moduls/daq/BFN/mod_BFN.h -text
 src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
