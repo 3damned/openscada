@@ -174,6 +174,7 @@ doc/en/DAQ.pdf -text
 doc/en/FAQ.pdf -text svneol=unset#unset
 doc/en/Modules/Archive.DBArch.pdf -text
 doc/en/Modules/Archive.FSArch.pdf -text
+doc/en/Modules/DAQ.BFN.pdf -text
 doc/en/Modules/DAQ.BlockCalc.pdf -text
 doc/en/Modules/DAQ.DAQGate.pdf -text
 doc/en/Modules/DAQ.DCON.pdf -text
@@ -221,6 +222,7 @@ doc/ru/DAQ.pdf -text
 doc/ru/FAQ.pdf -text
 doc/ru/Modules/Archive.DBArch.pdf -text
 doc/ru/Modules/Archive.FSArch.pdf -text
+doc/ru/Modules/DAQ.BFN.pdf -text
 doc/ru/Modules/DAQ.BlockCalc.pdf -text
 doc/ru/Modules/DAQ.DAQGate.pdf -text
 doc/ru/Modules/DAQ.DCON.pdf -text
