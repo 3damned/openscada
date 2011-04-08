@@ -212,10 +212,14 @@ doc/en/Modules/UI.WebCfgD.pdf -text
 doc/en/Modules/UI.WebUser.pdf -text
 doc/en/Modules/UI.WebVision.pdf -text
 doc/en/QuickStart.pdf -text
+doc/en/build.pdf -text
 doc/en/index.odt -text
 doc/en/index.pdf -text
 doc/en/openscada.pdf -text
+doc/en/properties.pdf -text
 doc/en/release_0.7.0.pdf -text
+doc/en/report.pdf -text
+doc/en/terms.pdf -text
 doc/ru/APIOpenSCADA.pdf -text
 doc/ru/AboutOpenSCADA.pdf -text
 doc/ru/DAQ.pdf -text
@@ -260,14 +264,20 @@ doc/ru/Modules/UI.WebCfgD.pdf -text
 doc/ru/Modules/UI.WebUser.pdf -text
 doc/ru/Modules/UI.WebVision.pdf -text
 doc/ru/QuickStart.pdf -text
+doc/ru/build.pdf -text
 doc/ru/index.odt -text
 doc/ru/index.pdf -text
 doc/ru/openscada.pdf -text
+doc/ru/properties.pdf -text
 doc/ru/release_0.7.0.pdf -text
 doc/ru/release_0.7.0_tests.pdf -text
+doc/ru/report.pdf -text
+doc/ru/terms.pdf -text
 doc/uk/FAQ.pdf -text
+doc/uk/build.pdf -text
 doc/uk/index.odt -text
 doc/uk/index.pdf -text
+doc/uk/properties.pdf -text
 doc/uk/release_0.7.0.pdf -text
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 /openscada_mod.spec -text
