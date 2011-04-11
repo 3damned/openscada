@@ -172,6 +172,7 @@ doc/en/APIOpenSCADA.pdf -text
 doc/en/AboutOpenSCADA.pdf -text
 doc/en/DAQ.pdf -text
 doc/en/FAQ.pdf -text svneol=unset#unset
+doc/en/Lib.TechApp.pdf -text
 doc/en/Modules/Archive.DBArch.pdf -text
 doc/en/Modules/Archive.FSArch.pdf -text
 doc/en/Modules/DAQ.BFN.pdf -text
@@ -212,6 +213,8 @@ doc/en/Modules/UI.WebCfgD.pdf -text
 doc/en/Modules/UI.WebUser.pdf -text
 doc/en/Modules/UI.WebVision.pdf -text
 doc/en/QuickStart.pdf -text
+doc/en/WLib.Main.pdf -text
+doc/en/WLib.MnEls.pdf -text
 doc/en/build.pdf -text
 doc/en/index.odt -text
 doc/en/index.pdf -text
@@ -224,6 +227,7 @@ doc/ru/APIOpenSCADA.pdf -text
 doc/ru/AboutOpenSCADA.pdf -text
 doc/ru/DAQ.pdf -text
 doc/ru/FAQ.pdf -text
+doc/ru/Lib.TechApp.pdf -text
 doc/ru/Modules/Archive.DBArch.pdf -text
 doc/ru/Modules/Archive.FSArch.pdf -text
 doc/ru/Modules/DAQ.BFN.pdf -text
@@ -264,6 +268,8 @@ doc/ru/Modules/UI.WebCfgD.pdf -text
 doc/ru/Modules/UI.WebUser.pdf -text
 doc/ru/Modules/UI.WebVision.pdf -text
 doc/ru/QuickStart.pdf -text
+doc/ru/WLib.Main.pdf -text
+doc/ru/WLib.MnEls.pdf -text
 doc/ru/build.pdf -text
 doc/ru/index.odt -text
 doc/ru/index.pdf -text
@@ -274,6 +280,7 @@ doc/ru/release_0.7.0_tests.pdf -text
 doc/ru/report.pdf -text
 doc/ru/terms.pdf -text
 doc/uk/FAQ.pdf -text
+doc/uk/Lib.TechApp.pdf -text
 doc/uk/build.pdf -text
 doc/uk/index.odt -text
 doc/uk/index.pdf -text
