@@ -145,8 +145,9 @@ data/icons_src/vision_lwdg.xcf -text
 data/openscada.desktop -text
 data/openscada.png -text
 data/openscada_start -text
-data/oscada.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
+data/oscada_ALT.init -text svn_keywords=Author+Date+Id+Revision
+data/oscada_RH.init -text
 data/oscada_start.xml -text
 debian/changelog -text
 debian/compat -text
@@ -162,6 +163,7 @@ debian/openscada-model.aglks.install -text
 debian/openscada-model.boiler.install -text
 debian/openscada.dirs -text
 debian/openscada.docs -text
+debian/openscada.init -text
 debian/openscada.install -text
 debian/openscada.menu -text
 debian/openscada.postinst -text
