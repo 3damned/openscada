@@ -97,6 +97,7 @@ data/icons/load.png -text
 data/icons/next.png -text
 data/icons/previous.png -text
 data/icons/print.png -text
+data/icons/redo.png -text
 data/icons/reload.png -text
 data/icons/save.png -text
 data/icons/spinar.png -text
@@ -114,6 +115,7 @@ data/icons/treePlusUp.gif -text
 data/icons/treePlusUpDown.gif -text
 data/icons/treeUp.gif -text
 data/icons/treeUpDown.gif -text
+data/icons/undo.png -text
 data/icons/up.png -text
 data/icons/vision_align_bottom.png -text
 data/icons/vision_align_hcenter.png -text
@@ -755,8 +757,10 @@ src/moduls/ui/Vision/images/ok.png -text
 src/moduls/ui/Vision/images/print.png -text
 src/moduls/ui/Vision/images/prj_new.png -text
 src/moduls/ui/Vision/images/prj_run.png -text
+src/moduls/ui/Vision/images/redo.png -text
 src/moduls/ui/Vision/images/reload.png -text
 src/moduls/ui/Vision/images/save.png -text
+src/moduls/ui/Vision/images/undo.png -text
 src/moduls/ui/Vision/images/vision.png -text
 src/moduls/ui/Vision/po/de.po -text
 src/moduls/ui/Vision/po/ru.po -text
