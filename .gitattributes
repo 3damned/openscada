@@ -3,6 +3,7 @@
 /AUTHORS -text svn_keywords=Author+Date+Id+Revision
 /COPYING -text svn_keywords=Author+Date+Id+Revision
 /ChangeLog -text svn_keywords=Author+Date+Id+Revision
+/I18N.am -text
 /INSTALL -text svn_keywords=Author+Date+Id+Revision
 /Makefile.am -text svn_keywords=Author+Date+Id+Revision
 /NEWS -text svn_keywords=Author+Date+Id+Revision
