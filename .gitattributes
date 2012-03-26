@@ -3,7 +3,7 @@
 /AUTHORS -text svn_keywords=Author+Date+Id+Revision
 /COPYING -text svn_keywords=Author+Date+Id+Revision
 /ChangeLog -text svn_keywords=Author+Date+Id+Revision
-/I18N.am -text
+/I18N.mk -text
 /INSTALL -text svn_keywords=Author+Date+Id+Revision
 /Makefile.am -text svn_keywords=Author+Date+Id+Revision
 /NEWS -text svn_keywords=Author+Date+Id+Revision
@@ -291,16 +291,18 @@ doc/uk/index.odt -text
 doc/uk/index.pdf -text
 doc/uk/properties.pdf -text
 doc/uk/release_0.7.2.pdf -text
+/openscada.pc.in -text
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 /openscada_mod.spec -text
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
 src/moduls/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/=Tmpl=/Makefile.am -text
+src/moduls/arhiv/=Tmpl=/configure.in -text
 src/moduls/arhiv/=Tmpl=/mess.cpp -text
 src/moduls/arhiv/=Tmpl=/mess.h -text
-src/moduls/arhiv/=Tmpl=/mod_tmpl.cpp -text
-src/moduls/arhiv/=Tmpl=/mod_tmpl.h -text
+src/moduls/arhiv/=Tmpl=/module.cpp -text
+src/moduls/arhiv/=Tmpl=/module.h -text
 src/moduls/arhiv/=Tmpl=/val.cpp -text
 src/moduls/arhiv/=Tmpl=/val.h -text
 src/moduls/arhiv/DBArch/Makefile.am -text
@@ -325,8 +327,9 @@ src/moduls/arhiv/FSArch/val.cpp -text
 src/moduls/arhiv/FSArch/val.h -text
 src/moduls/arhiv/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/=Tmpl=/Makefile.am -text
-src/moduls/bd/=Tmpl=/mod_tmpl.cpp -text
-src/moduls/bd/=Tmpl=/mod_tmpl.h -text
+src/moduls/bd/=Tmpl=/configure.in -text
+src/moduls/bd/=Tmpl=/module.cpp -text
+src/moduls/bd/=Tmpl=/module.h -text
 src/moduls/bd/DBF/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
@@ -361,8 +364,9 @@ src/moduls/bd/SQLite/po/de.po -text
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/=Tmpl=/Makefile.am -text
-src/moduls/daq/=Tmpl=/mod_tmpl.cpp -text
-src/moduls/daq/=Tmpl=/mod_tmpl.h -text
+src/moduls/daq/=Tmpl=/configure.in -text
+src/moduls/daq/=Tmpl=/module.cpp -text
+src/moduls/daq/=Tmpl=/module.h -text
 src/moduls/daq/AMRDevs/Makefile.am -text
 src/moduls/daq/AMRDevs/da.h -text
 src/moduls/daq/AMRDevs/da_Ergomera.cpp -text
@@ -558,8 +562,9 @@ src/moduls/daq/System/po/de.po -text
 src/moduls/daq/System/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/=Tmpl=/Makefile.am -text
-src/moduls/protocol/=Tmpl=/mod_tmpl.cpp -text
-src/moduls/protocol/=Tmpl=/mod_tmpl.h -text
+src/moduls/protocol/=Tmpl=/configure.in -text
+src/moduls/protocol/=Tmpl=/module.cpp -text
+src/moduls/protocol/=Tmpl=/module.h -text
 src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/http.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/http.h -text svn_keywords=Author+Date+Id+Revision
@@ -580,8 +585,9 @@ src/moduls/protocol/UserProtocol/po/uk.po -text
 src/moduls/protocol/UserProtocol/user_prt.cpp -text
 src/moduls/protocol/UserProtocol/user_prt.h -text
 src/moduls/special/=Tmpl=/Makefile.am -text
-src/moduls/special/=Tmpl=/mod_tmpl.cpp -text
-src/moduls/special/=Tmpl=/mod_tmpl.h -text
+src/moduls/special/=Tmpl=/configure.in -text
+src/moduls/special/=Tmpl=/module.cpp -text
+src/moduls/special/=Tmpl=/module.h -text
 src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/po/de.po -text
@@ -627,8 +633,9 @@ src/moduls/special/SystemTests/test_prm.h -text
 src/moduls/special/SystemTests/test_val.h -text
 src/moduls/special/SystemTests/test_xml.h -text
 src/moduls/transport/=Tmpl=/Makefile.am -text
-src/moduls/transport/=Tmpl=/mod_tmpl.cpp -text
-src/moduls/transport/=Tmpl=/mod_tmpl.h -text
+src/moduls/transport/=Tmpl=/configure.in -text
+src/moduls/transport/=Tmpl=/module.cpp -text
+src/moduls/transport/=Tmpl=/module.h -text
 src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/SSL/Makefile.am -text
 src/moduls/transport/SSL/modssl.cpp -text
@@ -649,8 +656,9 @@ src/moduls/transport/Sockets/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/socket.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/socket.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/=Tmpl=/Makefile.am -text
-src/moduls/ui/=Tmpl=/mod_tmpl.cpp -text
-src/moduls/ui/=Tmpl=/mod_tmpl.h -text
+src/moduls/ui/=Tmpl=/configure.in -text
+src/moduls/ui/=Tmpl=/module.cpp -text
+src/moduls/ui/=Tmpl=/module.h -text
 src/moduls/ui/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/images/button_cancel.png -text
