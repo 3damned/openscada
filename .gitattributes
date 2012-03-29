@@ -4,7 +4,6 @@
 /COPYING -text svn_keywords=Author+Date+Id+Revision
 /ChangeLog -text svn_keywords=Author+Date+Id+Revision
 /I18N.mk -text
-/INSTALL -text svn_keywords=Author+Date+Id+Revision
 /Makefile.am -text svn_keywords=Author+Date+Id+Revision
 /NEWS -text svn_keywords=Author+Date+Id+Revision
 /README -text svn_keywords=Author+Date+Id+Revision
@@ -219,6 +218,7 @@ doc/en/Modules/UI.WebCfgD.pdf -text
 doc/en/Modules/UI.WebUser.pdf -text
 doc/en/Modules/UI.WebVision.pdf -text
 doc/en/QuickStart.pdf -text
+doc/en/WLib.ElEls.pdf -text
 doc/en/WLib.Main.pdf -text
 doc/en/WLib.MnEls.pdf -text
 doc/en/build.pdf -text
@@ -274,6 +274,7 @@ doc/ru/Modules/UI.WebCfgD.pdf -text
 doc/ru/Modules/UI.WebUser.pdf -text
 doc/ru/Modules/UI.WebVision.pdf -text
 doc/ru/QuickStart.pdf -text
+doc/ru/WLib.ElEls.pdf -text
 doc/ru/WLib.Main.pdf -text
 doc/ru/WLib.MnEls.pdf -text
 doc/ru/build.pdf -text
@@ -291,6 +292,7 @@ doc/uk/index.odt -text
 doc/uk/index.pdf -text
 doc/uk/properties.pdf -text
 doc/uk/release_0.7.2.pdf -text
+doc/uk/report.pdf -text
 /openscada.pc.in -text
 /openscada.spec -text svn_keywords=Author+Date+Id+Revision
 /openscada_mod.spec -text
