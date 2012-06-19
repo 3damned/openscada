@@ -160,6 +160,7 @@ data/icons/vision_level_up.png -text
 data/icons/vision_lib_new.png -text
 data/icons/vision_prj_new.png -text
 data/icons/vision_prj_run.png -text
+data/icons_src/DAQ.Serial.odg -text
 data/icons_src/misc.xcf -text
 data/icons_src/oscada.xcf -text
 data/icons_src/splash.xcf -text
