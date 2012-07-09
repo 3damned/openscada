@@ -418,6 +418,9 @@ src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/Comedi/Makefile.am -text
+src/moduls/daq/Comedi/module.cpp -text
+src/moduls/daq/Comedi/module.h -text
 src/moduls/daq/DAQGate/Makefile.am -text
 src/moduls/daq/DAQGate/daq_gate.cpp -text
 src/moduls/daq/DAQGate/daq_gate.h -text
@@ -443,6 +446,7 @@ src/moduls/daq/ICP_DAS/ICP_module.h -text
 src/moduls/daq/ICP_DAS/Makefile.am -text
 src/moduls/daq/ICP_DAS/include/8080.h -text
 src/moduls/daq/ICP_DAS/include/8084W.h -text
+src/moduls/daq/ICP_DAS/include/_flag.h -text
 src/moduls/daq/ICP_DAS/include/codes.h -text
 src/moduls/daq/ICP_DAS/include/common.h -text
 src/moduls/daq/ICP_DAS/include/debug.h -text
@@ -455,6 +459,7 @@ src/moduls/daq/ICP_DAS/include/i87000.h -text
 src/moduls/daq/ICP_DAS/include/i87120can.h -text
 src/moduls/daq/ICP_DAS/include/i87123cpm.h -text
 src/moduls/daq/ICP_DAS/include/i87124dnm.h -text
+src/moduls/daq/ICP_DAS/include/ixisa.h -text
 src/moduls/daq/ICP_DAS/include/lincon.h -text
 src/moduls/daq/ICP_DAS/include/mbcapi.h -text
 src/moduls/daq/ICP_DAS/include/mbserver.h -text
