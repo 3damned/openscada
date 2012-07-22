@@ -444,6 +444,13 @@ src/moduls/daq/DiamondBoards/po/uk.po -text
 src/moduls/daq/ICP_DAS/ICP_module.cpp -text
 src/moduls/daq/ICP_DAS/ICP_module.h -text
 src/moduls/daq/ICP_DAS/Makefile.am -text
+src/moduls/daq/ICP_DAS/da.h -text
+src/moduls/daq/ICP_DAS/da_87x.cpp -text
+src/moduls/daq/ICP_DAS/da_87x.h -text
+src/moduls/daq/ICP_DAS/da_ISA.cpp -text
+src/moduls/daq/ICP_DAS/da_ISA.h -text
+src/moduls/daq/ICP_DAS/da_LP_8x.cpp -text
+src/moduls/daq/ICP_DAS/da_LP_8x.h -text
 src/moduls/daq/ICP_DAS/include/8080.h -text
 src/moduls/daq/ICP_DAS/include/8084W.h -text
 src/moduls/daq/ICP_DAS/include/_flag.h -text
