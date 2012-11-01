@@ -18,22 +18,24 @@ data/LibsDB/OscadaLibs.db -text
 data/LibsDB/vcaBase.db -text
 data/LibsDB/vcaElectroEls.db -text
 data/LibsDB/vcaTest.db -text
+data/ModelsDB/AGLKS/AGLKS.png -text
 data/ModelsDB/AGLKS/Model.db -text
 data/ModelsDB/AGLKS/St.db -text
-data/ModelsDB/AGLKS/openscada_AGLKS -text
-data/ModelsDB/AGLKS/openscada_AGLKS.desktop -text
+data/ModelsDB/AGLKS/openscada_AGLKS.desktop.in -text
+data/ModelsDB/AGLKS/openscada_AGLKS.in -text
 data/ModelsDB/AGLKS/openscada_AGLKS.png -text
-data/ModelsDB/AGLKS/openscada_demo -text
+data/ModelsDB/AGLKS/openscada_demo.in -text
 data/ModelsDB/AGLKS/openscada_demo_local -text
-data/ModelsDB/AGLKS/oscada_AGLKS.xml -text
+data/ModelsDB/AGLKS/oscada_AGLKS.xml.in -text
 data/ModelsDB/AGLKS/oscada_demo_local.xml -text
 data/ModelsDB/AGLKS/vca.db -text
+data/ModelsDB/Boiler/Boiler.png -text
 data/ModelsDB/Boiler/Model.db -text
 data/ModelsDB/Boiler/St.db -text
-data/ModelsDB/Boiler/openscada_Boiler -text
-data/ModelsDB/Boiler/openscada_Boiler.desktop -text
+data/ModelsDB/Boiler/openscada_Boiler.desktop.in -text
+data/ModelsDB/Boiler/openscada_Boiler.in -text
 data/ModelsDB/Boiler/openscada_Boiler.png -text
-data/ModelsDB/Boiler/oscada_Boiler.xml -text
+data/ModelsDB/Boiler/oscada_Boiler.xml.in -text
 data/icons/Archive.DBArch.png -text
 data/icons/Archive.FSArch.png -text
 data/icons/Archive.png -text
@@ -165,13 +167,13 @@ data/icons_src/misc.xcf -text
 data/icons_src/oscada.xcf -text
 data/icons_src/splash.xcf -text
 data/icons_src/vision_lwdg.xcf -text
-data/openscada.desktop -text
+data/openscada.desktop.in -text
 data/openscada.png -text
-data/openscada_start -text
-data/oscada.xml -text svn_keywords=Author+Date+Id+Revision
+data/openscada_start.in -text
+data/oscada.xml.in -text svn_keywords=Author+Date+Id+Revision
 data/oscada_ALT.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada_RH.init -text
-data/oscada_start.xml -text
+data/oscada_start.xml.in -text
 debian/changelog -text
 debian/compat -text
 debian/control -text
@@ -550,6 +552,9 @@ src/moduls/daq/OPC_UA/po/uk.po -text
 src/moduls/daq/SMH2Gi/Makefile.am -text
 src/moduls/daq/SMH2Gi/module.cpp -text
 src/moduls/daq/SMH2Gi/module.h -text
+src/moduls/daq/SMH2Gi/po/de.po -text
+src/moduls/daq/SMH2Gi/po/ru.po -text
+src/moduls/daq/SMH2Gi/po/uk.po -text
 src/moduls/daq/SMH2Gi/rlcutil.cpp -text
 src/moduls/daq/SMH2Gi/rlcutil.h -text
 src/moduls/daq/SMH2Gi/rldefine.h -text
