@@ -25,9 +25,7 @@ data/ModelsDB/AGLKS/openscada_AGLKS.desktop.in -text
 data/ModelsDB/AGLKS/openscada_AGLKS.in -text
 data/ModelsDB/AGLKS/openscada_AGLKS.png -text
 data/ModelsDB/AGLKS/openscada_demo.in -text
-data/ModelsDB/AGLKS/openscada_demo_local -text
 data/ModelsDB/AGLKS/oscada_AGLKS.xml.in -text
-data/ModelsDB/AGLKS/oscada_demo_local.xml -text
 data/ModelsDB/AGLKS/vca.db -text
 data/ModelsDB/Boiler/Boiler.png -text
 data/ModelsDB/Boiler/Model.db -text
