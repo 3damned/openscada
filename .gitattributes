@@ -405,6 +405,7 @@ src/moduls/daq/AMRDevs/po/de.po -text
 src/moduls/daq/AMRDevs/po/ru.po -text
 src/moduls/daq/AMRDevs/po/uk.po -text
 src/moduls/daq/BFN/Makefile.am -text
+src/moduls/daq/BFN/data/BFNsymbs.db -text
 src/moduls/daq/BFN/mod_BFN.cpp -text
 src/moduls/daq/BFN/mod_BFN.h -text
 src/moduls/daq/BFN/po/de.po -text
