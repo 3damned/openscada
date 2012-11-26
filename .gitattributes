@@ -548,6 +548,9 @@ src/moduls/daq/OPC_UA/moduls.cpp -text
 src/moduls/daq/OPC_UA/po/de.po -text
 src/moduls/daq/OPC_UA/po/ru.po -text
 src/moduls/daq/OPC_UA/po/uk.po -text
+src/moduls/daq/OneWire/Makefile.am -text
+src/moduls/daq/OneWire/module.cpp -text
+src/moduls/daq/OneWire/module.h -text
 src/moduls/daq/SMH2Gi/Makefile.am -text
 src/moduls/daq/SMH2Gi/module.cpp -text
 src/moduls/daq/SMH2Gi/module.h -text
