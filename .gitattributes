@@ -441,7 +441,7 @@ src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revis
 src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/DiamondBoards/dscud.h -text
-src/moduls/daq/DiamondBoards/libdscud5.a -text
+src/moduls/daq/DiamondBoards/libdscud.a -text
 src/moduls/daq/DiamondBoards/po/de.po -text
 src/moduls/daq/DiamondBoards/po/ru.po -text
 src/moduls/daq/DiamondBoards/po/uk.po -text
