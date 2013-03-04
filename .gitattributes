@@ -25,7 +25,7 @@ data/ModelsDB/AGLKS/openscada_AGLKS.desktop.in -text
 data/ModelsDB/AGLKS/openscada_AGLKS.in -text
 data/ModelsDB/AGLKS/openscada_AGLKS.png -text
 data/ModelsDB/AGLKS/openscada_demo.in -text
-data/ModelsDB/AGLKS/oscada_AGLKS.xml.in -text
+data/ModelsDB/AGLKS/oscada_AGLKS.xml -text
 data/ModelsDB/AGLKS/vca.db -text
 data/ModelsDB/Boiler/Boiler.png -text
 data/ModelsDB/Boiler/Model.db -text
@@ -33,7 +33,7 @@ data/ModelsDB/Boiler/St.db -text
 data/ModelsDB/Boiler/openscada_Boiler.desktop.in -text
 data/ModelsDB/Boiler/openscada_Boiler.in -text
 data/ModelsDB/Boiler/openscada_Boiler.png -text
-data/ModelsDB/Boiler/oscada_Boiler.xml.in -text
+data/ModelsDB/Boiler/oscada_Boiler.xml -text
 data/icons/Archive.DBArch.png -text
 data/icons/Archive.FSArch.png -text
 data/icons/Archive.png -text
@@ -168,10 +168,10 @@ data/icons_src/vision_lwdg.xcf -text
 data/openscada.desktop.in -text
 data/openscada.png -text
 data/openscada_start.in -text
-data/oscada.xml.in -text svn_keywords=Author+Date+Id+Revision
+data/oscada.xml.in -text
 data/oscada_ALT.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada_RH.init -text
-data/oscada_start.xml.in -text
+data/oscada_start.xml -text
 debian/changelog -text
 debian/compat -text
 debian/control -text
