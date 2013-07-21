@@ -45,6 +45,7 @@ data/icons/BD.SQLite.png -text
 data/icons/BD.png -text
 data/icons/DAQ.BFN.png -text
 data/icons/DAQ.BlockCalc.png -text
+data/icons/DAQ.Comedi.png -text
 data/icons/DAQ.DAQGate.png -text
 data/icons/DAQ.DCON.png -text
 data/icons/DAQ.DiamondBoards.png -text
@@ -53,6 +54,7 @@ data/icons/DAQ.JavaLikeCalc.png -text
 data/icons/DAQ.LogicLev.png -text
 data/icons/DAQ.ModBus.png -text
 data/icons/DAQ.OPC_UA.png -text
+data/icons/DAQ.SMH2Gi.png -text
 data/icons/DAQ.SNMP.png -text
 data/icons/DAQ.Siemens.png -text
 data/icons/DAQ.SoundCard.png -text
