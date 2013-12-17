@@ -852,8 +852,14 @@ src/moduls/daq/ModBus/po/de.po -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/OPC_UA/Makefile.am -text
-src/moduls/daq/OPC_UA/libOPC_UA.cpp -text
-src/moduls/daq/OPC_UA/libOPC_UA.h -text
+src/moduls/daq/OPC_UA/libOPC_UA/Makefile.am -text
+src/moduls/daq/OPC_UA/libOPC_UA/cert.pem -text
+src/moduls/daq/OPC_UA/libOPC_UA/key.pem -text
+src/moduls/daq/OPC_UA/libOPC_UA/libOPC_UA.cpp -text
+src/moduls/daq/OPC_UA/libOPC_UA/libOPC_UA.h -text
+src/moduls/daq/OPC_UA/libOPC_UA/test.cpp -text
+src/moduls/daq/OPC_UA/libOPC_UA/test.h -text
+src/moduls/daq/OPC_UA/libOPC_UA/test_Makefile -text
 src/moduls/daq/OPC_UA/mod_daq.cpp -text
 src/moduls/daq/OPC_UA/mod_daq.h -text
 src/moduls/daq/OPC_UA/mod_prt.cpp -text
@@ -991,6 +997,10 @@ src/moduls/special/FLibMath/statfunc.cpp -text
 src/moduls/special/FLibMath/statfunc.h -text
 src/moduls/special/FLibMath/stdmath.h -text
 src/moduls/special/FLibSYS/Makefile.am -text
+src/moduls/special/FLibSYS/gd.cpp -text
+src/moduls/special/FLibSYS/gd.h -text
+src/moduls/special/FLibSYS/io.cpp -text
+src/moduls/special/FLibSYS/io.h -text
 src/moduls/special/FLibSYS/po/de.po -text
 src/moduls/special/FLibSYS/po/ru.po -text
 src/moduls/special/FLibSYS/po/uk.po -text
