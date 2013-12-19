@@ -534,6 +534,7 @@ src/moduls/daq/LogicLev/po/uk.po -text
 src/moduls/daq/MMS/Makefile.am -text
 src/moduls/daq/MMS/libiec61850/CHANGELOG -text
 src/moduls/daq/MMS/libiec61850/COPYING -text
+src/moduls/daq/MMS/libiec61850/Makefile.am -text
 src/moduls/daq/MMS/libiec61850/README -text
 src/moduls/daq/MMS/libiec61850/inc/stack_config.h -text
 src/moduls/daq/MMS/libiec61850/src/common/array_list.c -text
