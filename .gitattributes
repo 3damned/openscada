@@ -853,6 +853,7 @@ src/moduls/daq/ModBus/po/de.po -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/OPC_UA/Makefile.am -text
+src/moduls/daq/OPC_UA/libOPC_UA/COPYING -text
 src/moduls/daq/OPC_UA/libOPC_UA/Makefile.am -text
 src/moduls/daq/OPC_UA/libOPC_UA/cert.pem -text
 src/moduls/daq/OPC_UA/libOPC_UA/key.pem -text
