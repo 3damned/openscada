@@ -22,16 +22,13 @@ data/ModelsDB/AGLKS/AGLKS.png -text
 data/ModelsDB/AGLKS/Model.db -text
 data/ModelsDB/AGLKS/St.db -text
 data/ModelsDB/AGLKS/openscada_AGLKS.desktop.in -text
-data/ModelsDB/AGLKS/openscada_AGLKS.in -text
 data/ModelsDB/AGLKS/openscada_AGLKS.png -text
-data/ModelsDB/AGLKS/openscada_demo.in -text
 data/ModelsDB/AGLKS/oscada_AGLKS.xml -text
 data/ModelsDB/AGLKS/vca.db -text
 data/ModelsDB/Boiler/Boiler.png -text
 data/ModelsDB/Boiler/Model.db -text
 data/ModelsDB/Boiler/St.db -text
 data/ModelsDB/Boiler/openscada_Boiler.desktop.in -text
-data/ModelsDB/Boiler/openscada_Boiler.in -text
 data/ModelsDB/Boiler/openscada_Boiler.png -text
 data/ModelsDB/Boiler/oscada_Boiler.xml -text
 data/icons/Archive.DBArch.png -text
