@@ -182,7 +182,9 @@ debian/openscada-doc.uk.install -text
 debian/openscada-libdb.main.install -text
 debian/openscada-libdb.vca.install -text
 debian/openscada-model.aglks.install -text
+debian/openscada-model.aglks.links -text
 debian/openscada-model.boiler.install -text
+debian/openscada-model.boiler.links -text
 debian/openscada.dirs -text
 debian/openscada.docs -text
 debian/openscada.init -text
