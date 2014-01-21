@@ -538,6 +538,8 @@ src/moduls/daq/MMS/libiec61850/README -text
 src/moduls/daq/MMS/libiec61850/inc/stack_config.h -text
 src/moduls/daq/MMS/libiec61850/src/common/array_list.c -text
 src/moduls/daq/MMS/libiec61850/src/common/array_list.h -text
+src/moduls/daq/MMS/libiec61850/src/common/buffer_chain.c -text
+src/moduls/daq/MMS/libiec61850/src/common/buffer_chain.h -text
 src/moduls/daq/MMS/libiec61850/src/common/byte_buffer.c -text
 src/moduls/daq/MMS/libiec61850/src/common/byte_buffer.h -text
 src/moduls/daq/MMS/libiec61850/src/common/libiec61850_platform_includes.h -text
@@ -570,11 +572,15 @@ src/moduls/daq/MMS/libiec61850/src/hal/thread/thread.h -text
 src/moduls/daq/MMS/libiec61850/src/hal/thread/win32/thread_win32.c -text
 src/moduls/daq/MMS/libiec61850/src/iedclient/iec61850_client.h -text
 src/moduls/daq/MMS/libiec61850/src/iedclient/impl/client_control.c -text
+src/moduls/daq/MMS/libiec61850/src/iedclient/impl/client_report_control.c -text
 src/moduls/daq/MMS/libiec61850/src/iedclient/impl/ied_connection.c -text
+src/moduls/daq/MMS/libiec61850/src/iedclient/impl/ied_connection_private.h -text
 src/moduls/daq/MMS/libiec61850/src/iedcommon/iec61850_common.c -text
 src/moduls/daq/MMS/libiec61850/src/iedcommon/iec61850_common.h -text
 src/moduls/daq/MMS/libiec61850/src/iedserver/iec61850_server.h -text
-src/moduls/daq/MMS/libiec61850/src/iedserver/ied_server.c -text
+src/moduls/daq/MMS/libiec61850/src/iedserver/impl/client_connection.c -text
+src/moduls/daq/MMS/libiec61850/src/iedserver/impl/ied_server.c -text
+src/moduls/daq/MMS/libiec61850/src/iedserver/impl/ied_server_private.h -text
 src/moduls/daq/MMS/libiec61850/src/iedserver/mms_mapping/control.c -text
 src/moduls/daq/MMS/libiec61850/src/iedserver/mms_mapping/control.h -text
 src/moduls/daq/MMS/libiec61850/src/iedserver/mms_mapping/mms_goose.c -text
@@ -833,8 +839,11 @@ src/moduls/daq/MMS/libiec61850/src/mms/iso_presentation/iso_presentation.h -text
 src/moduls/daq/MMS/libiec61850/src/mms/iso_server/iso_connection.c -text
 src/moduls/daq/MMS/libiec61850/src/mms/iso_server/iso_server.c -text
 src/moduls/daq/MMS/libiec61850/src/mms/iso_server/iso_server.h -text
+src/moduls/daq/MMS/libiec61850/src/mms/iso_server/iso_server_private.h -text
 src/moduls/daq/MMS/libiec61850/src/mms/iso_session/iso_session.c -text
 src/moduls/daq/MMS/libiec61850/src/mms/iso_session/iso_session.h -text
+src/moduls/daq/MMS/libiec61850/src/sampled_values/sv.asn1 -text
+src/moduls/daq/MMS/libiec61850/src/sampled_values/sv_publisher.c -text
 src/moduls/daq/MMS/libiec61850/src/vs/stdbool.h -text
 src/moduls/daq/MMS/module.cpp -text
 src/moduls/daq/MMS/module.h -text
