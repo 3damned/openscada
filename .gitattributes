@@ -400,6 +400,8 @@ src/moduls/daq/AMRDevs/da_Ergomera.cpp -text
 src/moduls/daq/AMRDevs/da_Ergomera.h -text
 src/moduls/daq/AMRDevs/da_FlowTEC.cpp -text
 src/moduls/daq/AMRDevs/da_FlowTEC.h -text
+src/moduls/daq/AMRDevs/da_Kontar.cpp -text
+src/moduls/daq/AMRDevs/da_Kontar.h -text
 src/moduls/daq/AMRDevs/mod_amr.cpp -text
 src/moduls/daq/AMRDevs/mod_amr.h -text
 src/moduls/daq/AMRDevs/po/de.po -text
