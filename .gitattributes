@@ -13,7 +13,7 @@
 /TODO_ru -text
 /TODO_uk -text
 /acinclude.m4 -text
-/configure.in -text svn_keywords=Author+Date+Id+Revision
+/configure.ac -text svn_keywords=Author+Date+Id+Revision
 data/LibsDB/OscadaLibs.db -text
 data/LibsDB/vcaBase.db -text
 data/LibsDB/vcaElectroEls.db -text
