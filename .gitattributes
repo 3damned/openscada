@@ -963,6 +963,8 @@ src/moduls/daq/System/da_sensors.cpp -text
 src/moduls/daq/System/da_sensors.h -text
 src/moduls/daq/System/da_smart.cpp -text
 src/moduls/daq/System/da_smart.h -text
+src/moduls/daq/System/da_ups.cpp -text
+src/moduls/daq/System/da_ups.h -text
 src/moduls/daq/System/da_uptime.cpp -text
 src/moduls/daq/System/da_uptime.h -text
 src/moduls/daq/System/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
