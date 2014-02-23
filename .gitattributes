@@ -448,6 +448,9 @@ src/moduls/daq/DiamondBoards/libdscud.a -text
 src/moduls/daq/DiamondBoards/po/de.po -text
 src/moduls/daq/DiamondBoards/po/ru.po -text
 src/moduls/daq/DiamondBoards/po/uk.po -text
+src/moduls/daq/EPICS/Makefile.am -text
+src/moduls/daq/EPICS/module.cpp -text
+src/moduls/daq/EPICS/module.h -text
 src/moduls/daq/ICP_DAS/ICP_module.cpp -text
 src/moduls/daq/ICP_DAS/ICP_module.h -text
 src/moduls/daq/ICP_DAS/Makefile.am -text
