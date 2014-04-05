@@ -536,6 +536,10 @@ src/moduls/daq/LogicLev/po/de.po -text
 src/moduls/daq/LogicLev/po/ru.po -text
 src/moduls/daq/LogicLev/po/uk.po -text
 src/moduls/daq/MMS/Makefile.am -text
+src/moduls/daq/MMS/libMMS/COPYING -text
+src/moduls/daq/MMS/libMMS/Makefile.am -text
+src/moduls/daq/MMS/libMMS/libMMS.cpp -text
+src/moduls/daq/MMS/libMMS/libMMS.h -text
 src/moduls/daq/MMS/libiec61850/CHANGELOG -text
 src/moduls/daq/MMS/libiec61850/COPYING -text
 src/moduls/daq/MMS/libiec61850/Makefile.am -text
