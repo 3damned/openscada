@@ -113,6 +113,7 @@ data/icons/it_add.png -text
 data/icons/it_del.png -text
 data/icons/line.png -text
 data/icons/load.png -text
+data/icons/manual.png -text
 data/icons/next.png -text
 data/icons/previous.png -text
 data/icons/print.png -text
@@ -177,8 +178,11 @@ debian/control -text
 debian/copyright -text
 debian/openscada-dev.install -text
 debian/openscada-doc.en.install -text
+debian/openscada-doc.en.links -text
 debian/openscada-doc.ru.install -text
+debian/openscada-doc.ru.links -text
 debian/openscada-doc.uk.install -text
+debian/openscada-doc.uk.links -text
 debian/openscada-libdb.main.install -text
 debian/openscada-libdb.vca.install -text
 debian/openscada-model.aglks.install -text
@@ -781,6 +785,7 @@ src/moduls/ui/QTCfg/images/identity.png -text
 src/moduls/ui/QTCfg/images/it_add.png -text
 src/moduls/ui/QTCfg/images/it_del.png -text
 src/moduls/ui/QTCfg/images/load.png -text
+src/moduls/ui/QTCfg/images/manual.png -text
 src/moduls/ui/QTCfg/images/next.png -text
 src/moduls/ui/QTCfg/images/ok.png -text
 src/moduls/ui/QTCfg/images/oscada_cfg.png -text
@@ -801,7 +806,10 @@ src/moduls/ui/QTCfg/selfwidg.h -text
 src/moduls/ui/QTCfg/tuimod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/tuimod.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTStarter/Makefile.am -text
+src/moduls/ui/QTStarter/images/contexthelp.png -text
 src/moduls/ui/QTStarter/images/exit.png -text
+src/moduls/ui/QTStarter/images/help.png -text
+src/moduls/ui/QTStarter/images/manual.png -text
 src/moduls/ui/QTStarter/images/oscada_qt.png -text
 src/moduls/ui/QTStarter/images/splash.png -text
 src/moduls/ui/QTStarter/po/de.po -text
@@ -869,6 +877,7 @@ src/moduls/ui/Vision/images/level_rise.png -text
 src/moduls/ui/Vision/images/level_up.png -text
 src/moduls/ui/Vision/images/lib_new.png -text
 src/moduls/ui/Vision/images/load.png -text
+src/moduls/ui/Vision/images/manual.png -text
 src/moduls/ui/Vision/images/ok.png -text
 src/moduls/ui/Vision/images/print.png -text
 src/moduls/ui/Vision/images/prj_new.png -text
