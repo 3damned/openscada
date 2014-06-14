@@ -205,6 +205,11 @@ doc/en/FAQ.pdf -text svneol=unset#unset
 doc/en/Lib.TechApp.pdf -text
 doc/en/Modules/Archive.DBArch.pdf -text
 doc/en/Modules/Archive.FSArch.pdf -text
+doc/en/Modules/BD.DBF.pdf -text
+doc/en/Modules/BD.FireBird.pdf -text
+doc/en/Modules/BD.MySQL.pdf -text
+doc/en/Modules/BD.PostgreSQL.pdf -text
+doc/en/Modules/BD.SQLite.pdf -text
 doc/en/Modules/DAQ.BFN.pdf -text
 doc/en/Modules/DAQ.BlockCalc.pdf -text
 doc/en/Modules/DAQ.DAQGate.pdf -text
@@ -219,11 +224,6 @@ doc/en/Modules/DAQ.SNMP.pdf -text
 doc/en/Modules/DAQ.Siemens.pdf -text
 doc/en/Modules/DAQ.SoundCard.pdf -text
 doc/en/Modules/DAQ.System.pdf -text
-doc/en/Modules/DB.DBF.pdf -text
-doc/en/Modules/DB.FireBird.pdf -text
-doc/en/Modules/DB.MySQL.pdf -text
-doc/en/Modules/DB.PostgreSQL.pdf -text
-doc/en/Modules/DB.SQLite.pdf -text
 doc/en/Modules/Protocol.HTTP.pdf -text
 doc/en/Modules/Protocol.SelfSystem.pdf -text
 doc/en/Modules/Protocol.UserProtocol.pdf -text
@@ -262,6 +262,11 @@ doc/ru/FAQ.pdf -text
 doc/ru/Lib.TechApp.pdf -text
 doc/ru/Modules/Archive.DBArch.pdf -text
 doc/ru/Modules/Archive.FSArch.pdf -text
+doc/ru/Modules/BD.DBF.pdf -text
+doc/ru/Modules/BD.FireBird.pdf -text
+doc/ru/Modules/BD.MySQL.pdf -text
+doc/ru/Modules/BD.PostgreSQL.pdf -text
+doc/ru/Modules/BD.SQLite.pdf -text
 doc/ru/Modules/DAQ.BFN.pdf -text
 doc/ru/Modules/DAQ.BlockCalc.pdf -text
 doc/ru/Modules/DAQ.DAQGate.pdf -text
@@ -276,11 +281,6 @@ doc/ru/Modules/DAQ.SNMP.pdf -text
 doc/ru/Modules/DAQ.Siemens.pdf -text
 doc/ru/Modules/DAQ.SoundCard.pdf -text
 doc/ru/Modules/DAQ.System.pdf -text
-doc/ru/Modules/DB.DBF.pdf -text
-doc/ru/Modules/DB.FireBird.pdf -text
-doc/ru/Modules/DB.MySQL.pdf -text
-doc/ru/Modules/DB.PostgreSQL.pdf -text
-doc/ru/Modules/DB.SQLite.pdf -text
 doc/ru/Modules/Protocol.HTTP.pdf -text
 doc/ru/Modules/Protocol.SelfSystem.pdf -text
 doc/ru/Modules/Protocol.UserProtocol.pdf -text
