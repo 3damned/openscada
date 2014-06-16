@@ -809,6 +809,7 @@ src/moduls/ui/QTStarter/Makefile.am -text
 src/moduls/ui/QTStarter/images/contexthelp.png -text
 src/moduls/ui/QTStarter/images/exit.png -text
 src/moduls/ui/QTStarter/images/help.png -text
+src/moduls/ui/QTStarter/images/logo.png -text
 src/moduls/ui/QTStarter/images/manual.png -text
 src/moduls/ui/QTStarter/images/oscada_qt.png -text
 src/moduls/ui/QTStarter/images/splash.png -text
