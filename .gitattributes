@@ -100,6 +100,7 @@ data/icons/close.png -text
 data/icons/combar.png -text
 data/icons/contexthelp.png -text
 data/icons/disconnect.png -text
+data/icons/down.png -text
 data/icons/editcopy.png -text
 data/icons/editcut.png -text
 data/icons/editpaste.png -text
@@ -148,6 +149,7 @@ data/icons/vision_elfig_besie.png -text
 data/icons/vision_elfig_cursor.png -text
 data/icons/vision_elfig_line.png -text
 data/icons/vision_elfig_lock.png -text
+data/icons/vision_it_ChDown.png -text
 data/icons/vision_it_add.png -text
 data/icons/vision_it_clear.png -text
 data/icons/vision_it_del.png -text
@@ -854,6 +856,7 @@ src/moduls/ui/Vision/images/button_ok.png -text
 src/moduls/ui/Vision/images/close.png -text
 src/moduls/ui/Vision/images/contexthelp.png -text
 src/moduls/ui/Vision/images/disable.png -text
+src/moduls/ui/Vision/images/down.png -text
 src/moduls/ui/Vision/images/edit.png -text
 src/moduls/ui/Vision/images/editcopy.png -text
 src/moduls/ui/Vision/images/editcut.png -text
@@ -867,6 +870,7 @@ src/moduls/ui/Vision/images/exit.png -text
 src/moduls/ui/Vision/images/export.png -text
 src/moduls/ui/Vision/images/find.png -text
 src/moduls/ui/Vision/images/help.png -text
+src/moduls/ui/Vision/images/it_ChDown.png -text
 src/moduls/ui/Vision/images/it_add.png -text
 src/moduls/ui/Vision/images/it_clear.png -text
 src/moduls/ui/Vision/images/it_del.png -text
