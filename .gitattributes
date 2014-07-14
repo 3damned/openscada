@@ -329,7 +329,6 @@ doc/uk/report.pdf -text
 /openscada_mod.spec -text
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
-src/moduls/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/=Tmpl=/Makefile.am -text
 src/moduls/arhiv/=Tmpl=/configure.in -text
 src/moduls/arhiv/=Tmpl=/mess.cpp -text
@@ -358,7 +357,6 @@ src/moduls/arhiv/FSArch/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/val.cpp -text
 src/moduls/arhiv/FSArch/val.h -text
-src/moduls/arhiv/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/=Tmpl=/Makefile.am -text
 src/moduls/bd/=Tmpl=/configure.in -text
 src/moduls/bd/=Tmpl=/module.cpp -text
@@ -377,7 +375,6 @@ src/moduls/bd/FireBird/firebird.h -text
 src/moduls/bd/FireBird/po/de.po -text
 src/moduls/bd/FireBird/po/ru.po -text
 src/moduls/bd/FireBird/po/uk.po -text
-src/moduls/bd/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
@@ -551,7 +548,6 @@ src/moduls/daq/MMS/module.h -text
 src/moduls/daq/MMS/po/de.po -text
 src/moduls/daq/MMS/po/ru.po -text
 src/moduls/daq/MMS/po/uk.po -text
-src/moduls/daq/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/ModBus/Makefile.am -text
 src/moduls/daq/ModBus/modbus_daq.cpp -text
 src/moduls/daq/ModBus/modbus_daq.h -text
@@ -678,7 +674,6 @@ src/moduls/protocol/HTTP/http.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/po/de.po -text
 src/moduls/protocol/HTTP/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/po/uk.po -text svn_keywords=Author+Date+Id+Revision
-src/moduls/protocol/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/po/de.po -text
 src/moduls/protocol/SelfSystem/po/ru.po -text
@@ -725,7 +720,6 @@ src/moduls/special/FLibSYS/varchfnc.cpp -text
 src/moduls/special/FLibSYS/varchfnc.h -text
 src/moduls/special/FLibSYS/xmlfnc.cpp -text
 src/moduls/special/FLibSYS/xmlfnc.h -text
-src/moduls/special/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/mod_tests.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/mod_tests.h -text svn_keywords=Author+Date+Id+Revision
@@ -747,7 +741,6 @@ src/moduls/transport/=Tmpl=/Makefile.am -text
 src/moduls/transport/=Tmpl=/configure.in -text
 src/moduls/transport/=Tmpl=/module.cpp -text
 src/moduls/transport/=Tmpl=/module.h -text
-src/moduls/transport/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/SSL/Makefile.am -text
 src/moduls/transport/SSL/modssl.cpp -text
 src/moduls/transport/SSL/modssl.h -text
@@ -770,7 +763,6 @@ src/moduls/ui/=Tmpl=/Makefile.am -text
 src/moduls/ui/=Tmpl=/configure.in -text
 src/moduls/ui/=Tmpl=/module.cpp -text
 src/moduls/ui/=Tmpl=/module.h -text
-src/moduls/ui/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/images/button_cancel.png -text
 src/moduls/ui/QTCfg/images/button_ok.png -text
