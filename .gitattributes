@@ -173,6 +173,7 @@ data/openscada_start.in -text
 data/oscada.xml.in -text
 data/oscada_ALT.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada_RH.init -text
+data/oscada_gentoo.init -text
 data/oscada_start.xml -text
 debian/changelog -text
 debian/compat -text
