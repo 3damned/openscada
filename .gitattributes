@@ -344,6 +344,7 @@ src/moduls/arhiv/DBArch/arch.h -text
 src/moduls/arhiv/DBArch/mess.cpp -text
 src/moduls/arhiv/DBArch/mess.h -text
 src/moduls/arhiv/DBArch/po/de.po -text
+src/moduls/arhiv/DBArch/po/oscd_DBArch.pot -text
 src/moduls/arhiv/DBArch/po/ru.po -text
 src/moduls/arhiv/DBArch/po/uk.po -text
 src/moduls/arhiv/DBArch/val.cpp -text
@@ -354,6 +355,7 @@ src/moduls/arhiv/FSArch/base.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/mess.cpp -text
 src/moduls/arhiv/FSArch/mess.h -text
 src/moduls/arhiv/FSArch/po/de.po -text
+src/moduls/arhiv/FSArch/po/oscd_FSArch.pot -text
 src/moduls/arhiv/FSArch/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/val.cpp -text
@@ -368,22 +370,26 @@ src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/de.po -text
+src/moduls/bd/DBF/po/oscd_DBF.pot -text
 src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/FireBird/Makefile.am -text
 src/moduls/bd/FireBird/firebird.cpp -text
 src/moduls/bd/FireBird/firebird.h -text
 src/moduls/bd/FireBird/po/de.po -text
+src/moduls/bd/FireBird/po/oscd_FireBird.pot -text
 src/moduls/bd/FireBird/po/ru.po -text
 src/moduls/bd/FireBird/po/uk.po -text
 src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/de.po -text
+src/moduls/bd/MySQL/po/oscd_MySQL.pot -text
 src/moduls/bd/MySQL/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/PostgreSQL/Makefile.am -text
 src/moduls/bd/PostgreSQL/po/de.po -text
+src/moduls/bd/PostgreSQL/po/oscd_PostgreSQL.pot -text
 src/moduls/bd/PostgreSQL/po/ru.po -text
 src/moduls/bd/PostgreSQL/po/uk.po -text
 src/moduls/bd/PostgreSQL/postgre.cpp -text
@@ -392,6 +398,7 @@ src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/de.po -text
+src/moduls/bd/SQLite/po/oscd_SQLite.pot -text
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/=Tmpl=/Makefile.am -text
@@ -409,6 +416,7 @@ src/moduls/daq/AMRDevs/da_Kontar.h -text
 src/moduls/daq/AMRDevs/mod_amr.cpp -text
 src/moduls/daq/AMRDevs/mod_amr.h -text
 src/moduls/daq/AMRDevs/po/de.po -text
+src/moduls/daq/AMRDevs/po/oscd_AMRDevs.pot -text
 src/moduls/daq/AMRDevs/po/ru.po -text
 src/moduls/daq/AMRDevs/po/uk.po -text
 src/moduls/daq/BFN/Makefile.am -text
@@ -416,12 +424,14 @@ src/moduls/daq/BFN/data/BFNsymbs.db -text
 src/moduls/daq/BFN/mod_BFN.cpp -text
 src/moduls/daq/BFN/mod_BFN.h -text
 src/moduls/daq/BFN/po/de.po -text
+src/moduls/daq/BFN/po/oscd_BFN.pot -text
 src/moduls/daq/BFN/po/ru.po -text
 src/moduls/daq/BFN/po/uk.po -text
 src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/de.po -text
+src/moduls/daq/BlockCalc/po/oscd_BlockCalc.pot -text
 src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -430,18 +440,21 @@ src/moduls/daq/Comedi/Makefile.am -text
 src/moduls/daq/Comedi/module.cpp -text
 src/moduls/daq/Comedi/module.h -text
 src/moduls/daq/Comedi/po/de.po -text
+src/moduls/daq/Comedi/po/oscd_Comedi.pot -text
 src/moduls/daq/Comedi/po/ru.po -text
 src/moduls/daq/Comedi/po/uk.po -text
 src/moduls/daq/DAQGate/Makefile.am -text
 src/moduls/daq/DAQGate/daq_gate.cpp -text
 src/moduls/daq/DAQGate/daq_gate.h -text
 src/moduls/daq/DAQGate/po/de.po -text
+src/moduls/daq/DAQGate/po/oscd_DAQGate.pot -text
 src/moduls/daq/DAQGate/po/ru.po -text
 src/moduls/daq/DAQGate/po/uk.po -text
 src/moduls/daq/DCON/DCON_client.cpp -text
 src/moduls/daq/DCON/DCON_client.h -text
 src/moduls/daq/DCON/Makefile.am -text
 src/moduls/daq/DCON/po/de.po -text
+src/moduls/daq/DCON/po/oscd_DCON.pot -text
 src/moduls/daq/DCON/po/ru.po -text
 src/moduls/daq/DCON/po/uk.po -text
 src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -450,6 +463,7 @@ src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revisio
 src/moduls/daq/DiamondBoards/dscud.h -text
 src/moduls/daq/DiamondBoards/libdscud.a -text
 src/moduls/daq/DiamondBoards/po/de.po -text
+src/moduls/daq/DiamondBoards/po/oscd_DiamondBoards.pot -text
 src/moduls/daq/DiamondBoards/po/ru.po -text
 src/moduls/daq/DiamondBoards/po/uk.po -text
 src/moduls/daq/EPICS/Makefile.am -text
@@ -520,6 +534,7 @@ src/moduls/daq/ICP_DAS/include_arm/xw305b.h -text
 src/moduls/daq/ICP_DAS/libi8k.a -text
 src/moduls/daq/ICP_DAS/libi8k_arm.a -text
 src/moduls/daq/ICP_DAS/po/de.po -text
+src/moduls/daq/ICP_DAS/po/oscd_ICP_DAS.pot -text
 src/moduls/daq/ICP_DAS/po/ru.po -text
 src/moduls/daq/ICP_DAS/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -529,6 +544,7 @@ src/moduls/daq/JavaLikeCalc/freelib.cpp -text svn_keywords=Author+Date+Id+Revisi
 src/moduls/daq/JavaLikeCalc/freelib.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/JavaLikeCalc/po/de.po -text
+src/moduls/daq/JavaLikeCalc/po/oscd_JavaLikeCalc.pot -text
 src/moduls/daq/JavaLikeCalc/po/ru.po -text
 src/moduls/daq/JavaLikeCalc/po/uk.po -text
 src/moduls/daq/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -537,6 +553,7 @@ src/moduls/daq/LogicLev/Makefile.am -text
 src/moduls/daq/LogicLev/logiclev.cpp -text
 src/moduls/daq/LogicLev/logiclev.h -text
 src/moduls/daq/LogicLev/po/de.po -text
+src/moduls/daq/LogicLev/po/oscd_LogicLev.pot -text
 src/moduls/daq/LogicLev/po/ru.po -text
 src/moduls/daq/LogicLev/po/uk.po -text
 src/moduls/daq/MMS/Makefile.am -text
@@ -547,6 +564,7 @@ src/moduls/daq/MMS/libMMS/libMMS.h -text
 src/moduls/daq/MMS/module.cpp -text
 src/moduls/daq/MMS/module.h -text
 src/moduls/daq/MMS/po/de.po -text
+src/moduls/daq/MMS/po/oscd_MMS.pot -text
 src/moduls/daq/MMS/po/ru.po -text
 src/moduls/daq/MMS/po/uk.po -text
 src/moduls/daq/ModBus/Makefile.am -text
@@ -556,6 +574,7 @@ src/moduls/daq/ModBus/modbus_prt.cpp -text
 src/moduls/daq/ModBus/modbus_prt.h -text
 src/moduls/daq/ModBus/moduls.cpp -text
 src/moduls/daq/ModBus/po/de.po -text
+src/moduls/daq/ModBus/po/oscd_ModBus.pot -text
 src/moduls/daq/ModBus/po/ru.po -text
 src/moduls/daq/ModBus/po/uk.po -text
 src/moduls/daq/OPC_UA/Makefile.am -text
@@ -574,6 +593,7 @@ src/moduls/daq/OPC_UA/mod_prt.cpp -text
 src/moduls/daq/OPC_UA/mod_prt.h -text
 src/moduls/daq/OPC_UA/moduls.cpp -text
 src/moduls/daq/OPC_UA/po/de.po -text
+src/moduls/daq/OPC_UA/po/oscd_OPC_UA.pot -text
 src/moduls/daq/OPC_UA/po/ru.po -text
 src/moduls/daq/OPC_UA/po/uk.po -text
 src/moduls/daq/OneWire/Makefile.am -text
@@ -593,6 +613,7 @@ src/moduls/daq/SMH2Gi/data/uso2.ini -text
 src/moduls/daq/SMH2Gi/module.cpp -text
 src/moduls/daq/SMH2Gi/module.h -text
 src/moduls/daq/SMH2Gi/po/de.po -text
+src/moduls/daq/SMH2Gi/po/oscd_SMH2Gi.pot -text
 src/moduls/daq/SMH2Gi/po/ru.po -text
 src/moduls/daq/SMH2Gi/po/uk.po -text
 src/moduls/daq/SMH2Gi/rlcutil.cpp -text
@@ -610,6 +631,7 @@ src/moduls/daq/SMH2Gi/shm.cpp -text
 src/moduls/daq/SMH2Gi/shm.hpp -text
 src/moduls/daq/SNMP/Makefile.am -text
 src/moduls/daq/SNMP/po/de.po -text
+src/moduls/daq/SNMP/po/oscd_SNMP.pot -text
 src/moduls/daq/SNMP/po/ru.po -text
 src/moduls/daq/SNMP/po/uk.po -text
 src/moduls/daq/SNMP/snmp_client.cpp -text
@@ -626,6 +648,7 @@ src/moduls/daq/Siemens/nodave.h -text
 src/moduls/daq/Siemens/openSocket.c -text
 src/moduls/daq/Siemens/openSocket.h -text
 src/moduls/daq/Siemens/po/de.po -text
+src/moduls/daq/Siemens/po/oscd_Siemens.pot -text
 src/moduls/daq/Siemens/po/ru.po -text
 src/moduls/daq/Siemens/po/uk.po -text
 src/moduls/daq/Siemens/rcs_user.h -text
@@ -636,6 +659,7 @@ src/moduls/daq/Siemens/siemens.cpp -text
 src/moduls/daq/Siemens/siemens.h -text
 src/moduls/daq/SoundCard/Makefile.am -text
 src/moduls/daq/SoundCard/po/de.po -text
+src/moduls/daq/SoundCard/po/oscd_SoundCard.pot -text
 src/moduls/daq/SoundCard/po/ru.po -text
 src/moduls/daq/SoundCard/po/uk.po -text
 src/moduls/daq/SoundCard/sound.cpp -text
@@ -663,6 +687,7 @@ src/moduls/daq/System/da_uptime.h -text
 src/moduls/daq/System/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/os_contr.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/po/de.po -text
+src/moduls/daq/System/po/oscd_System.pot -text
 src/moduls/daq/System/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/=Tmpl=/Makefile.am -text
@@ -673,16 +698,19 @@ src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/http.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/http.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/po/de.po -text
+src/moduls/protocol/HTTP/po/oscd_HTTP.pot -text
 src/moduls/protocol/HTTP/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/HTTP/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/po/de.po -text
+src/moduls/protocol/SelfSystem/po/oscd_SelfSystem.pot -text
 src/moduls/protocol/SelfSystem/po/ru.po -text
 src/moduls/protocol/SelfSystem/po/uk.po -text
 src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/UserProtocol/Makefile.am -text
 src/moduls/protocol/UserProtocol/po/de.po -text
+src/moduls/protocol/UserProtocol/po/oscd_UserProtocol.pot -text
 src/moduls/protocol/UserProtocol/po/ru.po -text
 src/moduls/protocol/UserProtocol/po/uk.po -text
 src/moduls/protocol/UserProtocol/user_prt.cpp -text
@@ -694,12 +722,14 @@ src/moduls/special/=Tmpl=/module.h -text
 src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/po/de.po -text
+src/moduls/special/FLibComplex1/po/oscd_FLibComplex1.pot -text
 src/moduls/special/FLibComplex1/po/ru.po -text
 src/moduls/special/FLibComplex1/po/uk.po -text
 src/moduls/special/FLibComplex1/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibComplex1/statfunc.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/FLibMath/Makefile.am -text
 src/moduls/special/FLibMath/po/de.po -text
+src/moduls/special/FLibMath/po/oscd_FLibMath.pot -text
 src/moduls/special/FLibMath/po/ru.po -text
 src/moduls/special/FLibMath/po/uk.po -text
 src/moduls/special/FLibMath/statfunc.cpp -text
@@ -711,6 +741,7 @@ src/moduls/special/FLibSYS/gd.h -text
 src/moduls/special/FLibSYS/io.cpp -text
 src/moduls/special/FLibSYS/io.h -text
 src/moduls/special/FLibSYS/po/de.po -text
+src/moduls/special/FLibSYS/po/oscd_FLibSYS.pot -text
 src/moduls/special/FLibSYS/po/ru.po -text
 src/moduls/special/FLibSYS/po/uk.po -text
 src/moduls/special/FLibSYS/statfunc.cpp -text
@@ -725,6 +756,7 @@ src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Rev
 src/moduls/special/SystemTests/mod_tests.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/mod_tests.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/de.po -text
+src/moduls/special/SystemTests/po/oscd_SystemTests.pot -text
 src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/special/SystemTests/test_Base64Code.h -text
@@ -746,16 +778,19 @@ src/moduls/transport/SSL/Makefile.am -text
 src/moduls/transport/SSL/modssl.cpp -text
 src/moduls/transport/SSL/modssl.h -text
 src/moduls/transport/SSL/po/de.po -text
+src/moduls/transport/SSL/po/oscd_SSL.pot -text
 src/moduls/transport/SSL/po/ru.po -text
 src/moduls/transport/SSL/po/uk.po -text
 src/moduls/transport/Serial/Makefile.am -text
 src/moduls/transport/Serial/mod_serial.cpp -text
 src/moduls/transport/Serial/mod_serial.h -text
 src/moduls/transport/Serial/po/de.po -text
+src/moduls/transport/Serial/po/oscd_Serial.pot -text
 src/moduls/transport/Serial/po/ru.po -text
 src/moduls/transport/Serial/po/uk.po -text
 src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/de.po -text
+src/moduls/transport/Sockets/po/oscd_Sockets.pot -text
 src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/socket.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -791,6 +826,7 @@ src/moduls/ui/QTCfg/images/start.png -text
 src/moduls/ui/QTCfg/images/stop.png -text
 src/moduls/ui/QTCfg/images/up.png -text
 src/moduls/ui/QTCfg/po/de.po -text
+src/moduls/ui/QTCfg/po/oscd_QTCfg.pot -text
 src/moduls/ui/QTCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/QTCfg/qtcfg.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -809,6 +845,7 @@ src/moduls/ui/QTStarter/images/manual.png -text
 src/moduls/ui/QTStarter/images/oscada_qt.png -text
 src/moduls/ui/QTStarter/images/splash.png -text
 src/moduls/ui/QTStarter/po/de.po -text
+src/moduls/ui/QTStarter/po/oscd_QTStarter.pot -text
 src/moduls/ui/QTStarter/po/ru.po -text
 src/moduls/ui/QTStarter/po/uk.po -text
 src/moduls/ui/QTStarter/qtstarter.qrc -text
@@ -820,6 +857,7 @@ src/moduls/ui/VCAEngine/libwidg.h -text
 src/moduls/ui/VCAEngine/origwidg.cpp -text
 src/moduls/ui/VCAEngine/origwidg.h -text
 src/moduls/ui/VCAEngine/po/de.po -text
+src/moduls/ui/VCAEngine/po/oscd_VCAEngine.pot -text
 src/moduls/ui/VCAEngine/po/ru.po -text
 src/moduls/ui/VCAEngine/po/uk.po -text
 src/moduls/ui/VCAEngine/project.cpp -text
@@ -886,6 +924,7 @@ src/moduls/ui/Vision/images/save.png -text
 src/moduls/ui/Vision/images/undo.png -text
 src/moduls/ui/Vision/images/vision.png -text
 src/moduls/ui/Vision/po/de.po -text
+src/moduls/ui/Vision/po/oscd_Vision.pot -text
 src/moduls/ui/Vision/po/ru.po -text
 src/moduls/ui/Vision/po/uk.po -text
 src/moduls/ui/Vision/tvision.cpp -text
@@ -909,6 +948,7 @@ src/moduls/ui/Vision/vis_widgs.h -text
 src/moduls/ui/Vision/vision.qrc -text
 src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/po/de.po -text
+src/moduls/ui/WebCfg/po/oscd_WebCfg.pot -text
 src/moduls/ui/WebCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/WebCfg/web_cfg.cpp -text svn_keywords=Author+Date+Id+Revision
@@ -917,12 +957,14 @@ src/moduls/ui/WebCfgD/Makefile.am -text
 src/moduls/ui/WebCfgD/WebCfgDVCA.html -text
 src/moduls/ui/WebCfgD/WebCfgDVCA.js -text
 src/moduls/ui/WebCfgD/po/de.po -text
+src/moduls/ui/WebCfgD/po/oscd_WebCfgD.pot -text
 src/moduls/ui/WebCfgD/po/ru.po -text
 src/moduls/ui/WebCfgD/po/uk.po -text
 src/moduls/ui/WebCfgD/web_cfg.cpp -text
 src/moduls/ui/WebCfgD/web_cfg.h -text
 src/moduls/ui/WebUser/Makefile.am -text
 src/moduls/ui/WebUser/po/de.po -text
+src/moduls/ui/WebUser/po/oscd_WebUser.pot -text
 src/moduls/ui/WebUser/po/ru.po -text
 src/moduls/ui/WebUser/po/uk.po -text
 src/moduls/ui/WebUser/web_user.cpp -text
@@ -930,6 +972,7 @@ src/moduls/ui/WebUser/web_user.h -text
 src/moduls/ui/WebVision/Makefile.am -text
 src/moduls/ui/WebVision/WebVisionVCA.js -text
 src/moduls/ui/WebVision/po/de.po -text
+src/moduls/ui/WebVision/po/oscd_WebVision.pot -text
 src/moduls/ui/WebVision/po/ru.po -text
 src/moduls/ui/WebVision/po/uk.po -text
 src/moduls/ui/WebVision/vca_sess.cpp -text
@@ -937,6 +980,7 @@ src/moduls/ui/WebVision/vca_sess.h -text
 src/moduls/ui/WebVision/web_vision.cpp -text
 src/moduls/ui/WebVision/web_vision.h -text
 src/po/de.po -text
+src/po/openscada.pot -text
 src/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/resalloc.cpp -text
