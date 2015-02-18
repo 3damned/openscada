@@ -469,6 +469,17 @@ src/moduls/daq/DiamondBoards/po/uk.po -text
 src/moduls/daq/EPICS/Makefile.am -text
 src/moduls/daq/EPICS/module.cpp -text
 src/moduls/daq/EPICS/module.h -text
+src/moduls/daq/Fastwell/Makefile.am -text
+src/moduls/daq/Fastwell/fbus/fb_api.h -text
+src/moduls/daq/Fastwell/fbus/fb_node.h -text
+src/moduls/daq/Fastwell/fbus/fbus.h -text
+src/moduls/daq/Fastwell/fbus/fiom.h -text
+src/moduls/daq/Fastwell/fbus/libfbus.so -text
+src/moduls/daq/Fastwell/fbus/stdlib/f_pack.h -text
+src/moduls/daq/Fastwell/fbus/stdlib/f_types.h -text
+src/moduls/daq/Fastwell/fbus/stdlib/pstdint.h -text
+src/moduls/daq/Fastwell/module.cpp -text
+src/moduls/daq/Fastwell/module.h -text
 src/moduls/daq/ICP_DAS/ICP_module.cpp -text
 src/moduls/daq/ICP_DAS/ICP_module.h -text
 src/moduls/daq/ICP_DAS/Makefile.am -text
