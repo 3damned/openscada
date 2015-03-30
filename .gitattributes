@@ -31,6 +31,31 @@ data/ModelsDB/Boiler/St.sql -text
 data/ModelsDB/Boiler/openscada_Boiler.desktop.in -text
 data/ModelsDB/Boiler/openscada_Boiler.png -text
 data/ModelsDB/Boiler/oscada_Boiler.xml -text
+data/debian/changelog -text
+data/debian/compat -text
+data/debian/control -text
+data/debian/copyright -text
+data/debian/openscada-dev.install -text
+data/debian/openscada-doc.en.install -text
+data/debian/openscada-doc.en.links -text
+data/debian/openscada-doc.ru.install -text
+data/debian/openscada-doc.ru.links -text
+data/debian/openscada-doc.uk.install -text
+data/debian/openscada-doc.uk.links -text
+data/debian/openscada-libdb.main.install -text
+data/debian/openscada-libdb.vca.install -text
+data/debian/openscada-model.aglks.install -text
+data/debian/openscada-model.aglks.links -text
+data/debian/openscada-model.boiler.install -text
+data/debian/openscada-model.boiler.links -text
+data/debian/openscada.dirs -text
+data/debian/openscada.docs -text
+data/debian/openscada.init -text
+data/debian/openscada.install -text
+data/debian/openscada.menu -text
+data/debian/openscada.postinst -text
+data/debian/openscada.postrm -text
+data/debian/rules -text
 data/icons/Archive.DBArch.png -text
 data/icons/Archive.FSArch.png -text
 data/icons/Archive.png -text
@@ -168,38 +193,17 @@ data/icons_src/oscada.xcf -text
 data/icons_src/splash.xcf -text
 data/icons_src/vision_lwdg.xcf -text
 data/openscada.desktop.in -text
+data/openscada.ebuild -text
 data/openscada.png -text
+data/openscada.spec -text svn_keywords=Author+Date+Id+Revision
+data/openscada_mod_ALT.spec -text
+data/openscada_mod_RH.spec -text
 data/openscada_start.in -text
 data/oscada.xml.in -text
 data/oscada_ALT.init -text svn_keywords=Author+Date+Id+Revision
 data/oscada_RH.init -text
 data/oscada_gentoo.init -text
 data/oscada_start.xml -text
-debian/changelog -text
-debian/compat -text
-debian/control -text
-debian/copyright -text
-debian/openscada-dev.install -text
-debian/openscada-doc.en.install -text
-debian/openscada-doc.en.links -text
-debian/openscada-doc.ru.install -text
-debian/openscada-doc.ru.links -text
-debian/openscada-doc.uk.install -text
-debian/openscada-doc.uk.links -text
-debian/openscada-libdb.main.install -text
-debian/openscada-libdb.vca.install -text
-debian/openscada-model.aglks.install -text
-debian/openscada-model.aglks.links -text
-debian/openscada-model.boiler.install -text
-debian/openscada-model.boiler.links -text
-debian/openscada.dirs -text
-debian/openscada.docs -text
-debian/openscada.init -text
-debian/openscada.install -text
-debian/openscada.menu -text
-debian/openscada.postinst -text
-debian/openscada.postrm -text
-debian/rules -text
 doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
 doc/en/APIOpenSCADA.pdf -text
 doc/en/AboutOpenSCADA.pdf -text
@@ -326,8 +330,6 @@ doc/uk/properties.pdf -text
 doc/uk/release_0.8.0.pdf -text
 doc/uk/report.pdf -text
 /openscada.pc.in -text
-/openscada.spec -text svn_keywords=Author+Date+Id+Revision
-/openscada_mod.spec -text
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
 src/moduls/arhiv/=Tmpl=/Makefile.am -text
