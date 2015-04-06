@@ -44,8 +44,10 @@ data/debian/openscada-doc-uk.install -text
 data/debian/openscada-doc-uk.links -text
 data/debian/openscada-libdb-main.install -text
 data/debian/openscada-libdb-vca.install -text
+data/debian/openscada-model-aglks.dirs -text
 data/debian/openscada-model-aglks.install -text
 data/debian/openscada-model-aglks.links -text
+data/debian/openscada-model-boiler.dirs -text
 data/debian/openscada-model-boiler.install -text
 data/debian/openscada-model-boiler.links -text
 data/debian/openscada.dirs -text
@@ -93,8 +95,10 @@ data/debian_mod/openscada-doc-uk.install -text
 data/debian_mod/openscada-doc-uk.links -text
 data/debian_mod/openscada-libdb-main.install -text
 data/debian_mod/openscada-libdb-vca.install -text
+data/debian_mod/openscada-model-aglks.dirs -text
 data/debian_mod/openscada-model-aglks.install -text
 data/debian_mod/openscada-model-aglks.links -text
+data/debian_mod/openscada-model-boiler.dirs -text
 data/debian_mod/openscada-model-boiler.install -text
 data/debian_mod/openscada-model-boiler.links -text
 data/debian_mod/openscada-plc.init -text
