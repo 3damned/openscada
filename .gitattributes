@@ -399,7 +399,7 @@ doc/uk/report.pdf -text
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
 src/moduls/arhiv/=Tmpl=/Makefile.am -text
-src/moduls/arhiv/=Tmpl=/configure.in -text
+src/moduls/arhiv/=Tmpl=/configure.ac -text
 src/moduls/arhiv/=Tmpl=/mess.cpp -text
 src/moduls/arhiv/=Tmpl=/mess.h -text
 src/moduls/arhiv/=Tmpl=/module.cpp -text
@@ -429,7 +429,7 @@ src/moduls/arhiv/FSArch/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/arhiv/FSArch/val.cpp -text
 src/moduls/arhiv/FSArch/val.h -text
 src/moduls/bd/=Tmpl=/Makefile.am -text
-src/moduls/bd/=Tmpl=/configure.in -text
+src/moduls/bd/=Tmpl=/configure.ac -text
 src/moduls/bd/=Tmpl=/module.cpp -text
 src/moduls/bd/=Tmpl=/module.h -text
 src/moduls/bd/DBF/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -470,7 +470,7 @@ src/moduls/bd/SQLite/po/oscd_SQLite.pot -text
 src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/=Tmpl=/Makefile.am -text
-src/moduls/daq/=Tmpl=/configure.in -text
+src/moduls/daq/=Tmpl=/configure.ac -text
 src/moduls/daq/=Tmpl=/module.cpp -text
 src/moduls/daq/=Tmpl=/module.h -text
 src/moduls/daq/AMRDevs/Makefile.am -text
@@ -776,7 +776,7 @@ src/moduls/daq/System/po/oscd_System.pot -text
 src/moduls/daq/System/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/protocol/=Tmpl=/Makefile.am -text
-src/moduls/protocol/=Tmpl=/configure.in -text
+src/moduls/protocol/=Tmpl=/configure.ac -text
 src/moduls/protocol/=Tmpl=/module.cpp -text
 src/moduls/protocol/=Tmpl=/module.h -text
 src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -801,7 +801,7 @@ src/moduls/protocol/UserProtocol/po/uk.po -text
 src/moduls/protocol/UserProtocol/user_prt.cpp -text
 src/moduls/protocol/UserProtocol/user_prt.h -text
 src/moduls/special/=Tmpl=/Makefile.am -text
-src/moduls/special/=Tmpl=/configure.in -text
+src/moduls/special/=Tmpl=/configure.ac -text
 src/moduls/special/=Tmpl=/module.cpp -text
 src/moduls/special/=Tmpl=/module.h -text
 src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
@@ -856,7 +856,7 @@ src/moduls/special/SystemTests/test_prm.h -text
 src/moduls/special/SystemTests/test_val.h -text
 src/moduls/special/SystemTests/test_xml.h -text
 src/moduls/transport/=Tmpl=/Makefile.am -text
-src/moduls/transport/=Tmpl=/configure.in -text
+src/moduls/transport/=Tmpl=/configure.ac -text
 src/moduls/transport/=Tmpl=/module.cpp -text
 src/moduls/transport/=Tmpl=/module.h -text
 src/moduls/transport/SSL/Makefile.am -text
@@ -881,7 +881,7 @@ src/moduls/transport/Sockets/po/uk.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/socket.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/transport/Sockets/socket.h -text svn_keywords=Author+Date+Id+Revision
 src/moduls/ui/=Tmpl=/Makefile.am -text
-src/moduls/ui/=Tmpl=/configure.in -text
+src/moduls/ui/=Tmpl=/configure.ac -text
 src/moduls/ui/=Tmpl=/module.cpp -text
 src/moduls/ui/=Tmpl=/module.h -text
 src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
