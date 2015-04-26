@@ -455,6 +455,9 @@ src/moduls/bd/MySQL/po/de.po -text
 src/moduls/bd/MySQL/po/oscd_MySQL.pot -text
 src/moduls/bd/MySQL/po/ru.po -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/ODBC/Makefile.am -text
+src/moduls/bd/ODBC/odbc.cpp -text
+src/moduls/bd/ODBC/odbc.h -text
 src/moduls/bd/PostgreSQL/Makefile.am -text
 src/moduls/bd/PostgreSQL/po/de.po -text
 src/moduls/bd/PostgreSQL/po/oscd_PostgreSQL.pot -text
