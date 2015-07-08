@@ -54,6 +54,7 @@ data/debian/openscada.dirs -text
 data/debian/openscada.docs -text
 data/debian/openscada.init -text
 data/debian/openscada.install -text
+data/debian/openscada.manpages -text
 data/debian/rules -text
 data/debian_mod/changelog -text
 data/debian_mod/compat -text
@@ -64,6 +65,7 @@ data/debian_mod/openscada-arh-fsarch.install -text
 data/debian_mod/openscada-core.dirs -text
 data/debian_mod/openscada-core.docs -text
 data/debian_mod/openscada-core.install -text
+data/debian_mod/openscada-core.manpages -text
 data/debian_mod/openscada-daq-amrdevs.install -text
 data/debian_mod/openscada-daq-bfn.install -text
 data/debian_mod/openscada-daq-blockcalc.install -text
@@ -328,6 +330,12 @@ doc/en/properties.pdf -text
 doc/en/release_0.8.0.pdf -text svneol=unset#unset
 doc/en/report.pdf -text
 doc/en/terms.pdf -text
+doc/openscada.1 -text
+doc/openscada.ru.1 -text
+doc/openscada.uk.1 -text
+doc/openscada_start.1 -text
+doc/openscada_start.ru.1 -text
+doc/openscada_start.uk.1 -text
 doc/ru/APIOpenSCADA.pdf -text
 doc/ru/AboutOpenSCADA.pdf -text
 doc/ru/DAQ.pdf -text
