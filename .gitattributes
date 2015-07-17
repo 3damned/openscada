@@ -559,6 +559,7 @@ src/moduls/daq/Fastwel/fbus/stdlib/f_types.h -text
 src/moduls/daq/Fastwel/fbus/stdlib/pstdint.h -text
 src/moduls/daq/Fastwel/module.cpp -text
 src/moduls/daq/Fastwel/module.h -text
+src/moduls/daq/Fastwel/po/oscd_Fastwel.pot -text
 src/moduls/daq/Fastwel/po/ru.po -text
 src/moduls/daq/ICP_DAS/ICP_module.cpp -text
 src/moduls/daq/ICP_DAS/ICP_module.h -text
