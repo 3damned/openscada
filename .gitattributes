@@ -187,10 +187,13 @@ data/icons/alarmAlarm.png -text
 data/icons/alarmLev.png -text
 data/icons/alarmLight.png -text
 data/icons/alarmSound.png -text
+data/icons/busy.png -text
 data/icons/button_cancel.png -text
 data/icons/button_ok.png -text
 data/icons/close.png -text
 data/icons/combar.png -text
+data/icons/connected.png -text
+data/icons/connecting.png -text
 data/icons/contexthelp.png -text
 data/icons/disconnect.png -text
 data/icons/down.png -text
