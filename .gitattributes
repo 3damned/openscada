@@ -576,6 +576,8 @@ src/moduls/daq/FT3/GNS.h -text
 src/moduls/daq/FT3/GZD.cpp -text
 src/moduls/daq/FT3/GZD.h -text
 src/moduls/daq/FT3/Makefile.am -text
+src/moduls/daq/FT3/ODOR.cpp -text
+src/moduls/daq/FT3/ODOR.h -text
 src/moduls/daq/FT3/PAUK.cpp -text
 src/moduls/daq/FT3/PAUK.h -text
 src/moduls/daq/FT3/da.cpp -text
