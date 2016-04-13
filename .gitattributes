@@ -501,8 +501,6 @@ src/moduls/daq/AMRDevs/po/de.po -text
 src/moduls/daq/AMRDevs/po/oscd_AMRDevs.pot -text
 src/moduls/daq/AMRDevs/po/ru.po -text
 src/moduls/daq/AMRDevs/po/uk.po -text
-src/moduls/daq/BCM2835/.deps/daq_BCM2835_la-bcm2835.Plo -text
-src/moduls/daq/BCM2835/.deps/daq_BCM2835_la-module.Plo -text
 src/moduls/daq/BCM2835/Makefile.am -text
 src/moduls/daq/BCM2835/bcm2835.c -text
 src/moduls/daq/BCM2835/bcm2835.h -text
