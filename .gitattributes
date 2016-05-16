@@ -67,6 +67,7 @@ data/debian_mod/openscada-core.docs -text
 data/debian_mod/openscada-core.install -text
 data/debian_mod/openscada-core.manpages -text
 data/debian_mod/openscada-daq-amrdevs.install -text
+data/debian_mod/openscada-daq-bcm2835.install -text
 data/debian_mod/openscada-daq-bfn.install -text
 data/debian_mod/openscada-daq-blockcalc.install -text
 data/debian_mod/openscada-daq-comedi.install -text
