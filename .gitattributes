@@ -50,9 +50,9 @@ data/debian/openscada-model-aglks.links -text
 data/debian/openscada-model-boiler.dirs -text
 data/debian/openscada-model-boiler.install -text
 data/debian/openscada-model-boiler.links -text
+data/debian/openscada-server.init -text
 data/debian/openscada.dirs -text
 data/debian/openscada.docs -text
-data/debian/openscada.init -text
 data/debian/openscada.install -text
 data/debian/openscada.manpages -text
 data/debian/rules -text
