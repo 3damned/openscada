@@ -554,9 +554,6 @@ src/moduls/daq/DiamondBoards/po/de.po -text
 src/moduls/daq/DiamondBoards/po/oscd_DiamondBoards.pot -text
 src/moduls/daq/DiamondBoards/po/ru.po -text
 src/moduls/daq/DiamondBoards/po/uk.po -text
-src/moduls/daq/EPICS/Makefile.am -text
-src/moduls/daq/EPICS/module.cpp -text
-src/moduls/daq/EPICS/module.h -text
 src/moduls/daq/FT3/ACCOUNT.cpp -text
 src/moduls/daq/FT3/ACCOUNT.h -text
 src/moduls/daq/FT3/BIP.cpp -text
