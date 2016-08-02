@@ -624,6 +624,8 @@ src/moduls/daq/ICP_DAS/include/i7k.h -text
 src/moduls/daq/ICP_DAS/include/i8000.h -text
 src/moduls/daq/ICP_DAS/include/i8014W.h -text
 src/moduls/daq/ICP_DAS/include/i8014W_Cli.h -text
+src/moduls/daq/ICP_DAS/include/i8026W.h -text
+src/moduls/daq/ICP_DAS/include/i8026WCli.h -text
 src/moduls/daq/ICP_DAS/include/i8050.h -text
 src/moduls/daq/ICP_DAS/include/i8084W.h -text
 src/moduls/daq/ICP_DAS/include/i87000.h -text
