@@ -583,6 +583,8 @@ src/moduls/daq/FT3/ODOR.cpp -text
 src/moduls/daq/FT3/ODOR.h -text
 src/moduls/daq/FT3/PAUK.cpp -text
 src/moduls/daq/FT3/PAUK.h -text
+src/moduls/daq/FT3/TANK.cpp -text
+src/moduls/daq/FT3/TANK.h -text
 src/moduls/daq/FT3/da.cpp -text
 src/moduls/daq/FT3/da.h -text
 src/moduls/daq/FT3/mod_FT3.cpp -text
