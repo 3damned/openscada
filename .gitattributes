@@ -1,0 +1,1187 @@
+* text=auto !eol
+/ABOUT-NLS -text svn_keywords=Author+Date+Id+Revision
+/AUTHORS -text svn_keywords=Author+Date+Id+Revision
+/COPYING -text svn_keywords=Author+Date+Id+Revision
+/ChangeLog -text svn_keywords=Author+Date+Id+Revision
+/I18N.mk -text
+/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+/NEWS -text svn_keywords=Author+Date+Id+Revision
+/README -text svn_keywords=Author+Date+Id+Revision
+/README_ru -text
+/README_uk -text
+/TODO -text svn_keywords=Author+Date+Id+Revision
+/TODO_ru -text
+/TODO_uk -text
+/acinclude.m4 -text
+/configure.ac -text svn_keywords=Author+Date+Id+Revision
+data/LibsDB/OscadaLibs.sql -text
+data/LibsDB/vcaBase.sql -text
+data/LibsDB/vcaElectroEls.sql -text
+data/LibsDB/vcaTest.sql -text
+data/ModelsDB/AGLKS/AGLKS.png -text
+data/ModelsDB/AGLKS/Model.sql -text
+data/ModelsDB/AGLKS/St.sql -text
+data/ModelsDB/AGLKS/openscada_AGLKS.desktop.in -text
+data/ModelsDB/AGLKS/openscada_AGLKS.png -text
+data/ModelsDB/AGLKS/oscada_AGLKS.xml -text
+data/ModelsDB/AGLKS/vca.sql -text
+data/ModelsDB/Boiler/Boiler.png -text
+data/ModelsDB/Boiler/Model.sql -text
+data/ModelsDB/Boiler/St.sql -text
+data/ModelsDB/Boiler/openscada_Boiler.desktop.in -text
+data/ModelsDB/Boiler/openscada_Boiler.png -text
+data/ModelsDB/Boiler/oscada_Boiler.xml -text
+data/debian/changelog -text
+data/debian/compat -text
+data/debian/control -text
+data/debian/copyright -text
+data/debian/openscada-dev.install -text
+data/debian/openscada-doc-en.install -text
+data/debian/openscada-doc-en.links -text
+data/debian/openscada-doc-ru.install -text
+data/debian/openscada-doc-ru.links -text
+data/debian/openscada-doc-uk.install -text
+data/debian/openscada-doc-uk.links -text
+data/debian/openscada-libdb-main.install -text
+data/debian/openscada-libdb-vca.install -text
+data/debian/openscada-model-aglks.dirs -text
+data/debian/openscada-model-aglks.install -text
+data/debian/openscada-model-aglks.links -text
+data/debian/openscada-model-boiler.dirs -text
+data/debian/openscada-model-boiler.install -text
+data/debian/openscada-model-boiler.links -text
+data/debian/openscada-server.init -text
+data/debian/openscada.dirs -text
+data/debian/openscada.docs -text
+data/debian/openscada.install -text
+data/debian/openscada.manpages -text
+data/debian/rules -text
+data/debian_mod/changelog -text
+data/debian_mod/compat -text
+data/debian_mod/control -text
+data/debian_mod/copyright -text
+data/debian_mod/openscada-arh-dbarch.install -text
+data/debian_mod/openscada-arh-fsarch.install -text
+data/debian_mod/openscada-core.dirs -text
+data/debian_mod/openscada-core.docs -text
+data/debian_mod/openscada-core.install -text
+data/debian_mod/openscada-core.manpages -text
+data/debian_mod/openscada-daq-amrdevs.install -text
+data/debian_mod/openscada-daq-bcm2835.install -text
+data/debian_mod/openscada-daq-bfn.install -text
+data/debian_mod/openscada-daq-blockcalc.install -text
+data/debian_mod/openscada-daq-comedi.install -text
+data/debian_mod/openscada-daq-daqgate.install -text
+data/debian_mod/openscada-daq-dcon.install -text
+data/debian_mod/openscada-daq-diamondboards.install -text
+data/debian_mod/openscada-daq-icpdas.install -text
+data/debian_mod/openscada-daq-javalikecalc.install -text
+data/debian_mod/openscada-daq-logiclev.install -text
+data/debian_mod/openscada-daq-mms.install -text
+data/debian_mod/openscada-daq-modbus.install -text
+data/debian_mod/openscada-daq-opcua.install -text
+data/debian_mod/openscada-daq-siemens.install -text
+data/debian_mod/openscada-daq-snmp.install -text
+data/debian_mod/openscada-daq-soundcard.install -text
+data/debian_mod/openscada-daq-system.install -text
+data/debian_mod/openscada-db-dbf.install -text
+data/debian_mod/openscada-db-firebird.install -text
+data/debian_mod/openscada-db-mysql.install -text
+data/debian_mod/openscada-db-postgresql.install -text
+data/debian_mod/openscada-db-sqlite.install -text
+data/debian_mod/openscada-dev.install -text
+data/debian_mod/openscada-doc-en.install -text
+data/debian_mod/openscada-doc-en.links -text
+data/debian_mod/openscada-doc-ru.install -text
+data/debian_mod/openscada-doc-ru.links -text
+data/debian_mod/openscada-doc-uk.install -text
+data/debian_mod/openscada-doc-uk.links -text
+data/debian_mod/openscada-libdb-main.install -text
+data/debian_mod/openscada-libdb-vca.install -text
+data/debian_mod/openscada-model-aglks.dirs -text
+data/debian_mod/openscada-model-aglks.install -text
+data/debian_mod/openscada-model-aglks.links -text
+data/debian_mod/openscada-model-boiler.dirs -text
+data/debian_mod/openscada-model-boiler.install -text
+data/debian_mod/openscada-model-boiler.links -text
+data/debian_mod/openscada-plc.init -text
+data/debian_mod/openscada-prot-http.install -text
+data/debian_mod/openscada-prot-selfsystem.install -text
+data/debian_mod/openscada-prot-userprotocol.install -text
+data/debian_mod/openscada-server.init -text
+data/debian_mod/openscada-spec-flibcomplex1.install -text
+data/debian_mod/openscada-spec-flibmath.install -text
+data/debian_mod/openscada-spec-flibsys.install -text
+data/debian_mod/openscada-spec-systemtests.install -text
+data/debian_mod/openscada-tr-serial.install -text
+data/debian_mod/openscada-tr-sockets.install -text
+data/debian_mod/openscada-tr-ssl.install -text
+data/debian_mod/openscada-ui-qtcfg.install -text
+data/debian_mod/openscada-ui-qtstarter.install -text
+data/debian_mod/openscada-ui-vcaengine.install -text
+data/debian_mod/openscada-ui-vision.install -text
+data/debian_mod/openscada-ui-webcfg.install -text
+data/debian_mod/openscada-ui-webcfgd.install -text
+data/debian_mod/openscada-ui-webuser.install -text
+data/debian_mod/openscada-ui-webvision.install -text
+data/debian_mod/rules -text
+data/icons/Archive.DBArch.png -text
+data/icons/Archive.FSArch.png -text
+data/icons/Archive.png -text
+data/icons/BD.DBF.png -text
+data/icons/BD.FireBird.png -text
+data/icons/BD.MySQL.png -text
+data/icons/BD.PostgreSQL.png -text
+data/icons/BD.SQLite.png -text
+data/icons/BD.png -text
+data/icons/DAQ.BFN.png -text
+data/icons/DAQ.BlockCalc.png -text
+data/icons/DAQ.Comedi.png -text
+data/icons/DAQ.DAQGate.png -text
+data/icons/DAQ.DCON.png -text
+data/icons/DAQ.DiamondBoards.png -text
+data/icons/DAQ.ICP_DAS.png -text
+data/icons/DAQ.JavaLikeCalc.png -text
+data/icons/DAQ.LogicLev.png -text
+data/icons/DAQ.ModBus.png -text
+data/icons/DAQ.OPC_UA.png -text
+data/icons/DAQ.SMH2Gi.png -text
+data/icons/DAQ.SNMP.png -text
+data/icons/DAQ.Siemens.png -text
+data/icons/DAQ.SoundCard.png -text
+data/icons/DAQ.System.png -text
+data/icons/DAQ.png -text
+data/icons/ModSched.png -text
+data/icons/Protocol.HTTP.png -text
+data/icons/Protocol.ModBus.png -text
+data/icons/Protocol.OPC_UA.png -text
+data/icons/Protocol.SelfSystem.png -text
+data/icons/Protocol.UserProtocol.png -text
+data/icons/Protocol.png -text
+data/icons/Security.png -text
+data/icons/Special.png -text
+data/icons/Transport.SSL.png -text
+data/icons/Transport.Serial.png -text
+data/icons/Transport.Sockets.png -text
+data/icons/Transport.png -text
+data/icons/UI.QTCfg.png -text
+data/icons/UI.QTStarter.png -text
+data/icons/UI.VCAEngine.png -text
+data/icons/UI.Vision.png -text
+data/icons/UI.WebCfg.png -text
+data/icons/UI.WebCfgD.png -text
+data/icons/UI.WebVision.png -text
+data/icons/UI.png -text
+data/icons/VCA.lwdg_root.png -text
+data/icons/VCA.wdg_Base.png -text
+data/icons/VCA.wdg_Box.png -text
+data/icons/VCA.wdg_Diagram.png -text
+data/icons/VCA.wdg_Document.png -text
+data/icons/VCA.wdg_ElFigure.png -text
+data/icons/VCA.wdg_FormEl.png -text
+data/icons/VCA.wdg_Function.png -text
+data/icons/VCA.wdg_Link.png -text
+data/icons/VCA.wdg_Media.png -text
+data/icons/VCA.wdg_Protocol.png -text
+data/icons/VCA.wdg_Text.png -text
+data/icons/alarmAlarm.png -text
+data/icons/alarmLev.png -text
+data/icons/alarmLight.png -text
+data/icons/alarmSound.png -text
+data/icons/busy.png -text
+data/icons/button_cancel.png -text
+data/icons/button_ok.png -text
+data/icons/close.png -text
+data/icons/combar.png -text
+data/icons/connected.png -text
+data/icons/connecting.png -text
+data/icons/contexthelp.png -text
+data/icons/disconnect.png -text
+data/icons/down.png -text
+data/icons/editcopy.png -text
+data/icons/editcut.png -text
+data/icons/editpaste.png -text
+data/icons/exit.png -text
+data/icons/export.png -text
+data/icons/find.png -text
+data/icons/gohome.png -text
+data/icons/help.png -text
+data/icons/identity.png -text
+data/icons/it_add.png -text
+data/icons/it_del.png -text
+data/icons/line.png -text
+data/icons/load.png -text
+data/icons/manual.png -text
+data/icons/next.png -text
+data/icons/previous.png -text
+data/icons/print.png -text
+data/icons/redo.png -text
+data/icons/reload.png -text
+data/icons/save.png -text
+data/icons/spinar.png -text
+data/icons/start.png -text
+data/icons/stop.png -text
+data/icons/treeDown.gif -text
+data/icons/treeLine.gif -text
+data/icons/treeMinus.gif -text
+data/icons/treeMinusDown.gif -text
+data/icons/treeMinusUp.gif -text
+data/icons/treeMinusUpDown.gif -text
+data/icons/treePlus.gif -text
+data/icons/treePlusDown.gif -text
+data/icons/treePlusUp.gif -text
+data/icons/treePlusUpDown.gif -text
+data/icons/treeUp.gif -text
+data/icons/treeUpDown.gif -text
+data/icons/undo.png -text
+data/icons/up.png -text
+data/icons/vision_align_bottom.png -text
+data/icons/vision_align_hcenter.png -text
+data/icons/vision_align_left.png -text
+data/icons/vision_align_right.png -text
+data/icons/vision_align_top.png -text
+data/icons/vision_align_vcenter.png -text
+data/icons/vision_elfig_arc.png -text
+data/icons/vision_elfig_besie.png -text
+data/icons/vision_elfig_cursor.png -text
+data/icons/vision_elfig_line.png -text
+data/icons/vision_elfig_lock.png -text
+data/icons/vision_it_ChDown.png -text
+data/icons/vision_it_add.png -text
+data/icons/vision_it_clear.png -text
+data/icons/vision_it_del.png -text
+data/icons/vision_it_edit.png -text
+data/icons/vision_it_prop.png -text
+data/icons/vision_level_down.png -text
+data/icons/vision_level_lower.png -text
+data/icons/vision_level_rise.png -text
+data/icons/vision_level_up.png -text
+data/icons/vision_lib_new.png -text
+data/icons/vision_prj_new.png -text
+data/icons/vision_prj_run.png -text
+data/icons_src/DAQ.Serial.odg -text
+data/icons_src/misc.xcf -text
+data/icons_src/oscada.xcf -text
+data/icons_src/splash.xcf -text
+data/icons_src/vision_lwdg.xcf -text
+data/openscada.desktop.in -text
+data/openscada.ebuild -text
+data/openscada.png -text
+data/openscada.spec -text svn_keywords=Author+Date+Id+Revision
+data/openscada_mod_ALT.spec -text
+data/openscada_mod_RH.spec -text
+data/openscada_start.in -text
+data/oscada.xml.in -text
+data/oscada_ALT.init -text svn_keywords=Author+Date+Id+Revision
+data/oscada_RH.init -text
+data/oscada_gentoo.init -text
+data/oscada_start.xml -text
+doc/OpenScadaDescr.txt -text svn_keywords=Author+Date+Id+Revision
+doc/en/APIOpenSCADA.pdf -text
+doc/en/AboutOpenSCADA.pdf -text
+doc/en/DAQ.pdf -text
+doc/en/FAQ.pdf -text svneol=unset#unset
+doc/en/Lib.TechApp.pdf -text
+doc/en/Modules/Archive.DBArch.pdf -text
+doc/en/Modules/Archive.FSArch.pdf -text
+doc/en/Modules/BD.DBF.pdf -text
+doc/en/Modules/BD.FireBird.pdf -text
+doc/en/Modules/BD.MySQL.pdf -text
+doc/en/Modules/BD.PostgreSQL.pdf -text
+doc/en/Modules/BD.SQLite.pdf -text
+doc/en/Modules/DAQ.BFN.pdf -text
+doc/en/Modules/DAQ.BlockCalc.pdf -text
+doc/en/Modules/DAQ.DAQGate.pdf -text
+doc/en/Modules/DAQ.DCON.pdf -text
+doc/en/Modules/DAQ.DiamondBoards.pdf -text svneol=unset#unset
+doc/en/Modules/DAQ.ICP_DAS.pdf -text
+doc/en/Modules/DAQ.JavaLikeCalc.pdf -text
+doc/en/Modules/DAQ.LogicLev.pdf -text
+doc/en/Modules/DAQ.ModBus.pdf -text
+doc/en/Modules/DAQ.OPC_UA.pdf -text
+doc/en/Modules/DAQ.SNMP.pdf -text
+doc/en/Modules/DAQ.Siemens.pdf -text
+doc/en/Modules/DAQ.SoundCard.pdf -text
+doc/en/Modules/DAQ.System.pdf -text
+doc/en/Modules/Protocol.HTTP.pdf -text
+doc/en/Modules/Protocol.SelfSystem.pdf -text
+doc/en/Modules/Protocol.UserProtocol.pdf -text
+doc/en/Modules/Special.FLibComplex1.pdf -text
+doc/en/Modules/Special.FLibMath.pdf -text
+doc/en/Modules/Special.FLibSYS.pdf -text
+doc/en/Modules/Special.SystemTests.pdf -text
+doc/en/Modules/Transport.SSL.pdf -text
+doc/en/Modules/Transport.Serial.pdf -text
+doc/en/Modules/Transport.Sockets.pdf -text
+doc/en/Modules/UI.QTCfg.pdf -text
+doc/en/Modules/UI.QTStarter.pdf -text
+doc/en/Modules/UI.VCAEngine.pdf -text
+doc/en/Modules/UI.Vision.pdf -text
+doc/en/Modules/UI.WebCfg.pdf -text
+doc/en/Modules/UI.WebCfgD.pdf -text
+doc/en/Modules/UI.WebUser.pdf -text
+doc/en/Modules/UI.WebVision.pdf -text
+doc/en/QuickStart.pdf -text
+doc/en/WLib.ElEls.pdf -text
+doc/en/WLib.Main.pdf -text
+doc/en/WLib.MnEls.pdf -text
+doc/en/build.pdf -text
+doc/en/index.odt -text
+doc/en/index.pdf -text
+doc/en/moduleCreation.pdf -text
+doc/en/openscada.pdf -text
+doc/en/properties.pdf -text
+doc/en/release_0.8.0.pdf -text svneol=unset#unset
+doc/en/report.pdf -text
+doc/en/terms.pdf -text
+doc/openscada.1 -text
+doc/openscada.ru.1 -text
+doc/openscada.uk.1 -text
+doc/openscada_start.1 -text
+doc/openscada_start.ru.1 -text
+doc/openscada_start.uk.1 -text
+doc/ru/APIOpenSCADA.pdf -text
+doc/ru/AboutOpenSCADA.pdf -text
+doc/ru/DAQ.pdf -text
+doc/ru/FAQ.pdf -text
+doc/ru/Lib.TechApp.pdf -text
+doc/ru/Modules/Archive.DBArch.pdf -text
+doc/ru/Modules/Archive.FSArch.pdf -text
+doc/ru/Modules/BD.DBF.pdf -text
+doc/ru/Modules/BD.FireBird.pdf -text
+doc/ru/Modules/BD.MySQL.pdf -text
+doc/ru/Modules/BD.PostgreSQL.pdf -text
+doc/ru/Modules/BD.SQLite.pdf -text
+doc/ru/Modules/DAQ.BFN.pdf -text
+doc/ru/Modules/DAQ.BlockCalc.pdf -text
+doc/ru/Modules/DAQ.DAQGate.pdf -text
+doc/ru/Modules/DAQ.DCON.pdf -text
+doc/ru/Modules/DAQ.DiamondBoards.pdf -text
+doc/ru/Modules/DAQ.ICP_DAS.pdf -text
+doc/ru/Modules/DAQ.JavaLikeCalc.pdf -text
+doc/ru/Modules/DAQ.LogicLev.pdf -text
+doc/ru/Modules/DAQ.ModBus.pdf -text
+doc/ru/Modules/DAQ.OPC_UA.pdf -text
+doc/ru/Modules/DAQ.SNMP.pdf -text
+doc/ru/Modules/DAQ.Siemens.pdf -text
+doc/ru/Modules/DAQ.SoundCard.pdf -text
+doc/ru/Modules/DAQ.System.pdf -text
+doc/ru/Modules/Protocol.HTTP.pdf -text
+doc/ru/Modules/Protocol.SelfSystem.pdf -text
+doc/ru/Modules/Protocol.UserProtocol.pdf -text
+doc/ru/Modules/Special.FLibComplex1.pdf -text
+doc/ru/Modules/Special.FLibMath.pdf -text
+doc/ru/Modules/Special.FLibSYS.pdf -text
+doc/ru/Modules/Special.SystemTests.pdf -text
+doc/ru/Modules/Transport.SSL.pdf -text
+doc/ru/Modules/Transport.Serial.pdf -text
+doc/ru/Modules/Transport.Sockets.pdf -text
+doc/ru/Modules/UI.QTCfg.pdf -text
+doc/ru/Modules/UI.QTStarter.pdf -text
+doc/ru/Modules/UI.VCAEngine.pdf -text
+doc/ru/Modules/UI.Vision.pdf -text
+doc/ru/Modules/UI.WebCfg.pdf -text
+doc/ru/Modules/UI.WebCfgD.pdf -text
+doc/ru/Modules/UI.WebUser.pdf -text
+doc/ru/Modules/UI.WebVision.pdf -text
+doc/ru/QuickStart.pdf -text
+doc/ru/WLib.ElEls.pdf -text
+doc/ru/WLib.Main.pdf -text
+doc/ru/WLib.MnEls.pdf -text
+doc/ru/build.pdf -text
+doc/ru/index.odt -text
+doc/ru/index.pdf -text
+doc/ru/moduleCreation.pdf -text
+doc/ru/openscada.pdf -text
+doc/ru/properties.pdf -text
+doc/ru/release_0.8.0.pdf -text
+doc/ru/report.pdf -text
+doc/ru/terms.pdf -text
+doc/uk/FAQ.pdf -text
+doc/uk/Lib.TechApp.pdf -text
+doc/uk/Modules/DAQ.BlockCalc.pdf -text
+doc/uk/build.pdf -text
+doc/uk/index.odt -text
+doc/uk/index.pdf -text
+doc/uk/moduleCreation.pdf -text
+doc/uk/properties.pdf -text
+doc/uk/release_0.8.0.pdf -text
+doc/uk/report.pdf -text
+/openscada.pc.in -text
+src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/autohd.h -text
+src/moduls/arhiv/=Tmpl=/Makefile.am -text
+src/moduls/arhiv/=Tmpl=/configure.ac -text
+src/moduls/arhiv/=Tmpl=/mess.cpp -text
+src/moduls/arhiv/=Tmpl=/mess.h -text
+src/moduls/arhiv/=Tmpl=/module.cpp -text
+src/moduls/arhiv/=Tmpl=/module.h -text
+src/moduls/arhiv/=Tmpl=/val.cpp -text
+src/moduls/arhiv/=Tmpl=/val.h -text
+src/moduls/arhiv/DBArch/Makefile.am -text
+src/moduls/arhiv/DBArch/arch.cpp -text
+src/moduls/arhiv/DBArch/arch.h -text
+src/moduls/arhiv/DBArch/mess.cpp -text
+src/moduls/arhiv/DBArch/mess.h -text
+src/moduls/arhiv/DBArch/po/de.po -text
+src/moduls/arhiv/DBArch/po/oscd_DBArch.pot -text
+src/moduls/arhiv/DBArch/po/ru.po -text
+src/moduls/arhiv/DBArch/po/uk.po -text
+src/moduls/arhiv/DBArch/val.cpp -text
+src/moduls/arhiv/DBArch/val.h -text
+src/moduls/arhiv/FSArch/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/base.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/base.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/mess.cpp -text
+src/moduls/arhiv/FSArch/mess.h -text
+src/moduls/arhiv/FSArch/po/de.po -text
+src/moduls/arhiv/FSArch/po/oscd_FSArch.pot -text
+src/moduls/arhiv/FSArch/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/arhiv/FSArch/val.cpp -text
+src/moduls/arhiv/FSArch/val.h -text
+src/moduls/bd/=Tmpl=/Makefile.am -text
+src/moduls/bd/=Tmpl=/configure.ac -text
+src/moduls/bd/=Tmpl=/module.cpp -text
+src/moduls/bd/=Tmpl=/module.h -text
+src/moduls/bd/DBF/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/dbf.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/dbf.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/dbf_mod.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/dbf_mod.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/po/de.po -text
+src/moduls/bd/DBF/po/oscd_DBF.pot -text
+src/moduls/bd/DBF/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/DBF/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/FireBird/Makefile.am -text
+src/moduls/bd/FireBird/firebird.cpp -text
+src/moduls/bd/FireBird/firebird.h -text
+src/moduls/bd/FireBird/po/de.po -text
+src/moduls/bd/FireBird/po/oscd_FireBird.pot -text
+src/moduls/bd/FireBird/po/ru.po -text
+src/moduls/bd/FireBird/po/uk.po -text
+src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/po/de.po -text
+src/moduls/bd/MySQL/po/oscd_MySQL.pot -text
+src/moduls/bd/MySQL/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/MySQL/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/ODBC/Makefile.am -text
+src/moduls/bd/ODBC/odbc.cpp -text
+src/moduls/bd/ODBC/odbc.h -text
+src/moduls/bd/PostgreSQL/Makefile.am -text
+src/moduls/bd/PostgreSQL/po/de.po -text
+src/moduls/bd/PostgreSQL/po/oscd_PostgreSQL.pot -text
+src/moduls/bd/PostgreSQL/po/ru.po -text
+src/moduls/bd/PostgreSQL/po/uk.po -text
+src/moduls/bd/PostgreSQL/postgre.cpp -text
+src/moduls/bd/PostgreSQL/postgre.h -text
+src/moduls/bd/SQLite/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/bd_sqlite.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/bd_sqlite.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/po/de.po -text
+src/moduls/bd/SQLite/po/oscd_SQLite.pot -text
+src/moduls/bd/SQLite/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/bd/SQLite/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/=Tmpl=/Makefile.am -text
+src/moduls/daq/=Tmpl=/configure.ac -text
+src/moduls/daq/=Tmpl=/module.cpp -text
+src/moduls/daq/=Tmpl=/module.h -text
+src/moduls/daq/AMRDevs/Makefile.am -text
+src/moduls/daq/AMRDevs/da.h -text
+src/moduls/daq/AMRDevs/da_Ergomera.cpp -text
+src/moduls/daq/AMRDevs/da_Ergomera.h -text
+src/moduls/daq/AMRDevs/da_FlowTEC.cpp -text
+src/moduls/daq/AMRDevs/da_FlowTEC.h -text
+src/moduls/daq/AMRDevs/da_Kontar.cpp -text
+src/moduls/daq/AMRDevs/da_Kontar.h -text
+src/moduls/daq/AMRDevs/mod_amr.cpp -text
+src/moduls/daq/AMRDevs/mod_amr.h -text
+src/moduls/daq/AMRDevs/po/de.po -text
+src/moduls/daq/AMRDevs/po/oscd_AMRDevs.pot -text
+src/moduls/daq/AMRDevs/po/ru.po -text
+src/moduls/daq/AMRDevs/po/uk.po -text
+src/moduls/daq/BCM2835/Makefile.am -text
+src/moduls/daq/BCM2835/bcm2835.c -text
+src/moduls/daq/BCM2835/bcm2835.h -text
+src/moduls/daq/BCM2835/module.cpp -text
+src/moduls/daq/BCM2835/module.h -text
+src/moduls/daq/BFN/Makefile.am -text
+src/moduls/daq/BFN/data/BFNsymbs.db -text
+src/moduls/daq/BFN/mod_BFN.cpp -text
+src/moduls/daq/BFN/mod_BFN.h -text
+src/moduls/daq/BFN/po/de.po -text
+src/moduls/daq/BFN/po/oscd_BFN.pot -text
+src/moduls/daq/BFN/po/ru.po -text
+src/moduls/daq/BFN/po/uk.po -text
+src/moduls/daq/BlockCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/block.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/block.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/po/de.po -text
+src/moduls/daq/BlockCalc/po/oscd_BlockCalc.pot -text
+src/moduls/daq/BlockCalc/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/BlockCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/Comedi/Makefile.am -text
+src/moduls/daq/Comedi/module.cpp -text
+src/moduls/daq/Comedi/module.h -text
+src/moduls/daq/Comedi/po/de.po -text
+src/moduls/daq/Comedi/po/oscd_Comedi.pot -text
+src/moduls/daq/Comedi/po/ru.po -text
+src/moduls/daq/Comedi/po/uk.po -text
+src/moduls/daq/DAQGate/Makefile.am -text
+src/moduls/daq/DAQGate/daq_gate.cpp -text
+src/moduls/daq/DAQGate/daq_gate.h -text
+src/moduls/daq/DAQGate/po/de.po -text
+src/moduls/daq/DAQGate/po/oscd_DAQGate.pot -text
+src/moduls/daq/DAQGate/po/ru.po -text
+src/moduls/daq/DAQGate/po/uk.po -text
+src/moduls/daq/DCON/DCON_client.cpp -text
+src/moduls/daq/DCON/DCON_client.h -text
+src/moduls/daq/DCON/Makefile.am -text
+src/moduls/daq/DCON/po/de.po -text
+src/moduls/daq/DCON/po/oscd_DCON.pot -text
+src/moduls/daq/DCON/po/ru.po -text
+src/moduls/daq/DCON/po/uk.po -text
+src/moduls/daq/DiamondBoards/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/diamond.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/diamond.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/DiamondBoards/dscud.h -text
+src/moduls/daq/DiamondBoards/libdscud.a -text
+src/moduls/daq/DiamondBoards/po/de.po -text
+src/moduls/daq/DiamondBoards/po/oscd_DiamondBoards.pot -text
+src/moduls/daq/DiamondBoards/po/ru.po -text
+src/moduls/daq/DiamondBoards/po/uk.po -text
+src/moduls/daq/FT3/ACCOUNT.cpp -text
+src/moduls/daq/FT3/ACCOUNT.h -text
+src/moduls/daq/FT3/BIP.cpp -text
+src/moduls/daq/FT3/BIP.h -text
+src/moduls/daq/FT3/BTE.cpp -text
+src/moduls/daq/FT3/BTE.h -text
+src/moduls/daq/FT3/BTR.cpp -text
+src/moduls/daq/FT3/BTR.h -text
+src/moduls/daq/FT3/BUC.cpp -text
+src/moduls/daq/FT3/BUC.h -text
+src/moduls/daq/FT3/BVI.cpp -text
+src/moduls/daq/FT3/BVI.h -text
+src/moduls/daq/FT3/BVT.cpp -text
+src/moduls/daq/FT3/BVT.h -text
+src/moduls/daq/FT3/BVTC.cpp -text
+src/moduls/daq/FT3/BVTC.h -text
+src/moduls/daq/FT3/FT3_prt.cpp -text
+src/moduls/daq/FT3/FT3_prt.h -text
+src/moduls/daq/FT3/GKR.cpp -text
+src/moduls/daq/FT3/GKR.h -text
+src/moduls/daq/FT3/GNS.cpp -text
+src/moduls/daq/FT3/GNS.h -text
+src/moduls/daq/FT3/GZD.cpp -text
+src/moduls/daq/FT3/GZD.h -text
+src/moduls/daq/FT3/Makefile.am -text
+src/moduls/daq/FT3/ODOR.cpp -text
+src/moduls/daq/FT3/ODOR.h -text
+src/moduls/daq/FT3/PAUK.cpp -text
+src/moduls/daq/FT3/PAUK.h -text
+src/moduls/daq/FT3/TANK.cpp -text
+src/moduls/daq/FT3/TANK.h -text
+src/moduls/daq/FT3/da.cpp -text
+src/moduls/daq/FT3/da.h -text
+src/moduls/daq/FT3/mod_FT3.cpp -text
+src/moduls/daq/FT3/mod_FT3.h -text
+src/moduls/daq/FT3/po/oscd_FT3.pot -text
+src/moduls/daq/FT3/po/ru.po -text
+src/moduls/daq/Fastwel/Makefile.am -text
+src/moduls/daq/Fastwel/fbus/fb_api.h -text
+src/moduls/daq/Fastwel/fbus/fb_node.h -text
+src/moduls/daq/Fastwel/fbus/fbus.h -text
+src/moduls/daq/Fastwel/fbus/fiom.h -text
+src/moduls/daq/Fastwel/fbus/libfbus.so -text
+src/moduls/daq/Fastwel/fbus/stdlib/f_pack.h -text
+src/moduls/daq/Fastwel/fbus/stdlib/f_types.h -text
+src/moduls/daq/Fastwel/fbus/stdlib/pstdint.h -text
+src/moduls/daq/Fastwel/module.cpp -text
+src/moduls/daq/Fastwel/module.h -text
+src/moduls/daq/Fastwel/po/oscd_Fastwel.pot -text
+src/moduls/daq/Fastwel/po/ru.po -text
+src/moduls/daq/ICP_DAS/ICP_module.cpp -text
+src/moduls/daq/ICP_DAS/ICP_module.h -text
+src/moduls/daq/ICP_DAS/Makefile.am -text
+src/moduls/daq/ICP_DAS/da.h -text
+src/moduls/daq/ICP_DAS/da_87x.cpp -text
+src/moduls/daq/ICP_DAS/da_87x.h -text
+src/moduls/daq/ICP_DAS/da_ISA.cpp -text
+src/moduls/daq/ICP_DAS/da_ISA.h -text
+src/moduls/daq/ICP_DAS/da_LP_8x.cpp -text
+src/moduls/daq/ICP_DAS/da_LP_8x.h -text
+src/moduls/daq/ICP_DAS/include/8000A.h -text
+src/moduls/daq/ICP_DAS/include/8080.h -text
+src/moduls/daq/ICP_DAS/include/_flag.h -text
+src/moduls/daq/ICP_DAS/include/codes.h -text
+src/moduls/daq/ICP_DAS/include/common.h -text
+src/moduls/daq/ICP_DAS/include/debug.h -text
+src/moduls/daq/ICP_DAS/include/define.h -text
+src/moduls/daq/ICP_DAS/include/i7000.h -text
+src/moduls/daq/ICP_DAS/include/i7k.h -text
+src/moduls/daq/ICP_DAS/include/i8000.h -text
+src/moduls/daq/ICP_DAS/include/i8014W.h -text
+src/moduls/daq/ICP_DAS/include/i8014W_Cli.h -text
+src/moduls/daq/ICP_DAS/include/i8026W.h -text
+src/moduls/daq/ICP_DAS/include/i8026WCli.h -text
+src/moduls/daq/ICP_DAS/include/i8050.h -text
+src/moduls/daq/ICP_DAS/include/i8084W.h -text
+src/moduls/daq/ICP_DAS/include/i87000.h -text
+src/moduls/daq/ICP_DAS/include/i87120can.h -text
+src/moduls/daq/ICP_DAS/include/i87123cpm.h -text
+src/moduls/daq/ICP_DAS/include/i87124dnm.h -text
+src/moduls/daq/ICP_DAS/include/ixisa.h -text
+src/moduls/daq/ICP_DAS/include/lincon.h -text
+src/moduls/daq/ICP_DAS/include/linpac_wrap.h -text
+src/moduls/daq/ICP_DAS/include/mbcapi.h -text
+src/moduls/daq/ICP_DAS/include/mbserver.h -text
+src/moduls/daq/ICP_DAS/include/msw.h -text
+src/moduls/daq/ICP_DAS/include/new8k.h -text
+src/moduls/daq/ICP_DAS/include/sio.h -text
+src/moduls/daq/ICP_DAS/include/slot.h -text
+src/moduls/daq/ICP_DAS/include/timer.h -text
+src/moduls/daq/ICP_DAS/include/x305.h -text
+src/moduls/daq/ICP_DAS/include/x305b.h -text
+src/moduls/daq/ICP_DAS/include/xboard.h -text
+src/moduls/daq/ICP_DAS/include/xd305.h -text
+src/moduls/daq/ICP_DAS/include/xeep.h -text
+src/moduls/daq/ICP_DAS/include_arm/8050.h -text
+src/moduls/daq/ICP_DAS/include_arm/8080.h -text
+src/moduls/daq/ICP_DAS/include_arm/8084W.h -text
+src/moduls/daq/ICP_DAS/include_arm/_flag.h -text
+src/moduls/daq/ICP_DAS/include_arm/codes.h -text
+src/moduls/daq/ICP_DAS/include_arm/common.h -text
+src/moduls/daq/ICP_DAS/include_arm/debug.h -text
+src/moduls/daq/ICP_DAS/include_arm/i7000.h -text
+src/moduls/daq/ICP_DAS/include_arm/i7k.h -text
+src/moduls/daq/ICP_DAS/include_arm/i8000.h -text
+src/moduls/daq/ICP_DAS/include_arm/i8014W.h -text
+src/moduls/daq/ICP_DAS/include_arm/i8088W.h -text
+src/moduls/daq/ICP_DAS/include_arm/i8093W.h -text
+src/moduls/daq/ICP_DAS/include_arm/i8094_dll.h -text
+src/moduls/daq/ICP_DAS/include_arm/i87000.h -text
+src/moduls/daq/ICP_DAS/include_arm/i87120can.h -text
+src/moduls/daq/ICP_DAS/include_arm/i87123cpm.h -text
+src/moduls/daq/ICP_DAS/include_arm/i87124dnm.h -text
+src/moduls/daq/ICP_DAS/include_arm/ixisa.h -text
+src/moduls/daq/ICP_DAS/include_arm/lincon.h -text
+src/moduls/daq/ICP_DAS/include_arm/mbcapi.h -text
+src/moduls/daq/ICP_DAS/include_arm/mbserver.h -text
+src/moduls/daq/ICP_DAS/include_arm/msw.h -text
+src/moduls/daq/ICP_DAS/include_arm/sio.h -text
+src/moduls/daq/ICP_DAS/include_arm/slot.h -text
+src/moduls/daq/ICP_DAS/include_arm/timer.h -text
+src/moduls/daq/ICP_DAS/libi8k.a -text
+src/moduls/daq/ICP_DAS/libi8k_arm.a -text
+src/moduls/daq/ICP_DAS/po/de.po -text
+src/moduls/daq/ICP_DAS/po/oscd_ICP_DAS.pot -text
+src/moduls/daq/ICP_DAS/po/ru.po -text
+src/moduls/daq/ICP_DAS/po/uk.po -text
+src/moduls/daq/JavaLikeCalc/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/freefunc.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/freefunc.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/freelib.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/freelib.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/func_analise.ypp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/po/de.po -text
+src/moduls/daq/JavaLikeCalc/po/oscd_JavaLikeCalc.pot -text
+src/moduls/daq/JavaLikeCalc/po/ru.po -text
+src/moduls/daq/JavaLikeCalc/po/uk.po -text
+src/moduls/daq/JavaLikeCalc/virtual.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/JavaLikeCalc/virtual.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/LogicLev/Makefile.am -text
+src/moduls/daq/LogicLev/logiclev.cpp -text
+src/moduls/daq/LogicLev/logiclev.h -text
+src/moduls/daq/LogicLev/po/de.po -text
+src/moduls/daq/LogicLev/po/oscd_LogicLev.pot -text
+src/moduls/daq/LogicLev/po/ru.po -text
+src/moduls/daq/LogicLev/po/uk.po -text
+src/moduls/daq/MMS/Makefile.am -text
+src/moduls/daq/MMS/libMMS/COPYING -text
+src/moduls/daq/MMS/libMMS/Makefile.am -text
+src/moduls/daq/MMS/libMMS/libMMS.cpp -text
+src/moduls/daq/MMS/libMMS/libMMS.h -text
+src/moduls/daq/MMS/module.cpp -text
+src/moduls/daq/MMS/module.h -text
+src/moduls/daq/MMS/po/de.po -text
+src/moduls/daq/MMS/po/oscd_MMS.pot -text
+src/moduls/daq/MMS/po/ru.po -text
+src/moduls/daq/MMS/po/uk.po -text
+src/moduls/daq/ModBus/Makefile.am -text
+src/moduls/daq/ModBus/modbus_daq.cpp -text
+src/moduls/daq/ModBus/modbus_daq.h -text
+src/moduls/daq/ModBus/modbus_prt.cpp -text
+src/moduls/daq/ModBus/modbus_prt.h -text
+src/moduls/daq/ModBus/moduls.cpp -text
+src/moduls/daq/ModBus/po/de.po -text
+src/moduls/daq/ModBus/po/oscd_ModBus.pot -text
+src/moduls/daq/ModBus/po/ru.po -text
+src/moduls/daq/ModBus/po/uk.po -text
+src/moduls/daq/OPC_UA/Makefile.am -text
+src/moduls/daq/OPC_UA/libOPC_UA/COPYING -text
+src/moduls/daq/OPC_UA/libOPC_UA/GPL-3 -text
+src/moduls/daq/OPC_UA/libOPC_UA/Makefile.am -text
+src/moduls/daq/OPC_UA/libOPC_UA/cert.pem -text
+src/moduls/daq/OPC_UA/libOPC_UA/key.pem -text
+src/moduls/daq/OPC_UA/libOPC_UA/libOPC_UA.cpp -text
+src/moduls/daq/OPC_UA/libOPC_UA/libOPC_UA.h -text
+src/moduls/daq/OPC_UA/libOPC_UA/test.cpp -text
+src/moduls/daq/OPC_UA/libOPC_UA/test.h -text
+src/moduls/daq/OPC_UA/libOPC_UA/test_Makefile -text
+src/moduls/daq/OPC_UA/mod_daq.cpp -text
+src/moduls/daq/OPC_UA/mod_daq.h -text
+src/moduls/daq/OPC_UA/mod_prt.cpp -text
+src/moduls/daq/OPC_UA/mod_prt.h -text
+src/moduls/daq/OPC_UA/moduls.cpp -text
+src/moduls/daq/OPC_UA/po/de.po -text
+src/moduls/daq/OPC_UA/po/oscd_OPC_UA.pot -text
+src/moduls/daq/OPC_UA/po/ru.po -text
+src/moduls/daq/OPC_UA/po/uk.po -text
+src/moduls/daq/OneWire/Makefile.am -text
+src/moduls/daq/OneWire/module.cpp -text
+src/moduls/daq/OneWire/module.h -text
+src/moduls/daq/SMH2Gi/Makefile.am -text
+src/moduls/daq/SMH2Gi/data/ain_tunes.ini -text
+src/moduls/daq/SMH2Gi/data/mr_12din_DC.ini -text
+src/moduls/daq/SMH2Gi/data/mr_5dout_4aout.ini -text
+src/moduls/daq/SMH2Gi/data/mr_6dout_2aout.ini -text
+src/moduls/daq/SMH2Gi/data/mr_8din_AC.ini -text
+src/moduls/daq/SMH2Gi/data/mr_8rele.ini -text
+src/moduls/daq/SMH2Gi/data/mr_triack.ini -text
+src/moduls/daq/SMH2Gi/data/mr_triack_opto.ini -text
+src/moduls/daq/SMH2Gi/data/uso1.ini -text
+src/moduls/daq/SMH2Gi/data/uso2.ini -text
+src/moduls/daq/SMH2Gi/module.cpp -text
+src/moduls/daq/SMH2Gi/module.h -text
+src/moduls/daq/SMH2Gi/po/de.po -text
+src/moduls/daq/SMH2Gi/po/oscd_SMH2Gi.pot -text
+src/moduls/daq/SMH2Gi/po/ru.po -text
+src/moduls/daq/SMH2Gi/po/uk.po -text
+src/moduls/daq/SMH2Gi/rlcutil.cpp -text
+src/moduls/daq/SMH2Gi/rlcutil.h -text
+src/moduls/daq/SMH2Gi/rldefine.h -text
+src/moduls/daq/SMH2Gi/rlinifile.cpp -text
+src/moduls/daq/SMH2Gi/rlinifile.h -text
+src/moduls/daq/SMH2Gi/rlsharedmemory.cpp -text
+src/moduls/daq/SMH2Gi/rlsharedmemory.h -text
+src/moduls/daq/SMH2Gi/rlsocket.cpp -text
+src/moduls/daq/SMH2Gi/rlsocket.h -text
+src/moduls/daq/SMH2Gi/rlwthread.cpp -text
+src/moduls/daq/SMH2Gi/rlwthread.h -text
+src/moduls/daq/SMH2Gi/shm.cpp -text
+src/moduls/daq/SMH2Gi/shm.hpp -text
+src/moduls/daq/SNMP/Makefile.am -text
+src/moduls/daq/SNMP/po/de.po -text
+src/moduls/daq/SNMP/po/oscd_SNMP.pot -text
+src/moduls/daq/SNMP/po/ru.po -text
+src/moduls/daq/SNMP/po/uk.po -text
+src/moduls/daq/SNMP/snmp_client.cpp -text
+src/moduls/daq/SNMP/snmp_client.h -text
+src/moduls/daq/Siemens/Makefile.am -text
+src/moduls/daq/Siemens/cif_api.c -text
+src/moduls/daq/Siemens/cif_dev_i.h -text
+src/moduls/daq/Siemens/cif_dpm.h -text
+src/moduls/daq/Siemens/cif_types.h -text
+src/moduls/daq/Siemens/cif_user.h -text
+src/moduls/daq/Siemens/log2.h -text
+src/moduls/daq/Siemens/nodave.c -text
+src/moduls/daq/Siemens/nodave.h -text
+src/moduls/daq/Siemens/openSocket.c -text
+src/moduls/daq/Siemens/openSocket.h -text
+src/moduls/daq/Siemens/po/de.po -text
+src/moduls/daq/Siemens/po/oscd_Siemens.pot -text
+src/moduls/daq/Siemens/po/ru.po -text
+src/moduls/daq/Siemens/po/uk.po -text
+src/moduls/daq/Siemens/rcs_user.h -text
+src/moduls/daq/Siemens/rcsdef.h -text
+src/moduls/daq/Siemens/setport.c -text
+src/moduls/daq/Siemens/setport.h -text
+src/moduls/daq/Siemens/siemens.cpp -text
+src/moduls/daq/Siemens/siemens.h -text
+src/moduls/daq/SoundCard/Makefile.am -text
+src/moduls/daq/SoundCard/po/de.po -text
+src/moduls/daq/SoundCard/po/oscd_SoundCard.pot -text
+src/moduls/daq/SoundCard/po/ru.po -text
+src/moduls/daq/SoundCard/po/uk.po -text
+src/moduls/daq/SoundCard/sound.cpp -text
+src/moduls/daq/SoundCard/sound.h -text
+src/moduls/daq/System/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/da.h -text
+src/moduls/daq/System/da_cpu.cpp -text
+src/moduls/daq/System/da_cpu.h -text
+src/moduls/daq/System/da_hddstat.cpp -text
+src/moduls/daq/System/da_hddstat.h -text
+src/moduls/daq/System/da_hddtemp.cpp -text
+src/moduls/daq/System/da_hddtemp.h -text
+src/moduls/daq/System/da_mem.cpp -text
+src/moduls/daq/System/da_mem.h -text
+src/moduls/daq/System/da_netstat.cpp -text
+src/moduls/daq/System/da_netstat.h -text
+src/moduls/daq/System/da_sensors.cpp -text
+src/moduls/daq/System/da_sensors.h -text
+src/moduls/daq/System/da_smart.cpp -text
+src/moduls/daq/System/da_smart.h -text
+src/moduls/daq/System/da_ups.cpp -text
+src/moduls/daq/System/da_ups.h -text
+src/moduls/daq/System/da_uptime.cpp -text
+src/moduls/daq/System/da_uptime.h -text
+src/moduls/daq/System/os_contr.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/os_contr.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/po/de.po -text
+src/moduls/daq/System/po/oscd_System.pot -text
+src/moduls/daq/System/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/daq/System/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/=Tmpl=/Makefile.am -text
+src/moduls/protocol/=Tmpl=/configure.ac -text
+src/moduls/protocol/=Tmpl=/module.cpp -text
+src/moduls/protocol/=Tmpl=/module.h -text
+src/moduls/protocol/HTTP/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/HTTP/http.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/HTTP/http.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/HTTP/po/de.po -text
+src/moduls/protocol/HTTP/po/oscd_HTTP.pot -text
+src/moduls/protocol/HTTP/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/HTTP/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/SelfSystem/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/SelfSystem/po/de.po -text
+src/moduls/protocol/SelfSystem/po/oscd_SelfSystem.pot -text
+src/moduls/protocol/SelfSystem/po/ru.po -text
+src/moduls/protocol/SelfSystem/po/uk.po -text
+src/moduls/protocol/SelfSystem/self.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/SelfSystem/self.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/protocol/UserProtocol/Makefile.am -text
+src/moduls/protocol/UserProtocol/po/de.po -text
+src/moduls/protocol/UserProtocol/po/oscd_UserProtocol.pot -text
+src/moduls/protocol/UserProtocol/po/ru.po -text
+src/moduls/protocol/UserProtocol/po/uk.po -text
+src/moduls/protocol/UserProtocol/user_prt.cpp -text
+src/moduls/protocol/UserProtocol/user_prt.h -text
+src/moduls/special/=Tmpl=/Makefile.am -text
+src/moduls/special/=Tmpl=/configure.ac -text
+src/moduls/special/=Tmpl=/module.cpp -text
+src/moduls/special/=Tmpl=/module.h -text
+src/moduls/special/FLibComplex1/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FLibComplex1/libcompl1.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FLibComplex1/po/de.po -text
+src/moduls/special/FLibComplex1/po/oscd_FLibComplex1.pot -text
+src/moduls/special/FLibComplex1/po/ru.po -text
+src/moduls/special/FLibComplex1/po/uk.po -text
+src/moduls/special/FLibComplex1/statfunc.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FLibComplex1/statfunc.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/FLibMath/Makefile.am -text
+src/moduls/special/FLibMath/po/de.po -text
+src/moduls/special/FLibMath/po/oscd_FLibMath.pot -text
+src/moduls/special/FLibMath/po/ru.po -text
+src/moduls/special/FLibMath/po/uk.po -text
+src/moduls/special/FLibMath/statfunc.cpp -text
+src/moduls/special/FLibMath/statfunc.h -text
+src/moduls/special/FLibMath/stdmath.h -text
+src/moduls/special/FLibSYS/Makefile.am -text
+src/moduls/special/FLibSYS/gd.cpp -text
+src/moduls/special/FLibSYS/gd.h -text
+src/moduls/special/FLibSYS/io.cpp -text
+src/moduls/special/FLibSYS/io.h -text
+src/moduls/special/FLibSYS/po/de.po -text
+src/moduls/special/FLibSYS/po/oscd_FLibSYS.pot -text
+src/moduls/special/FLibSYS/po/ru.po -text
+src/moduls/special/FLibSYS/po/uk.po -text
+src/moduls/special/FLibSYS/statfunc.cpp -text
+src/moduls/special/FLibSYS/statfunc.h -text
+src/moduls/special/FLibSYS/sysfnc.h -text
+src/moduls/special/FLibSYS/timefnc.h -text
+src/moduls/special/FLibSYS/varchfnc.cpp -text
+src/moduls/special/FLibSYS/varchfnc.h -text
+src/moduls/special/FLibSYS/xmlfnc.cpp -text
+src/moduls/special/FLibSYS/xmlfnc.h -text
+src/moduls/special/SystemTests/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/mod_tests.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/mod_tests.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/po/de.po -text
+src/moduls/special/SystemTests/po/oscd_SystemTests.pot -text
+src/moduls/special/SystemTests/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/special/SystemTests/test_Base64Code.h -text
+src/moduls/special/SystemTests/test_DB.h -text
+src/moduls/special/SystemTests/test_SOAttach.h -text
+src/moduls/special/SystemTests/test_SysContrLang.h -text
+src/moduls/special/SystemTests/test_TrOut.h -text
+src/moduls/special/SystemTests/test_ValBuf.h -text
+src/moduls/special/SystemTests/test_archive.h -text
+src/moduls/special/SystemTests/test_mess.h -text
+src/moduls/special/SystemTests/test_prm.h -text
+src/moduls/special/SystemTests/test_val.h -text
+src/moduls/special/SystemTests/test_xml.h -text
+src/moduls/transport/=Tmpl=/Makefile.am -text
+src/moduls/transport/=Tmpl=/configure.ac -text
+src/moduls/transport/=Tmpl=/module.cpp -text
+src/moduls/transport/=Tmpl=/module.h -text
+src/moduls/transport/SSL/Makefile.am -text
+src/moduls/transport/SSL/modssl.cpp -text
+src/moduls/transport/SSL/modssl.h -text
+src/moduls/transport/SSL/po/de.po -text
+src/moduls/transport/SSL/po/oscd_SSL.pot -text
+src/moduls/transport/SSL/po/ru.po -text
+src/moduls/transport/SSL/po/uk.po -text
+src/moduls/transport/Serial/Makefile.am -text
+src/moduls/transport/Serial/mod_serial.cpp -text
+src/moduls/transport/Serial/mod_serial.h -text
+src/moduls/transport/Serial/po/de.po -text
+src/moduls/transport/Serial/po/oscd_Serial.pot -text
+src/moduls/transport/Serial/po/ru.po -text
+src/moduls/transport/Serial/po/uk.po -text
+src/moduls/transport/Sockets/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/po/de.po -text
+src/moduls/transport/Sockets/po/oscd_Sockets.pot -text
+src/moduls/transport/Sockets/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/socket.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/transport/Sockets/socket.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/=Tmpl=/Makefile.am -text
+src/moduls/ui/=Tmpl=/configure.ac -text
+src/moduls/ui/=Tmpl=/module.cpp -text
+src/moduls/ui/=Tmpl=/module.h -text
+src/moduls/ui/QTCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/images/button_cancel.png -text
+src/moduls/ui/QTCfg/images/button_ok.png -text
+src/moduls/ui/QTCfg/images/close.png -text
+src/moduls/ui/QTCfg/images/combar.png -text
+src/moduls/ui/QTCfg/images/contexthelp.png -text
+src/moduls/ui/QTCfg/images/editcopy.png -text
+src/moduls/ui/QTCfg/images/editcut.png -text
+src/moduls/ui/QTCfg/images/editpaste.png -text
+src/moduls/ui/QTCfg/images/exit.png -text
+src/moduls/ui/QTCfg/images/find.png -text
+src/moduls/ui/QTCfg/images/help.png -text
+src/moduls/ui/QTCfg/images/identity.png -text
+src/moduls/ui/QTCfg/images/it_add.png -text
+src/moduls/ui/QTCfg/images/it_del.png -text
+src/moduls/ui/QTCfg/images/load.png -text
+src/moduls/ui/QTCfg/images/manual.png -text
+src/moduls/ui/QTCfg/images/next.png -text
+src/moduls/ui/QTCfg/images/ok.png -text
+src/moduls/ui/QTCfg/images/oscada_cfg.png -text
+src/moduls/ui/QTCfg/images/previous.png -text
+src/moduls/ui/QTCfg/images/reload.png -text
+src/moduls/ui/QTCfg/images/save.png -text
+src/moduls/ui/QTCfg/images/start.png -text
+src/moduls/ui/QTCfg/images/stop.png -text
+src/moduls/ui/QTCfg/images/up.png -text
+src/moduls/ui/QTCfg/po/de.po -text
+src/moduls/ui/QTCfg/po/oscd_QTCfg.pot -text
+src/moduls/ui/QTCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/qtcfg.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/qtcfg.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/qtcfg.qrc -text
+src/moduls/ui/QTCfg/selfwidg.cpp -text
+src/moduls/ui/QTCfg/selfwidg.h -text
+src/moduls/ui/QTCfg/tuimod.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTCfg/tuimod.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/QTStarter/Makefile.am -text
+src/moduls/ui/QTStarter/images/contexthelp.png -text
+src/moduls/ui/QTStarter/images/exit.png -text
+src/moduls/ui/QTStarter/images/help.png -text
+src/moduls/ui/QTStarter/images/logo.png -text
+src/moduls/ui/QTStarter/images/manual.png -text
+src/moduls/ui/QTStarter/images/oscada_qt.png -text
+src/moduls/ui/QTStarter/images/splash.png -text
+src/moduls/ui/QTStarter/po/de.po -text
+src/moduls/ui/QTStarter/po/oscd_QTStarter.pot -text
+src/moduls/ui/QTStarter/po/ru.po -text
+src/moduls/ui/QTStarter/po/uk.po -text
+src/moduls/ui/QTStarter/qtstarter.qrc -text
+src/moduls/ui/QTStarter/tuimod.cpp -text
+src/moduls/ui/QTStarter/tuimod.h -text
+src/moduls/ui/VCAEngine/Makefile.am -text
+src/moduls/ui/VCAEngine/libwidg.cpp -text
+src/moduls/ui/VCAEngine/libwidg.h -text
+src/moduls/ui/VCAEngine/origwidg.cpp -text
+src/moduls/ui/VCAEngine/origwidg.h -text
+src/moduls/ui/VCAEngine/po/de.po -text
+src/moduls/ui/VCAEngine/po/oscd_VCAEngine.pot -text
+src/moduls/ui/VCAEngine/po/ru.po -text
+src/moduls/ui/VCAEngine/po/uk.po -text
+src/moduls/ui/VCAEngine/project.cpp -text
+src/moduls/ui/VCAEngine/project.h -text
+src/moduls/ui/VCAEngine/session.cpp -text
+src/moduls/ui/VCAEngine/session.h -text
+src/moduls/ui/VCAEngine/types.h -text
+src/moduls/ui/VCAEngine/vcaFuncs.h -text
+src/moduls/ui/VCAEngine/vcaengine.cpp -text
+src/moduls/ui/VCAEngine/vcaengine.h -text
+src/moduls/ui/VCAEngine/widget.cpp -text
+src/moduls/ui/VCAEngine/widget.h -text
+src/moduls/ui/Vision/Makefile.am -text
+src/moduls/ui/Vision/images/alarmAlarm.png -text
+src/moduls/ui/Vision/images/alarmLev.png -text
+src/moduls/ui/Vision/images/alarmLight.png -text
+src/moduls/ui/Vision/images/alarmSound.png -text
+src/moduls/ui/Vision/images/align_bottom.png -text
+src/moduls/ui/Vision/images/align_hcenter.png -text
+src/moduls/ui/Vision/images/align_left.png -text
+src/moduls/ui/Vision/images/align_right.png -text
+src/moduls/ui/Vision/images/align_top.png -text
+src/moduls/ui/Vision/images/align_vcenter.png -text
+src/moduls/ui/Vision/images/attention.png -text
+src/moduls/ui/Vision/images/button_cancel.png -text
+src/moduls/ui/Vision/images/button_ok.png -text
+src/moduls/ui/Vision/images/close.png -text
+src/moduls/ui/Vision/images/contexthelp.png -text
+src/moduls/ui/Vision/images/disable.png -text
+src/moduls/ui/Vision/images/down.png -text
+src/moduls/ui/Vision/images/edit.png -text
+src/moduls/ui/Vision/images/editcopy.png -text
+src/moduls/ui/Vision/images/editcut.png -text
+src/moduls/ui/Vision/images/editpaste.png -text
+src/moduls/ui/Vision/images/elfig_arc.png -text
+src/moduls/ui/Vision/images/elfig_besie.png -text
+src/moduls/ui/Vision/images/elfig_cursor.png -text
+src/moduls/ui/Vision/images/elfig_line.png -text
+src/moduls/ui/Vision/images/elfig_lock.png -text
+src/moduls/ui/Vision/images/exit.png -text
+src/moduls/ui/Vision/images/export.png -text
+src/moduls/ui/Vision/images/find.png -text
+src/moduls/ui/Vision/images/help.png -text
+src/moduls/ui/Vision/images/it_ChDown.png -text
+src/moduls/ui/Vision/images/it_add.png -text
+src/moduls/ui/Vision/images/it_clear.png -text
+src/moduls/ui/Vision/images/it_del.png -text
+src/moduls/ui/Vision/images/it_edit.png -text
+src/moduls/ui/Vision/images/it_prop.png -text
+src/moduls/ui/Vision/images/level_down.png -text
+src/moduls/ui/Vision/images/level_lower.png -text
+src/moduls/ui/Vision/images/level_rise.png -text
+src/moduls/ui/Vision/images/level_up.png -text
+src/moduls/ui/Vision/images/lib_new.png -text
+src/moduls/ui/Vision/images/load.png -text
+src/moduls/ui/Vision/images/manual.png -text
+src/moduls/ui/Vision/images/ok.png -text
+src/moduls/ui/Vision/images/print.png -text
+src/moduls/ui/Vision/images/prj_new.png -text
+src/moduls/ui/Vision/images/prj_run.png -text
+src/moduls/ui/Vision/images/redo.png -text
+src/moduls/ui/Vision/images/reload.png -text
+src/moduls/ui/Vision/images/save.png -text
+src/moduls/ui/Vision/images/undo.png -text
+src/moduls/ui/Vision/images/vision.png -text
+src/moduls/ui/Vision/po/de.po -text
+src/moduls/ui/Vision/po/oscd_Vision.pot -text
+src/moduls/ui/Vision/po/ru.po -text
+src/moduls/ui/Vision/po/uk.po -text
+src/moduls/ui/Vision/tvision.cpp -text
+src/moduls/ui/Vision/tvision.h -text
+src/moduls/ui/Vision/vis_devel.cpp -text
+src/moduls/ui/Vision/vis_devel.h -text
+src/moduls/ui/Vision/vis_devel_dlgs.cpp -text
+src/moduls/ui/Vision/vis_devel_dlgs.h -text
+src/moduls/ui/Vision/vis_devel_widgs.cpp -text
+src/moduls/ui/Vision/vis_devel_widgs.h -text
+src/moduls/ui/Vision/vis_run.cpp -text
+src/moduls/ui/Vision/vis_run.h -text
+src/moduls/ui/Vision/vis_run_widgs.cpp -text
+src/moduls/ui/Vision/vis_run_widgs.h -text
+src/moduls/ui/Vision/vis_shape_elfig.cpp -text
+src/moduls/ui/Vision/vis_shape_elfig.h -text
+src/moduls/ui/Vision/vis_shapes.cpp -text
+src/moduls/ui/Vision/vis_shapes.h -text
+src/moduls/ui/Vision/vis_widgs.cpp -text
+src/moduls/ui/Vision/vis_widgs.h -text
+src/moduls/ui/Vision/vision.qrc -text
+src/moduls/ui/WebCfg/Makefile.am -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/WebCfg/po/de.po -text
+src/moduls/ui/WebCfg/po/oscd_WebCfg.pot -text
+src/moduls/ui/WebCfg/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/WebCfg/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/WebCfg/web_cfg.cpp -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/WebCfg/web_cfg.h -text svn_keywords=Author+Date+Id+Revision
+src/moduls/ui/WebCfgD/Makefile.am -text
+src/moduls/ui/WebCfgD/WebCfgDVCA.html -text
+src/moduls/ui/WebCfgD/WebCfgDVCA.js -text
+src/moduls/ui/WebCfgD/po/de.po -text
+src/moduls/ui/WebCfgD/po/oscd_WebCfgD.pot -text
+src/moduls/ui/WebCfgD/po/ru.po -text
+src/moduls/ui/WebCfgD/po/uk.po -text
+src/moduls/ui/WebCfgD/web_cfg.cpp -text
+src/moduls/ui/WebCfgD/web_cfg.h -text
+src/moduls/ui/WebUser/Makefile.am -text
+src/moduls/ui/WebUser/po/de.po -text
+src/moduls/ui/WebUser/po/oscd_WebUser.pot -text
+src/moduls/ui/WebUser/po/ru.po -text
+src/moduls/ui/WebUser/po/uk.po -text
+src/moduls/ui/WebUser/web_user.cpp -text
+src/moduls/ui/WebUser/web_user.h -text
+src/moduls/ui/WebVision/Makefile.am -text
+src/moduls/ui/WebVision/WebVisionVCA.js -text
+src/moduls/ui/WebVision/po/de.po -text
+src/moduls/ui/WebVision/po/oscd_WebVision.pot -text
+src/moduls/ui/WebVision/po/ru.po -text
+src/moduls/ui/WebVision/po/uk.po -text
+src/moduls/ui/WebVision/vca_sess.cpp -text
+src/moduls/ui/WebVision/vca_sess.h -text
+src/moduls/ui/WebVision/web_vision.cpp -text
+src/moduls/ui/WebVision/web_vision.h -text
+src/po/de.po -text
+src/po/openscada.pot -text
+src/po/ru.po -text svn_keywords=Author+Date+Id+Revision
+src/po/uk.po -text svn_keywords=Author+Date+Id+Revision
+src/resalloc.cpp -text
+src/resalloc.h -text
+src/tarchives.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tarchives.h -text svn_keywords=Author+Date+Id+Revision
+src/tarchval.cpp -text
+src/tarchval.h -text
+src/tbds.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tbds.h -text svn_keywords=Author+Date+Id+Revision
+src/tcntrnode.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tcntrnode.h -text svn_keywords=Author+Date+Id+Revision
+src/tconfig.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tconfig.h -text svn_keywords=Author+Date+Id+Revision
+src/tcontroller.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tcontroller.h -text svn_keywords=Author+Date+Id+Revision
+src/tdaqs.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tdaqs.h -text svn_keywords=Author+Date+Id+Revision
+src/telem.cpp -text svn_keywords=Author+Date+Id+Revision
+src/telem.h -text svn_keywords=Author+Date+Id+Revision
+src/terror.cpp -text svn_keywords=Author+Date+Id+Revision
+src/terror.h -text svn_keywords=Author+Date+Id+Revision
+src/tfunction.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tfunction.h -text svn_keywords=Author+Date+Id+Revision
+src/tmess.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tmess.h -text svn_keywords=Author+Date+Id+Revision
+src/tmodschedul.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tmodschedul.h -text svn_keywords=Author+Date+Id+Revision
+src/tmodule.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tmodule.h -text svn_keywords=Author+Date+Id+Revision
+src/tparamcontr.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tparamcontr.h -text svn_keywords=Author+Date+Id+Revision
+src/tprmtmpl.cpp -text
+src/tprmtmpl.h -text
+src/tprotocols.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tprotocols.h -text svn_keywords=Author+Date+Id+Revision
+src/tsecurity.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tsecurity.h -text svn_keywords=Author+Date+Id+Revision
+src/tspecials.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tspecials.h -text svn_keywords=Author+Date+Id+Revision
+src/tsubsys.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tsubsys.h -text svn_keywords=Author+Date+Id+Revision
+src/tsys.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tsys.h -text svn_keywords=Author+Date+Id+Revision
+src/ttransports.cpp -text svn_keywords=Author+Date+Id+Revision
+src/ttransports.h -text svn_keywords=Author+Date+Id+Revision
+src/ttypedaq.cpp -text svn_keywords=Author+Date+Id+Revision
+src/ttypedaq.h -text svn_keywords=Author+Date+Id+Revision
+src/ttypeparam.h -text svn_keywords=Author+Date+Id+Revision
+src/tuis.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tuis.h -text svn_keywords=Author+Date+Id+Revision
+src/tvalue.cpp -text svn_keywords=Author+Date+Id+Revision
+src/tvalue.h -text svn_keywords=Author+Date+Id+Revision
+src/tvariant.cpp -text
+src/tvariant.h -text
+src/xml.cpp -text svn_keywords=Author+Date+Id+Revision
+src/xml.h -text svn_keywords=Author+Date+Id+Revision
+src_call/Makefile.am -text
+src_call/main.cpp -text
