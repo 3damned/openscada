@@ -1244,6 +1244,15 @@ TVariant Func::oPropGet( TVariant vl, const string &prop )
 	    return TVariant();
 	case TVariant::String: {
 	    if(prop == "length")	return (int64_t)vl.getS().size();
+        if(prop == "wlength") {
+            string str = vl.getS();
+            size_t strLength = str.size();
+            if (!strLength)
+                return (int64_t)0;
+            wchar_t wstr[strLength];
+            size_t rez = mbstowcs(wstr, str.c_str(), strLength);
+            return (rez < 0) ? (int64_t)0 : (int64_t)rez;
+        }
 	    int sid = s2i(prop);
 	    if(sid < 0 || sid >= (int)vl.getS().size()) return "";
 	    return vl.getS().substr(sid,1);
@@ -1333,15 +1342,37 @@ TVariant Func::oFuncCall( TVariant &vl, const string &prop, vector<TVariant> &pr
 		//  symb - symbol position
 		if(prop == "charAt" && prms.size()) {
 		    int n = prms[0].getI();
-		    if(n < 0 || n >= (int)vl.getS().size()) return string("");
-		    return vl.getS().substr(n,1);
+            int strSize = (int)vl.getS().size();
+			if(n < 0 || n >= strSize) return string("");
+            bool isWide = (prms.size() > 1) ? prms[1].getB() : false;
+            if (!isWide) {
+				return vl.getS().substr(n,1);
+            }
+            else {
+                wchar_t wstr[strSize];
+                if (mbstowcs(wstr, vl.getS().c_str(), strSize) <= n)
+                    return string("");
+                char mb[MB_CUR_MAX];
+                int mbLength = wctomb(mb, wstr[n]);
+                return string(mb, mbLength);
+            }
 		}
 		// int charCodeAt(int symb) - extracts from the string the symbol code <symb>
 		//  symb - symbol position
 		if(prop == "charCodeAt" && prms.size()) {
 		    int n = prms[0].getI();
-		    if(n < 0 || n >= (int)vl.getS().size())	return (int64_t)EVAL_INT;
-		    return (int64_t)(unsigned char)vl.getS()[n];
+            int strSize = (int)vl.getS().size();
+			if(n < 0 || n >= strSize)	return (int64_t)EVAL_INT;
+            bool isWide = (prms.size() > 1) ? prms[1].getB() : false;
+            if (!isWide) {
+				return (int64_t)(unsigned char)vl.getS()[n];
+            }
+            else {
+                wchar_t wstr[strSize];
+                if (mbstowcs(wstr, vl.getS().c_str(), strSize) <= n)
+                    return (int64_t)EVAL_INT;
+                return (int64_t)wstr[n];
+            }
 		}
 		// string concat(string val1, string val2, ...) - returns a new string formed by joining the values <val1> etc
 		//  val1, val2 - appended values
