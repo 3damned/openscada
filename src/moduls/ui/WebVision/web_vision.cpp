@@ -337,7 +337,7 @@ void TWEB::perSYSCall( unsigned int cnt )
 
 string TWEB::httpHead( const string &rcode, int cln, const string &cnt_tp, const string &addattr, const string &charset )
 {
-    return "HTTP/1.0 "+rcode+"\x0D\x0A"
+    return "HTTP/1.1 "+rcode+"\x0D\x0A"
 	"Server: "+PACKAGE_STRING+"\x0D\x0A"
 	"Accept-Ranges: bytes\x0D\x0A"
 	"Content-Length: "+i2s(cln)+"\x0D\x0A"
