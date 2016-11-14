@@ -50,9 +50,9 @@ string TController::objName( )	{ return TCntrNode::objName()+":TController"; }
 
 string TController::DAQPath( )	{ return owner().DAQPath()+"."+id(); }
 
-TCntrNode &TController::operator=( TCntrNode &node )
+TCntrNode &TController::operator=( const TCntrNode &node )
 {
-    TController *src_n = dynamic_cast<TController*>(&node);
+    const TController *src_n = dynamic_cast<const TController*>(&node);
     if(!src_n) return *this;
 
     //Individual DB names store
@@ -94,7 +94,7 @@ void TController::postDisable( int flag )
 {
     if(flag) {
 	//Delete DB record
-	SYS->db().at().dataDel(fullDB(),owner().nodePath()+"DAQ",*this,true);
+	SYS->db().at().dataDel(fullDB(), owner().nodePath()+"DAQ", *this, true);
 
 	//Delete parameter's tables
 	for(unsigned i_tp = 0; i_tp < owner().tpPrmSize(); i_tp++) {
@@ -105,7 +105,7 @@ void TController::postDisable( int flag )
     }
 }
 
-TTypeDAQ &TController::owner( )	{ return *(TTypeDAQ*)nodePrev(); }
+TTypeDAQ &TController::owner( ) const	{ return *(TTypeDAQ*)nodePrev(); }
 
 string TController::workId( )	{ return owner().modId()+"."+id(); }
 

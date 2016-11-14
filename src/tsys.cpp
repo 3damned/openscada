@@ -56,7 +56,7 @@ pthread_key_t TSYS::sTaskKey;
 
 TSYS::TSYS( int argi, char ** argb, char **env ) : argc(argi), argv((const char **)argb), envp((const char **)env),
     mUser("root"), mConfFile(sysconfdir_full"/oscada.xml"), mId("EmptySt"), mName(_("Empty Station")),
-    mModDir(oscd_moddir_full), mIcoDir("icons;"oscd_datadir_full"/icons"), mDocDir("docs;"oscd_datadir_full"/docs"),
+    mModDir(oscd_moddir_full), mIcoDir("icons;" oscd_datadir_full "/icons"), mDocDir("docs;" oscd_datadir_full "/docs"),
     mWorkDB(DB_CFG), mSaveAtExit(false), mSavePeriod(0), rootModifCnt(0), sysModifFlgs(0), mStopSignal(-1), mN_CPU(1),
     mainPthr(0), mSysTm(time(NULL)), mClockRT(false), mRdStLevel(0), mRdRestConnTm(10), mRdTaskPer(1), mRdPrcTm(0), mRdPrimCmdTr(false)
 {
@@ -503,7 +503,7 @@ bool TSYS::cfgFileLoad( )
 
 	try {
 	    ResAlloc res(cfgRes(), true);
-	    rootN.load(s_buf, true);
+	    rootN.load(s_buf, XMLNode::LD_Full);
 	    if(rootN.name() == "OpenSCADA") {
 		XMLNode *stat_n = NULL;
 		for(int i_st = rootN.childSize()-1; i_st >= 0; i_st--)
@@ -673,7 +673,7 @@ int TSYS::start( )
     cfgFileScan(true);
 
     //Register user API translations into config
-    Mess->translReg("", "uapi:"DB_CFG);
+    Mess->translReg("", "uapi:" DB_CFG);
 
     mess_sys(TMess::Info, _("Final starting!"));
 
@@ -1946,29 +1946,46 @@ void *TSYS::RdTask( void *param )
 
 int TSYS::sysSleep( float tm )
 {
-    struct timespec sp_tm;
-    sp_tm.tv_sec = (time_t)tm;
-    sp_tm.tv_nsec = (long int)(1e9*(tm-floorf(tm)));
-    return nanosleep(&sp_tm, NULL);
+    struct timespec spTm;
+    clockid_t clkId = SYS->clockRT() ? CLOCK_REALTIME : CLOCK_MONOTONIC;
+
+    if(tm < 300e-6) {	//Wait into the direct cycle
+	for(int64_t stTm = 0, cTm, toTm = 1000000000ll*tm; true; ) {
+	    clock_gettime(clkId, &spTm);
+	    cTm = 1000000000ll*spTm.tv_sec + spTm.tv_nsec;
+	    if(!stTm) stTm = cTm;
+	    else if((cTm-stTm) >= toTm) break;
+	}
+	return 0;
+    }
+
+    spTm.tv_sec = (time_t)tm;
+    spTm.tv_nsec = (long)(1e9*(tm-floorf(tm)));
+    return clock_nanosleep(clkId, 0, &spTm, NULL);
+
+    /*struct timespec spTm;
+    spTm.tv_sec = (time_t)tm;
+    spTm.tv_nsec = (long int)(1e9*(tm-floorf(tm)));
+    return nanosleep(&spTm, NULL);*/
 }
 
 void TSYS::taskSleep( int64_t per, const string &icron, int64_t *lag )
 {
-    struct timespec sp_tm;
+    struct timespec spTm;
     STask *stsk = (STask*)pthread_getspecific(sTaskKey);
 
     if(icron.empty()) {
 	if(!per) per = 1000000000ll;
 	clockid_t clkId = SYS->clockRT() ? CLOCK_REALTIME : CLOCK_MONOTONIC;
-	clock_gettime(clkId, &sp_tm);
-	int64_t cur_tm = (int64_t)sp_tm.tv_sec*1000000000ll + sp_tm.tv_nsec,
+	clock_gettime(clkId, &spTm);
+	int64_t cur_tm = (int64_t)spTm.tv_sec*1000000000ll + spTm.tv_nsec,
 		pnt_tm = (cur_tm/per + 1)*per,
 		wake_tm = 0;
 	do {
-	    sp_tm.tv_sec = pnt_tm/1000000000ll; sp_tm.tv_nsec = pnt_tm%1000000000ll;
-	    if(clock_nanosleep(clkId,TIMER_ABSTIME,&sp_tm,NULL)) return;
-	    clock_gettime(clkId, &sp_tm);
-	    wake_tm = (int64_t)sp_tm.tv_sec*1000000000ll + sp_tm.tv_nsec;
+	    spTm.tv_sec = pnt_tm/1000000000ll; spTm.tv_nsec = pnt_tm%1000000000ll;
+	    if(clock_nanosleep(clkId,TIMER_ABSTIME,&spTm,NULL)) return;
+	    clock_gettime(clkId, &spTm);
+	    wake_tm = (int64_t)spTm.tv_sec*1000000000ll + spTm.tv_nsec;
 	} while(wake_tm < pnt_tm);
 
 	if(stsk) {
@@ -2219,11 +2236,14 @@ TVariant TSYS::objFuncCall( const string &iid, vector<TVariant> &prms, const str
     //  tm - wait time in seconds (precised up to nanoseconds), up to STD_INTERF_TM(5 seconds)
     //  ntm - wait time part in nanoseconds
     if(iid == "sleep" && prms.size() >= 1) {
-	struct timespec sp_tm;
-	sp_tm.tv_sec = prms[0].getI();
-	sp_tm.tv_nsec = 1000000000l*(prms[0].getR()-sp_tm.tv_sec) + ((prms.size()>=2)?prms[1].getI():0);
-	sp_tm.tv_sec = vmin(STD_INTERF_TM, sp_tm.tv_sec);
-	return nanosleep(&sp_tm, NULL);
+	return sysSleep(fmin(prms[0].getR()+1e-9*((prms.size()>=2)?prms[1].getI():0),(double)STD_INTERF_TM));
+	/*struct timespec spTm;
+	spTm.tv_sec = prms[0].getI();
+	spTm.tv_nsec = 1000000000l*(prms[0].getR()-spTm.tv_sec) + ((prms.size()>=2)?prms[1].getI():0);
+	spTm.tv_sec = vmin(STD_INTERF_TM, spTm.tv_sec);
+	clockid_t clkId = SYS->clockRT() ? CLOCK_REALTIME : CLOCK_MONOTONIC;
+	return clock_nanosleep(clkId, 0, &spTm, NULL);*/
+	//return nanosleep(&spTm, NULL);
     }
     // int time(int usec) - returns the absolute time in seconds from the epoch of 1/1/1970 and in microseconds, if <usec> is specified
     //  usec - microseconds of time

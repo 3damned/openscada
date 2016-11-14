@@ -813,6 +813,8 @@ src/moduls/daq/System/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/daq/System/da.h -text
 src/moduls/daq/System/da_cpu.cpp -text
 src/moduls/daq/System/da_cpu.h -text
+src/moduls/daq/System/da_fs.cpp -text
+src/moduls/daq/System/da_fs.h -text
 src/moduls/daq/System/da_hddstat.cpp -text
 src/moduls/daq/System/da_hddstat.h -text
 src/moduls/daq/System/da_hddtemp.cpp -text
