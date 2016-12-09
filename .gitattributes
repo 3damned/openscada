@@ -507,6 +507,10 @@ src/moduls/daq/BCM2835/bcm2835.c -text
 src/moduls/daq/BCM2835/bcm2835.h -text
 src/moduls/daq/BCM2835/module.cpp -text
 src/moduls/daq/BCM2835/module.h -text
+src/moduls/daq/BCM2835/po/de.po -text
+src/moduls/daq/BCM2835/po/oscd_BCM2835.pot -text
+src/moduls/daq/BCM2835/po/ru.po -text
+src/moduls/daq/BCM2835/po/uk.po -text
 src/moduls/daq/BFN/Makefile.am -text
 src/moduls/daq/BFN/data/BFNsymbs.db -text
 src/moduls/daq/BFN/mod_BFN.cpp -text
@@ -741,9 +745,6 @@ src/moduls/daq/OPC_UA/po/de.po -text
 src/moduls/daq/OPC_UA/po/oscd_OPC_UA.pot -text
 src/moduls/daq/OPC_UA/po/ru.po -text
 src/moduls/daq/OPC_UA/po/uk.po -text
-src/moduls/daq/OneWire/Makefile.am -text
-src/moduls/daq/OneWire/module.cpp -text
-src/moduls/daq/OneWire/module.h -text
 src/moduls/daq/SMH2Gi/Makefile.am -text
 src/moduls/daq/SMH2Gi/data/ain_tunes.ini -text
 src/moduls/daq/SMH2Gi/data/mr_12din_DC.ini -text
