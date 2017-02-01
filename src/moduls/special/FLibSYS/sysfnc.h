@@ -499,6 +499,23 @@ class floatMergeWord : public TFunction
 	}
 };
 
+//*************************************************
+//* Reinterpret uint32 as float                   *
+//*************************************************
+class floatFromDWord : public TFunction
+{
+    public:
+    floatFromDWord( ) : TFunction("floatFromDWord",SSPC_ID) {
+        ioAdd(new IO("rez",_("Result"),IO::Real,IO::Return));
+        ioAdd(new IO("val",_("Value"),IO::Integer,IO::Default,"0"));
+    }
+
+    string name( )	{ return _("String: reinterpret uint32 as float"); }
+    string descr( )	{ return _("Reinterpret uint32 as float"); }
+
+    void calc( TValFunc *val )	{ union { uint32_t val; float f; } u = { val->getI(1) }; val->setR(0, u.f); }
+};
+
 //*******************************************************
 //* Extract mantissa and exponent from the float value. *
 //*******************************************************

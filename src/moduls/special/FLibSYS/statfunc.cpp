@@ -117,6 +117,7 @@ void Lib::postEnable( int flag )
 
     reg(new floatSplitWord());
     reg(new floatMergeWord());
+    reg(new floatFromDWord());
     reg(new floatExtract());
 
     reg(new CRC());
