@@ -451,7 +451,7 @@ class str2int : public TFunction
 	string name( )	{ return _("String: String to integer"); }
 	string descr( )	{ return _("Convert string to integer."); }
 
-    void calc( TValFunc *val )	{ val->setI(0,(int64_t)strtoll(val->getS(1).c_str(),NULL,val->getI(2))); }
+	void calc( TValFunc *val )	{ val->setI(0,(int64_t)strtoll(val->getS(1).c_str(),NULL,val->getI(2))); }
 };
 
 //*************************************************
