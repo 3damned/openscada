@@ -1119,6 +1119,7 @@ src/moduls/ui/WebUser/po/uk.po -text
 src/moduls/ui/WebUser/web_user.cpp -text
 src/moduls/ui/WebUser/web_user.h -text
 src/moduls/ui/WebVision/Makefile.am -text
+src/moduls/ui/WebVision/WebVisionVCA.html -text
 src/moduls/ui/WebVision/WebVisionVCA.js -text
 src/moduls/ui/WebVision/po/de.po -text
 src/moduls/ui/WebVision/po/oscd_WebVision.pot -text
