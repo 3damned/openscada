@@ -6165,12 +6165,14 @@ void VCADiagram::makeXYPicture( SSess &ses )
 	int iVposX = cPX.val(aVend);
 	if(iVpos < (int)cP.val().size() && iVposX < (int)cPX.val().size() && cP.val()[iVpos].val != EVAL_REAL && cPX.val()[iVposX].val != EVAL_REAL)
 	{
-	    curVl = vsPercT ? 100*(cP.val()[iVpos].val-bordL)/(bordU-bordL) : cP.val()[iVpos].val;
+		// Do not draw current point. TO DO: make the corresponding boolean attribute!
+
+		/* curVl = vsPercT ? 100*(cP.val()[iVpos].val-bordL)/(bordU-bordL) : cP.val()[iVpos].val;
 	    curVlX = hsPercT ? 100*(cPX.val()[iVposX].val-xBordL)/(xBordU-xBordL) : cPX.val()[iVposX].val;
 	    c_vpos = tArY + tArH - (int)((double)tArH*vmax(0,vmin(1,((isLogT?log10(vmax(1e-100,curVl)):curVl)-vsMinT)/(vsMaxT-vsMinT))));
 	    c_hpos = tArX + (int)((double)tArW*vmax(0,vmin(1,((isHLogT?log10(vmax(1e-100,curVlX)):curVlX)-hsMinT)/(hsMaxT-hsMinT))));
 	    gdImageLine(im, c_hpos-lnWdth*5, c_vpos-lnWdth*5, c_hpos+lnWdth*5, c_vpos+lnWdth*5, clr_t);
-	    gdImageLine(im, c_hpos-lnWdth*5, c_vpos+lnWdth*5, c_hpos+lnWdth*5, c_vpos-lnWdth*5, clr_t);
+		gdImageLine(im, c_hpos-lnWdth*5, c_vpos+lnWdth*5, c_hpos+lnWdth*5, c_vpos-lnWdth*5, clr_t); */
 
 	    XMLNode req("set");
 	    req.setAttr("path",path()+"/%2fserv%2fattr");

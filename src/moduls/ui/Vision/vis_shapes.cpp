@@ -2515,13 +2515,15 @@ void ShapeDiagram::makeXYPicture( WdgView *w )
 	int iVposX = cPX.val(aVend);
 	if(iVpos < (int)cP.val().size() && iVposX < (int)cPX.val().size() && cP.val()[iVpos].val != EVAL_REAL && cPX.val()[iVposX].val != EVAL_REAL)
 	{
-	    curVl = vsPercT ? 100*(cP.val()[iVpos].val-bordL)/(bordU-bordL) : cP.val()[iVpos].val;
+		// Do not draw current point. TO DO: make the corresponding boolean attribute!
+
+/*	    curVl = vsPercT ? 100*(cP.val()[iVpos].val-bordL)/(bordU-bordL) : cP.val()[iVpos].val;
 	    curVlX = hsPercT ? 100*(cPX.val()[iVposX].val-xBordL)/(xBordU-xBordL) : cPX.val()[iVposX].val;
 	    c_vpos = tAr.y() + tAr.height()-(int)((double)tAr.height()*vmax(0,vmin(1,((isLogT?log10(vmax(1e-100,curVl)):curVl)-vsMinT)/(vsMaxT-vsMinT))));
 	    c_hpos = tAr.x() + (int)((double)tAr.width()*vmax(0,vmin(1,((isHLogT?log10(vmax(1e-100,curVlX)):curVlX)-hsMinT)/(hsMaxT-hsMinT))));
 	    pnt.drawLine(c_hpos-trpen.width()*5, c_vpos-trpen.width()*5, c_hpos+trpen.width()*5, c_vpos+trpen.width()*5);
 	    pnt.drawLine(c_hpos-trpen.width()*5, c_vpos+trpen.width()*5, c_hpos+trpen.width()*5, c_vpos-trpen.width()*5);
-
+*/
 	    AttrValS attrs;
 	    attrs.push_back(std::make_pair(TSYS::strMess("prm%dval",iT),r2s(cP.val()[iVpos].val,6)));
 	    attrs.push_back(std::make_pair(TSYS::strMess("prm%dval",iT+1),r2s(cPX.val()[iVposX].val,6)));
