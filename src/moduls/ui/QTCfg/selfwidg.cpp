@@ -1001,11 +1001,12 @@ QWidget *TableDelegate::createEditor( QWidget *parent, const QStyleOptionViewIte
     if(val_user.isValid()) w_del = new QComboBox(parent);
     else if(value.type() == QVariant::String) {
 	w_del = new QTextEdit(parent);
-	((QTextEdit*)w_del)->setTabStopWidth(40);
-	((QTextEdit*)w_del)->setLineWrapMode(QTextEdit::NoWrap);
-	((QTextEdit*)w_del)->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-	((QTextEdit*)w_del)->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-	//((QTextEdit*)w_del)->resize(50,50);
+	if (QTextEdit* tEditor = qobject_cast<QTextEdit*>(w_del)) {
+		tEditor->setTabStopWidth(40);
+		tEditor->setLineWrapMode(QTextEdit::NoWrap);
+		tEditor->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+		tEditor->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+	}
     }
     else {
 	QItemEditorFactory factory;
@@ -1021,8 +1022,7 @@ void TableDelegate::setEditorData( QWidget *editor, const QModelIndex &index ) c
     QVariant value = index.data(Qt::DisplayRole);
     QVariant val_user = index.data(Qt::UserRole);
 
-    if(dynamic_cast<QComboBox*>(editor)) {
-	QComboBox *comb = dynamic_cast<QComboBox*>(editor);
+	if(QComboBox *comb = dynamic_cast<QComboBox*>(editor)) {
 	if(value.type() == QVariant::Bool) comb->setCurrentIndex(value.toBool());
 	else if(val_user.isValid()) {
 	    comb->clear();
@@ -1037,8 +1037,7 @@ void TableDelegate::setEditorData( QWidget *editor, const QModelIndex &index ) c
 
 void TableDelegate::setModelData( QWidget *editor, QAbstractItemModel *model, const QModelIndex &index ) const
 {
-    if(dynamic_cast<QComboBox*>(editor)) {
-	QComboBox *comb = dynamic_cast<QComboBox*>(editor);
+	if(QComboBox *comb = dynamic_cast<QComboBox*>(editor)) {
 	QVariant val_user = index.data(Qt::UserRole);
 	if(!val_user.isValid())
 	    model->setData(index, (bool)comb->currentIndex(), Qt::EditRole);
@@ -1056,8 +1055,7 @@ void TableDelegate::updateEditorGeometry( QWidget *editor, const QStyleOptionVie
 
 bool TableDelegate::eventFilter( QObject *object, QEvent *event )
 {
-    if(dynamic_cast<QComboBox*>(object)) {
-	QComboBox *comb = dynamic_cast<QComboBox*>(object);
+	if(QComboBox *comb = dynamic_cast<QComboBox*>(object)) {
 	if(event->type() == QEvent::KeyRelease)
 	    switch(static_cast<QKeyEvent *>(event)->key()) {
 		case Qt::Key_Enter:
@@ -1072,8 +1070,7 @@ bool TableDelegate::eventFilter( QObject *object, QEvent *event )
 		    return false;
 	    }
     }
-    else if(dynamic_cast<QTextEdit*>(object)) {
-	QTextEdit *ted = dynamic_cast<QTextEdit*>(object);
+	else if(QTextEdit *ted = dynamic_cast<QTextEdit*>(object)) {
 	if(event->type() == QEvent::KeyPress)
 	    switch(static_cast<QKeyEvent *>(event)->key()) {
 		case Qt::Key_Enter:
