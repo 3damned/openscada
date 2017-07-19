@@ -411,6 +411,7 @@ doc/uk/report.pdf -text
 /openscada.pc.in -text
 src/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/autohd.h -text
+src/ieee754.h -text
 src/moduls/arhiv/=Tmpl=/Makefile.am -text
 src/moduls/arhiv/=Tmpl=/configure.ac -text
 src/moduls/arhiv/=Tmpl=/mess.cpp -text
@@ -731,6 +732,7 @@ src/moduls/daq/OPC_UA/libOPC_UA/COPYING -text
 src/moduls/daq/OPC_UA/libOPC_UA/GPL-3 -text
 src/moduls/daq/OPC_UA/libOPC_UA/Makefile.am -text
 src/moduls/daq/OPC_UA/libOPC_UA/cert.pem -text
+src/moduls/daq/OPC_UA/libOPC_UA/ieee754.h -text
 src/moduls/daq/OPC_UA/libOPC_UA/key.pem -text
 src/moduls/daq/OPC_UA/libOPC_UA/libOPC_UA.cpp -text
 src/moduls/daq/OPC_UA/libOPC_UA/libOPC_UA.h -text
