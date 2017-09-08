@@ -462,6 +462,13 @@ src/moduls/bd/FireBird/po/de.po -text
 src/moduls/bd/FireBird/po/oscd_FireBird.pot -text
 src/moduls/bd/FireBird/po/ru.po -text
 src/moduls/bd/FireBird/po/uk.po -text
+src/moduls/bd/LDAP/Makefile.am -text
+src/moduls/bd/LDAP/mod_ldap.cpp -text
+src/moduls/bd/LDAP/mod_ldap.h -text
+src/moduls/bd/LDAP/po/de.po -text
+src/moduls/bd/LDAP/po/oscd_LDAP.pot -text
+src/moduls/bd/LDAP/po/ru.po -text
+src/moduls/bd/LDAP/po/uk.po -text
 src/moduls/bd/MySQL/Makefile.am -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.cpp -text svn_keywords=Author+Date+Id+Revision
 src/moduls/bd/MySQL/my_sql.h -text svn_keywords=Author+Date+Id+Revision
