@@ -108,9 +108,12 @@ void TWEB::modInfo( vector<string> &list )
 }
 
 //!!! Get an append module's info attribute. In this example get attribute "SubType" for HTTP module allow bind inform.
-string TWEB::modInfo( const string &name )
+string TWEB::modInfo( const string &iname )
 {
+    string name = TSYS::strParse(iname, 0, ":");
+
     if(name == "SubType") return SUB_TYPE;
+
     return TModule::modInfo(name);
 }
 
@@ -120,7 +123,7 @@ string TWEB::optDescr( )
     char buf[STR_BUF_LEN];
 
     snprintf(buf,sizeof(buf),_(
-	"======================= The module <%s:%s> options =======================\n"
+	"======================= Module <%s:%s> options =======================\n"
 	"---------- Parameters of the module section '%s' in config-file ----------\n\n"),
 	MOD_TYPE,MOD_ID,nodePath().c_str());
 

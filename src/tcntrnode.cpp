@@ -199,9 +199,9 @@ void TCntrNode::cntrCmd( XMLNode *opt, int lev, const string &ipath, int off )
 	if(opt->name() == "CntrReqs")
 	    for(unsigned i_n = 0; i_n < opt->childSize(); i_n++) {
 		XMLNode *nChld = opt->childGet(i_n);
-		nChld->setAttr("user",opt->attr("user"));
+		nChld->setAttr("user", opt->attr("user"))->setAttr("lang", opt->attr("lang"));
 		cntrCmd(nChld);
-		nChld->attrDel("user");
+		nChld->attrDel("user"); nChld->attrDel("lang");
 	    }
 	else {
 	    opt->setAttr("path", s_br);
@@ -821,7 +821,7 @@ TVariant TCntrNode::objFuncCall( const string &iid, vector<TVariant> &prms, cons
     //  from_root - path forming from root tree and do not include station ID.
     if(iid == "nodePath")
 	return nodePath(((prms.size() && prms[0].getS().size()) ? prms[0].getS()[0] : 0), ((prms.size() >= 2) ? prms[1].getB() : true));
-    // int messSys(int level, string mess) - formation of the system message <mess> with the <level>
+    // int messSys(int level, string mess) - formation of the program message <mess> with the <level>
     //		with the node path as a category and with the human readable path before the message.
     //  level - message level;
     //  mess - message text.
@@ -982,13 +982,13 @@ void TCntrNode::cntrCmdProc( XMLNode *opt )
 	}
 	// Do copy node
 	else if(ctrChkNode(opt,"copy",RWRWRW,"root","root",SEC_WR))
-	    nodeCopy(opt->attr("src"),opt->attr("dst"),opt->attr("user"));
+	    nodeCopy(opt->attr("src"), opt->attr("dst"), opt->attr("user"));
 	// Request node childs parameters
 	else if(ctrChkNode(opt,"chlds",R_R_R_,"root","root",SEC_RD)) {
 	    string tchGrp = opt->attr("grp");
 	    bool icoCheck = s2i(opt->attr("icoCheck"));
 	    vector<string> ls;
-	    XMLNode req("get"); req.setAttr("path","/br/"+tchGrp)->setAttr("user",opt->attr("user"));
+	    XMLNode req("get"); req.setAttr("path","/br/"+tchGrp)->setAttr("user",opt->attr("user"))->setAttr("lang",opt->attr("lang"));
 	    cntrCmdProc(&req);
 	    int chGrpId = grpId(tchGrp);
 	    if(chGrpId >= 0)
@@ -998,12 +998,12 @@ void TCntrNode::cntrCmdProc( XMLNode *opt )
 		    //  Connect to child and get info from it
 		    AutoHD<TCntrNode> ch = chldAt(chGrpId,chN->attr("id").empty()?chN->text():chN->attr("id"));
 		    //   Check icon
-		    XMLNode reqIco("get"); reqIco.setAttr("path","/ico")->setAttr("user",opt->attr("user"));
+		    XMLNode reqIco("get"); reqIco.setAttr("path","/ico")->setAttr("user",opt->attr("user"))->setAttr("lang",opt->attr("lang"));
 		    ch.at().cntrCmdProc(&reqIco);
 		    if(icoCheck) chN->setAttr("icoSize", i2s(reqIco.text().size()));
 		    else chN->childAdd("ico")->setText(reqIco.text());
 		    //   Process groups
-		    XMLNode brReq("info"); brReq.setAttr("path","/br")->setAttr("user",opt->attr("user"));
+		    XMLNode brReq("info"); brReq.setAttr("path","/br")->setAttr("user",opt->attr("user"))->setAttr("lang",opt->attr("lang"));
 		    ch.at().cntrCmdProc(&brReq);
 		    for(unsigned i_br = 0; brReq.childSize() && i_br < brReq.childGet(0)->childSize(); i_br++) {
 			XMLNode *chB = chN->childAdd();

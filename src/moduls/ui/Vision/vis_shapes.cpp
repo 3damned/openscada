@@ -333,7 +333,7 @@ bool ShapeFormEl::attrSet( WdgView *w, int uiPrmPos, const string &val, const st
 	    }
 	    case F_TEXT_ED: {
 		TextEdit *wdg = (TextEdit*)shD->addrWdg;
-		if(!wdg || !qobject_cast<TextEdit*>(wdg)) {
+		if(!wdg || !qobject_cast<TextEdit*>(wdg) || (runW && wdg->lang != ((VisRun*)runW->window())->lang())) {
 		    if(wdg) wdg->deleteLater();
 		    shD->addrWdg = wdg = new TextEdit(w, !shD->mode);
 		    if(runW) connect(wdg, SIGNAL(apply()), this, SLOT(textAccept()));
@@ -1997,7 +1997,7 @@ void ShapeDiagram::loadData( WdgView *w, bool full )
     ShpDt *shD = (ShpDt*)w->shpData;
 
     XMLNode req("set");
-    req.setAttr("path",w->id()+"/%2fserv%2fattr");
+    req.setAttr("path", w->id()+"/%2fserv%2fattr")->setAttr("noUser", "1");
     for(unsigned iP = 0; iP < shD->prms.size(); iP++) {
 	shD->prms[iP].loadData(full);
 	if(shD->prms[iP].arh_beg && shD->prms[iP].arh_end)
@@ -3527,7 +3527,7 @@ void ShapeDiagram::setCursor( WdgView *w, int64_t itm )
 	shD->holdCur = (curTime==shD->tTime);
 
 	XMLNode req("set");
-	req.setAttr("path",w->id()+"/%2fserv%2fattr");
+	req.setAttr("path",w->id()+"/%2fserv%2fattr")->setAttr("noUser", "1");
 	req.childAdd("el")->setAttr("id","curSek")->setText(i2s(curTime/1000000));
 	req.childAdd("el")->setAttr("id","curUSek")->setText(i2s(curTime%1000000));
 
@@ -3554,7 +3554,7 @@ void ShapeDiagram::setCursor( WdgView *w, int64_t itm )
 	shD->curTime = 1e6/curFrq;
 
 	XMLNode req("set");
-	req.setAttr("path",w->id()+"/%2fserv%2fattr");
+	req.setAttr("path",w->id()+"/%2fserv%2fattr")->setAttr("noUser", "1");
 	req.childAdd("el")->setAttr("id","curSek")->setText(i2s(shD->curTime/1000000));
 	req.childAdd("el")->setAttr("id","curUSek")->setText(i2s(shD->curTime%1000000));
 
@@ -4564,14 +4564,16 @@ void ShapeDocument::ShpDt::nodeProcess( XMLNode *xcur )
     }
 }
 
+#ifndef QT_NO_PRINTER
 void ShapeDocument::ShpDt::print( QPrinter * printer )
 {
-#ifdef HAVE_WEBKIT
+# ifdef HAVE_WEBKIT
     web->print(printer);
-#else
+# else
     web->document()->print(printer);
-#endif
+# endif
 }
+#endif
 
 //************************************************
 //* User function shape widget                   *

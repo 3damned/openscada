@@ -101,7 +101,7 @@ string TTr::optDescr( )
 {
     char buf[STR_BUF_LEN];
     snprintf(buf,sizeof(buf),_(
-	"======================= The module <%s:%s> options =======================\n"
+	"======================= Module <%s:%s> options =======================\n"
 	"---------- Parameters of the module section '%s' in config-file ----------\n\n"),
 	MOD_TYPE,MOD_ID,nodePath().c_str());
 
@@ -317,7 +317,7 @@ void TTrOut::stop()
 }
 
 //!!! The inherited (virtual) sending data and receiving interface function implementation. Append into for your need.
-int TTrOut::messIO( const char *oBuf, int iLen, char *iBuf, int iLen, int time, bool noRes )
+int TTrOut::messIO( const char *oBuf, int iLen, char *iBuf, int iLen, int time )
 {
     if(!runSt) throw TError(nodePath().c_str(),_("Transport is not started!"));
 

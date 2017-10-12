@@ -49,7 +49,7 @@
 #define MOD_TYPE	SSPC_ID
 #define VER_TYPE	SSPC_VER
 #define SUB_TYPE	"TEST"
-#define MOD_VER		"1.5.7"
+#define MOD_VER		"1.5.9"
 #define AUTHORS		_("Roman Savochenko")
 #define DESCRIPTION	_("Provides the group of tests to the OpenSCADA system.")
 #define LICENSE		"GPL2"
@@ -131,16 +131,19 @@ void TTest::mess( const string &testNm, const char *fmt,  ... )
     mess_info((cat()+testNm).c_str(), "%s", mess);
 }
 
-string TTest::modInfo( const string &name )
-{
-    if(name == "SubType") return SUB_TYPE;
-    return TModule::modInfo(name);
-}
-
 void TTest::modInfo( vector<string> &list )
 {
     TModule::modInfo(list);
     list.push_back("SubType");
+}
+
+string TTest::modInfo( const string &iname )
+{
+    string name = TSYS::strParse(iname, 0, ":");
+
+    if(name == "SubType") return SUB_TYPE;
+
+    return TModule::modInfo(name);
 }
 
 string TTest::optDescr( )
@@ -148,7 +151,7 @@ string TTest::optDescr( )
     string rez;
 
     rez = TSYS::strMess(_(
-	"======================= The module <%s:%s> options =======================\n"
+	"======================= Module <%s:%s> options =======================\n"
 	"---------- Parameters of the module section '%s' in config-file ----------\n"
 	"All tests main options:\n"
 	"  id           test's id;\n"
