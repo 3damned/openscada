@@ -20,6 +20,7 @@
  ***************************************************************************/
 
 #include <QTreeWidget>
+#include <QTreeWidgetItemIterator>
 #include <QItemEditorFactory>
 #include <QPushButton>
 #include <QAction>
@@ -41,6 +42,10 @@
 #include "tvision.h"
 #include "vis_widgs.h"
 #include "vis_devel_dlgs.h"
+
+class QTreeWidgetItem;
+class QTreeWidgetItemIterator;
+class QString;
 
 using namespace VISION;
 
@@ -1503,8 +1508,79 @@ void VisItProp::isModify( QObject *snd )
     }
     else if(oname == obj_name->objectName() || oname == proc_per->objectName())
 	req.setText(((LineEdit*)snd)->value().toStdString());
-    else if(oname == obj_descr->objectName() || oname == proc_text->objectName())
+	else if(oname == obj_descr->objectName() || oname == proc_text->objectName()) {
 	req.setText(((TextEdit*)snd)->text().toStdString());
+	if (oname == proc_text->objectName()) {
+    //  Build compiler-known function ID
+	QString funcId(ed_it.c_str());
+	funcId.replace(QRegExp("\\w{2,4}_"), "");
+	funcId.replace("/", "_");
+	funcId.prepend('L');
+	TFunction fio(funcId.toStdString());
+    //  Add generic io
+	fio.ioAdd(new IO("f_frq","Function calculate frequency (Hz)",IO::Real,IO::Default,"1000",false));
+	fio.ioAdd(new IO("f_start","Function start flag",IO::Boolean,IO::Default,"0",false));
+	fio.ioAdd(new IO("f_stop","Function stop flag",IO::Boolean,IO::Default,"0",false));
+	fio.ioAdd(new IO("this","This widget's object for access to user's API",IO::Object,IO::Default));
+	QTreeWidgetItemIterator rootItem(obj_attr_cfg, QTreeWidgetItemIterator::HasChildren);
+	QList <QTreeWidgetItem *> chkItemList;
+	const QString procText(proc_text->text());
+	// Check procedure text for attributes that user had mentioned but then forgot to set 'Process' flag for.
+	// Such a prevention will help to avoid annoing runtime error that user will face at visualization launch step
+	while (*rootItem) {
+		if ((*rootItem)->text(0) == ".") { // this widget
+			for (int i = 0; i < (*rootItem)->childCount(); ++i) {
+				QTreeWidgetItem *childItem = (*rootItem)->child(i);
+				QVariant procFlag(childItem->data(4, Qt::DisplayRole));
+				if (procFlag.isValid()) {
+					if (!procFlag.toBool()) {
+						if (!procText.contains(QRegExp("\\b(" + childItem->text(0) + ")\\b")))
+							continue;
+						else {
+							childItem->setData(4, Qt::DisplayRole, true); // Set 'Process' flag for the attribute
+						}
+					}
+					IO::Type type = TFld::typeIO((TFld::Type)(childItem->data(2, Qt::DisplayRole).toInt() & static_cast<int>(TFld::GenMask)));
+					fio.ioAdd(new IO(childItem->text(0).toStdString().c_str(), childItem->text(1).toStdString().c_str(), type, IO::Output ));
+				}
+			}
+		}
+		else {
+			QString wdgId((*rootItem)->text(0) + '_');
+			for (int i = 0; i < (*rootItem)->childCount(); ++i) {
+				QTreeWidgetItem *childItem = (*rootItem)->child(i);
+				QVariant procFlag(childItem->data(4, Qt::DisplayRole));
+				if (procFlag.isValid()) {
+					if (procFlag.toBool()) {
+						QString attrId(wdgId + childItem->text(0));
+						IO::Type type = TFld::typeIO((TFld::Type)(childItem->data(2, Qt::DisplayRole).toInt() & static_cast<int>(TFld::GenMask)));
+						fio.ioAdd(new IO(attrId.toStdString().c_str(), childItem->text(1).toStdString().c_str(), type, IO::Output ));
+					}
+				}
+			}
+			if (int idx = procText.indexOf(QRegExp("\\b(" + (*rootItem)->text(0) + '_')) != -1) { 
+				// TO DO: check all nested widget attributes here.
+				// Maybe we should find out all '_' char positions first to optimize the search?
+			}
+		}
+		++rootItem;
+	}
+	fio.ioAdd(new IO("event","Event",IO::String,IO::Output));
+	fio.ioAdd(new IO("alarmSt","Alarm status",IO::Integer,IO::Output,"",false,"./alarmSt"));
+	fio.ioAdd(new IO("alarm","Alarm",IO::String,IO::Output,"",false,"./alarm"));
+	string procLang(proc_lang->currentText().toStdString());
+	// When developing procedures in QTCfg 'Apply' button will trigger compile-time check but in Vision it wont. 
+	// Next lines add that feature.
+	try {
+		SYS->daq().at().at(TSYS::strSepParse(procLang,0,'.')).at().
+				compileFunc(TSYS::strSepParse(procLang,1,'.'),fio,proc_text->text().toStdString(),mod->nodePath('.',true)+";");
+	}
+	catch(TError &err) {
+		mod->postMess(mod->nodePath().c_str(), QString("Compile function by language '%1' error: %2")
+											   .arg(procLang.c_str()).arg(err.mess.c_str()),TVision::Error,this);
+	}
+	}
+	}
     else if(oname == pg_tp->objectName()) {
 	req.setText(((QComboBox*)snd)->itemData(((QComboBox*)snd)->currentIndex()).toString().toStdString());
 	update = true;

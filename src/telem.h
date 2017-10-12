@@ -91,6 +91,7 @@ class TFld
 	Type type( ) const		{ return (Type)mType; }	//Value type
 	static Type type( IO::Type tp );			//Field type from IO
 	IO::Type typeIO( ) const;				//Type to IO
+	static IO::Type typeIO(const Type &tp ); // IO from the given Type
 	unsigned flg( ) const		{ return mFlg; }	//Flags
 	const string &def( ) const	{ return mDef; }	//Default value
 	string values( ) const;					//Values range or values list

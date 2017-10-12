@@ -210,15 +210,20 @@ TFld::Type TFld::type( IO::Type tp )
 
 IO::Type TFld::typeIO( ) const
 {
-    switch(type()) {
+	return typeIO(type());
+}
+
+IO::Type TFld::typeIO(const Type &tp )
+{
+	switch(tp) {
 	case Boolean:	return IO::Boolean;
 	case Integer:	return IO::Integer;
 	case Real:	return IO::Real;
 	case String:	return IO::String;
 	case Object:	return IO::Object;
 	default: break;
-    }
-    return IO::String;
+	}
+	return IO::String;
 }
 
 void TFld::setFlg( unsigned iflg )
